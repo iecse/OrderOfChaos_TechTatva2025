@@ -1,4 +1,5 @@
 # Questions Status
-| Sr.No | Question Name | OC | Status |
-| --- | --- | --- | --- |
-| ex | ex | ex | ex |
+
+| Sr.No | Question Name                    | OC             | Status |
+| ----- | -------------------------------- | -------------- | ------ |
+| 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |        |
