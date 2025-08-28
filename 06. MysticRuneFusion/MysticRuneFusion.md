@@ -2,7 +2,7 @@
 
 ## Question Difficulty: Easy
 
-In the magical land of Eldoria, a wizard has discovered a row of **mystic runes**, each with an integer power.  
+In the magical land of Naaglok Dham, a wizard has discovered a row of **mystic runes**, each with an integer power.  
 
 To perform a **powerful spell**, the wizard can select a **contiguous subarray** of runes and perform **rune fusion**. The fusion rules are:
 
