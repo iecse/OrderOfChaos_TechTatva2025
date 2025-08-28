@@ -11,3 +11,12 @@
 | 13    | Runes of Equilibrium             | Kushal Raj     | ------ |
 | 14    | Scroll of Requirement            | Kushal Raj     | ------ |
 | 18    | Wizard's Guests                  | Rishit Singh   |        |
+| 04    | Kingdom Of Numeria               | Rishabh Raj    |        |
+| 20    | Lever Of Divergia                | Rishabh Raj    |        |
+| 21    | Enchanted Arrays of Utopia       | Rishabh Raj    |        |
+| 22    | Arcane Punge                     | Rishabh Raj    |        |
+| 23    | Crystal Bridges                  | Rishabh Raj    |        |
+| 24    | Wizard Potion                    | Rishabh Raj    |        |
+
+
+
