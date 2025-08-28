@@ -1,6 +1,9 @@
 
 # The Scrolls of Numeria
 
+## Question Difficulty: Easy
+
+
 In the Kingdom of **Numeria**, two enchanted scrolls of numbers exist:  
 - The **Golden Scroll** (`nums1`)  
 - The **Silver Scroll** (`nums2`)  
