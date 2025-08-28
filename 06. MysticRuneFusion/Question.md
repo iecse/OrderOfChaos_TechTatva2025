@@ -15,7 +15,7 @@ The wizard wants to determine the **maximum total power** achievable from any co
 
 ## Input
 
-- The first line contains an integer `t` — the number of test cases.  
+- The first line contains an integer `t` - the number of test cases.  
 - For each test case:
   - The first line contains an integer `n` — the number of runes.  
   - The second line contains `n` space-separated integers `runes[i]`, representing the power of each rune.
@@ -42,15 +42,15 @@ The wizard wants to determine the **maximum total power** achievable from any co
 
 **Test case 1:**  
 - Consider the subarray `[3, 2, 5, 4]`:  
-  - Step 1: `3` absorbs `1` → becomes `4`  
-  - Step 2: `2` cannot absorb `3` → stays `2`  
-  - Step 3: `5` absorbs `2` → becomes `7`  
-  - Step 4: `4` cannot absorb `5` → stays `4`  
+  - Step 1: `3` absorbs `1` - becomes `4`  
+  - Step 2: `2` cannot absorb `3` - stays `2`  
+  - Step 3: `5` absorbs `2` - becomes `7`  
+  - Step 4: `4` cannot absorb `5` - stays `4`  
 - Total power of subarray = `4 + 2 + 7 + 4 = 17`  
 - Maximum power achievable for any subarray = **15**.
 
 **Test case 2:**  
-- Choosing the subarray `[4,1,2,3]` → after applying fusion rules, total = **10**.
+- Choosing the subarray `[4,1,2,3]` - after applying fusion rules, total = **10**.
 
 ## Constraints
 
