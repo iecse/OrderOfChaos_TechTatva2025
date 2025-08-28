@@ -2,7 +2,7 @@
 
 ## Question Difficulty: Easy
 
-In the enchanted forest of **Sylvara**, there is a **bridge made of magical tiles** that stretches over a chasm. Each tile has a **weight capacity**, represented by an integer.  
+In the enchanted forest of **Jaadoo Nagar**, there is a **bridge made of magical tiles** that stretches over a chasm. Each tile has a **weight capacity**, represented by an integer.  
 
 A group of **travelers** must cross the bridge. Each traveler has a **weight**. The bridge has a peculiar property:
 
@@ -44,16 +44,16 @@ The travelers must cross **in order**, stepping on the **leftmost tile possible*
 
 ### Explanation
 **Test case 1:**  
-- Traveler 1 (weight 4) steps on tile 1 → capacity becomes 1  
-- Traveler 2 (weight 2) skips tile 1, steps on tile 2 → capacity becomes 8  
-- Traveler 3 (weight 7) steps on tile 2 → capacity becomes 1  
-- Traveler 4 (weight 1) skips tile 1, steps on tile 2 → capacity becomes 0  
+- Traveler 1 (weight 4) steps on tile 1 - capacity becomes 1  
+- Traveler 2 (weight 2) skips tile 1, steps on tile 2 - capacity becomes 8  
+- Traveler 3 (weight 7) steps on tile 2 - capacity becomes 1  
+- Traveler 4 (weight 1) skips tile 1, steps on tile 2 - capacity becomes 0  
   All 4 cross  
 
 **Test case 2:**  
-- Traveler 1 (weight 4) → cannot step on any tile → fails  
-- Traveler 2 (weight 2) → steps on tile 1 → capacity becomes 1  
-- Traveler 3 (weight 2) → skips tile 1, steps on tile 2 → capacity becomes 1  
+- Traveler 1 (weight 4) - cannot step on any tile - fails  
+- Traveler 2 (weight 2) - steps on tile 1 - capacity becomes 1  
+- Traveler 3 (weight 2) - skips tile 1, steps on tile 2 - capacity becomes 1  
   2 travelers cross
  
 ## Constraints
