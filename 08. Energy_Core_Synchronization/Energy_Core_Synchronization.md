@@ -1,4 +1,5 @@
-# Energy Core Synchronization
+# Energy Core Synchronization 
+-Mahika
 ## Problem statement
 In the floating citadel of Elyndor, three Ancient Energy Cores (numbered 1, 2, and 3) must each be charged with exactly X units of arcane power in order to awaken the Celestial Gate.
 
@@ -17,3 +18,4 @@ Each of the next t lines contains an integer X (1 ≤ X ≤ 10⁹).
 
 ## Output
 For each test case, output a single integer — the minimum number of ritual actions required.
+
