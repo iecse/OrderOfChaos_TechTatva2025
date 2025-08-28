@@ -1,4 +1,4 @@
-# Wizard’s Guests and Magical Quests
+# Wizard’s Guests
 ## Question Difficulty - Medium
 
 The young wizard **Chulbul** is expecting two guests: his **brother** and his **mother**. Each guest will stay for **`d` consecutive days** in his tower, numbered from day `1` to day `n`.  
