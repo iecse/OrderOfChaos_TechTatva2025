@@ -27,3 +27,5 @@
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |        |
 | 28.   | Alchemist's Array                | Kushal Raj     |        |
 | 29.   | Mystical Enchantment Network     | Abhyuday Gupta |        |
+| 30.   | Arcane Coin Clash                | Rishit Singh   |        |
+| 31.   | Guild Of Magical Hiring          | Rishit Singh   |        |
