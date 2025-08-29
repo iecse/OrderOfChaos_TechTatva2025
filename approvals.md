@@ -31,3 +31,4 @@
 | 31.   | Guild Of Magical Hiring          | Rishit Singh   |        |
 | 32    | Path of Power                    | Kushal Raj     |        |
 | 33    | Chronomancer's Time Fabric       | Kushal Raj     |        |
+| 34    | Sorcerer's Spell Book            | Kushal Raj     |        |
