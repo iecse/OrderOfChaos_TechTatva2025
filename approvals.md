@@ -25,3 +25,4 @@
 | 01.   | Crystal Resonance                | Abhyuday Gupta |        |
 | 02.   | Mystical Ritual Circles          | Abhyuday Gupta |        |
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |        |
+| 28.   | Mystical Enchantment Network     | Abhyuday Gupta |        |
