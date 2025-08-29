@@ -22,12 +22,6 @@ Both beings are assumed to play optimally to maximize their chances of winning.
 
 Given the magical map (graph), determine the outcome of the duel assuming both play optimally.
 
-Return:
-
-1 → if the Apprentice wins
-2 → if the Familiar wins
-0 → if the duel is a draw
-
 
 ## Input
 
@@ -41,9 +35,9 @@ followed by k integers — the neighbors of node i.
 
 ## Output
 
-Print 1 if the Apprentice wins.
+Print 1 if the Light Spirit wins.
 
-Print 2 if the Familiar wins.
+Print 2 if the Shadow Beast wins.
 
 Print 0 if the duel is a draw.
 
@@ -58,9 +52,7 @@ graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
 Explanation 
 
 There are six mystical locations.
-
 The Spirit starts at 1, Beast at 2, Portal at 0.
-
 With optimal play, neither can force a decisive win — the chase cycles endlessly.
 Output:
 ```
@@ -76,9 +68,7 @@ graph = [[1,3],[0],[3],[0,2]]
 Explanation 
 
 Four mystical locations.
-
 The Spirit moves from node 1 → 0 immediately into the Sacred Portal.
-
 The Spirit escapes instantly!
 
 Output:
