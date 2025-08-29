@@ -33,5 +33,5 @@
 | 33    | Chronomancer's Time Fabric       | Kushal Raj     |        |
 | 34    | Sorcerer's Spell Book            | Kushal Raj     |        |
 | 35    | Caravans Of The Realm            | Rishit Singh   |        |
-| 36    | Magical Gem Quest                | Rishit Singh   |        |
+| 36    | Magical Gem Quest                | Rishit Singh   | backup |
 | 37    | Summit of Eldoria                | Kushal Raj     |        |
