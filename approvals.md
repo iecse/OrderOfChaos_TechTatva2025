@@ -29,3 +29,5 @@
 | 29.   | Mystical Enchantment Network     | Abhyuday Gupta |        |
 | 30.   | Arcane Coin Clash                | Rishit Singh   |        |
 | 31.   | Guild Of Magical Hiring          | Rishit Singh   |        |
+| 32    | Path of Power                    | Kushal Raj     |        |
+| 33    | Chronomancer's Time Fabric       | Kushal Raj     |        |
