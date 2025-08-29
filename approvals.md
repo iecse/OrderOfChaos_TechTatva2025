@@ -22,8 +22,6 @@
 | 24    | Wizard Potion                    | Rishabh Raj    |        |
 | 25    | Philosopher's Scroll             | Mahika Kapil   |        |
 | 26    | Wizard's Wand                    | Kushal Raj     |        |
-
-
-
-
-
+| 01.   | Crystal Resonance                | Abhyuday Gupta |        |
+| 02.   | Mystical Ritual Circles          | Abhyuday Gupta |        |
+| 27.   | Enchanted Battle Arena           | Abhyuday Gupta |        |
