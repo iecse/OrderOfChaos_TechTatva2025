@@ -16,12 +16,4 @@ public class Paradox {
         }
         return ans;
     }
-
-    public static void main(String[] args) {
-        int[] a = {89, 91, 95, 87, 85, 90, 97};
-        System.out.println(Arrays.toString(nextStrongerWaits(a)));
-
-        int[] b = {100, 90, 80, 70};
-        System.out.println(Arrays.toString(nextStrongerWaits(b)));
-    }
 }
