@@ -1,4 +1,6 @@
 # Sacred Portal
+## Level-Hard
+-Mahika
 ## Problem Statement
 In a mystical kingdom, a Light Spirit is trying to escape into the Sacred Portal (Hole, node 0) while being hunted by a Shadow Beast.
 The kingdom is modeled as an undirected magical realm (graph), where each node is a mystical location (castle, forest, cavern). Paths between locations are edges of the graph.
