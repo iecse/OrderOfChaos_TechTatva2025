@@ -47,24 +47,4 @@ public class ArchonAttunement {
         
         return min_k;
     }
-
-    // Main method for testing the solution with examples
-    public static void main(String[] args) {
-        ArchonAttunement solution = new ArchonAttunement();
-
-        // Example 1
-        int[] caches1 = {3, 6, 7, 11};
-        int H1 = 8;
-        System.out.println("Faintest Attunement Factor (Ex1): " + solution.solveAttunement(caches1, H1));
-
-        // Example 2
-        int[] caches2 = {30, 11, 23, 4, 20};
-        int H2 = 5;
-        System.out.println("Faintest Attunement Factor (Ex2): " + solution.solveAttunement(caches2, H2));
-
-        // Example 3
-        int[] caches3 = {30, 11, 23, 4, 20};
-        int H3 = 6;
-        System.out.println("Faintest Attunement Factor (Ex3): " + solution.solveAttunement(caches3, H3));
-    }
 }
