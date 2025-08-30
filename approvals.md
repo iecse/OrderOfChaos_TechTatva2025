@@ -42,5 +42,5 @@
 | 41    | Celestial Forge                  | Kushal Raj     |        | | |
 | 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | | https://codeforces.com/problemset/problem/1133/D|
 | 43    | The Cunning Alchemist            | Rishit Singh   | Easy       | | https://codeforces.com/contest/2132/problem/C1|
-| 48    | Mystic Wall                       | Mahika Kapil   | Hard  |Kept for backup |https://leetcode.com/problems/push-dominoes/?envType=problem-list-v2&envId=dynamic-programming     |
+| 48    | Mystic Wall                       | Mahika Kapil   | Hard  |Kept for backup |https://leetcode.com/problems/push-dominoes|
 
