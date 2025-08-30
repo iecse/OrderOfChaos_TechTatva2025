@@ -41,3 +41,4 @@
 | 40    | Spell Of Twin Energies           | Rishit Singh   | Medium       | | https://leetcode.com/problems/sum-of-square-numbers/|
 | 41    | Celestial Forge                  | Kushal Raj     |        | | |
 | 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | | https://codeforces.com/problemset/problem/1133/D|
+| 43    | The Cunning Alchemist            | Rishit Singh   | Easy       | | https://codeforces.com/contest/2132/problem/C1|
