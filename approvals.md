@@ -6,8 +6,8 @@
 | 02.   | Mystical Ritual Circles          | Abhyuday Gupta |        | | |
 | 03    | GreatSerpentofEternity           | Mahika Kapil   |  | | |
 | 04    | Kingdom Of Numeria               | Rishabh Raj    |        | | |
-| 05    | The Enchanted Crossing           | Rishit Singh   |  | | |
-| 06    | Mystic Rune Fusion               | Rishit Singh   |        | | |
+| 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | |
+| 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | |
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |        | | |
 | 08    | Energy Core Synchronization      | Mahika Kapil   |        | | |
 | 09    | Sacred Portal                    | Mahika Kapil   |        | | |
@@ -16,7 +16,7 @@
 | 12    | Paradox                          | Kushal Raj     |        | | |
 | 13    | Runes of Equilibrium             | Kushal Raj     |        | | |
 | 14    | Scroll of Requirement            | Kushal Raj     |        | | |
-| 18    | Wizard's Guests                  | Rishit Singh   |        | | |
+| 18    | Wizard's Guests                  | Rishit Singh   | Medium       | | |
 | 19    | Spellboard XOR Duel              | Mahika Kapil   |        | | |
 | 20    | Lever Of Divergia                | Rishabh Raj    |        | | |
 | 21    | Enchanted Arrays of Utopia       | Rishabh Raj    |        | | |
@@ -28,16 +28,16 @@
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |        | | |
 | 28.   | Alchemist's Array                | Kushal Raj     |        | | |
 | 29.   | Mystical Enchantment Network     | Abhyuday Gupta |        | | |
-| 30    | Arcane Coin Clash                | Rishit Singh   |        | | |
-| 31    | Guild Of Magical Hiring          | Rishit Singh   |        | | |
+| 30    | Arcane Coin Clash                | Rishit Singh   | Hard       | | |
+| 31    | Guild Of Magical Hiring          | Rishit Singh   | Medium       | | |
 | 32    | Path of Power                    | Kushal Raj     |        | | |
 | 33    | Chronomancer's Time Fabric       | Kushal Raj     |        | | |
 | 34    | Sorcerer's Spell Book            | Kushal Raj     |        | | |
-| 35    | Caravans Of The Realm            | Rishit Singh   |        | | |
-| 36    | Magical Gem Quest                | Rishit Singh   |  | Kept for backup | |
+| 35    | Caravans Of The Realm            | Rishit Singh   | Medium       | | |
+| 36    | Magical Gem Quest                | Rishit Singh   | Hard | Kept for backup | |
 | 37    | Summit of Eldoria                | Kushal Raj     |        | | |
 | 38    | Sun Shadow                       | Kushal Raj     |        | | |
 | 39    | Grand Conjunction                | Kushal Raj     |        | | |
-| 40    | Spell Of Twin Energies           | Rishit Singh   |        | | |
+| 40    | Spell Of Twin Energies           | Rishit Singh   | Medium       | | |
 | 41    | Celestial Forge                  | Kushal Raj     |        | | |
-| 40    | Spell Of Zero Essence            | Rishit Singh   |        | | |
+| 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | | |
