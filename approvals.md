@@ -37,8 +37,5 @@
 | 37    | Summit of Eldoria                | Kushal Raj     |        | | |
 | 38    | Sun Shadow                       | Kushal Raj     |        | | |
 | 39    | Grand Conjunction                | Kushal Raj     |        | | |
-<<<<<<< HEAD
-| 40    | Celestial Forge                  | Kushal Raj     |        | | |
-=======
 | 40    | Spell Of Twin Energies           | Rishit Singh   |        | | |
->>>>>>> b296933adda049fcda43d07c7c4c10e5211f163a
+| 41    | Celestial Forge                  | Kushal Raj     |        | | |
