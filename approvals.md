@@ -9,6 +9,7 @@
 | 05    | The Enchanted Crossing           | Rishit Singh   |  | | |
 | 06    | Mystic Rune Fusion               | Rishit Singh   |        | | |
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |        | | |
+| 08    | Energy Core Synchronization      | Mahika Kapil   |        | | |
 | 09    | Sacred Portal                    | Mahika Kapil   |        | | |
 | 10    | Ancestral Guardian               | Kushal Raj     |        | | |
 | 11    | Archon Attunement                | Kushal Raj     |        | | |
