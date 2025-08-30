@@ -36,3 +36,4 @@
 | 36    | Magical Gem Quest                | Rishit Singh   |  | Kept for backup | |
 | 37    | Summit of Eldoria                | Kushal Raj     |        | | |
 | 38    | Sun Shadow                       | Kushal Raj     |        | | |
+| 39    | Grand Conjunction                | Kushal Raj     |        | | |
