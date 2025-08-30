@@ -1,6 +1,6 @@
 # Mystic Rune Fusion
 
-## Question Difficulty: Easy
+## Question Difficulty: Medium
 
 In the magical land of Naaglok Dham, a wizard has discovered a row of **mystic runes**, each with an integer power.  
 
