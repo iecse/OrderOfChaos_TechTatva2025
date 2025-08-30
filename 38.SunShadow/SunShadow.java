@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class SunShadow {
     public String predictOutcome(int[] spells) {
         Deque<Integer> activeSpells = new ArrayDeque<>();
 
