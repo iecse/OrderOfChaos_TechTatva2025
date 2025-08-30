@@ -37,3 +37,4 @@
 | 37    | Summit of Eldoria                | Kushal Raj     |        | | |
 | 38    | Sun Shadow                       | Kushal Raj     |        | | |
 | 39    | Grand Conjunction                | Kushal Raj     |        | | |
+| 40    | Celestial Forge                  | Kushal Raj     |        | | |
