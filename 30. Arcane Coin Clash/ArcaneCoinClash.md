@@ -1,5 +1,5 @@
 # Arcane Coin Clash
-## Question Difficulty – Medium
+## Question Difficulty – Hard
 
 Two wizards, **Titli** and **Babli**, have discovered two rows of **arcane crystals**, each containing `n` crystals. Each crystal stores a certain amount of **magical energy**.
 
