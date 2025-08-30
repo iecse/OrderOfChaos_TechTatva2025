@@ -6,8 +6,8 @@
 | 02.   | Mystical Ritual Circles          | Abhyuday Gupta |        | | |
 | 03    | GreatSerpentofEternity           | Mahika Kapil   |            |         |       |
 | 04    | Kingdom Of Numeria               | Rishabh Raj    |        | | |
-| 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | |
-| 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | |
+| 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | Self|
+| 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | Self|
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |        | | |
 | 08    | Energy Core Synchronization      | Mahika Kapil   |        | | |
 | 09    | Sacred Portal                    | Mahika Kapil   |        | | |
@@ -43,4 +43,6 @@
 | 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | | https://codeforces.com/problemset/problem/1133/D|
 | 43    | The Cunning Alchemist            | Rishit Singh   | Easy       | | https://codeforces.com/contest/2132/problem/C1|
 | 48    | Mystic Wall                       | Mahika Kapil   | Hard  |Kept for backup |https://leetcode.com/problems/push-dominoes|
+| 49    | Magical Potion Mixing            | Rishit Singh   | Easy       | | Self|
+
 
