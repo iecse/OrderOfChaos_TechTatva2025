@@ -2,7 +2,10 @@
 
 | Sr.No | Question Name                    | OC             | Difficulty | Status | Question Inspiration |
 | ----- | -------------------------------- | -------------- | ------ | ------ | ------ |
+| 01.   | Crystal Resonance                | Abhyuday Gupta |  | | |
+| 02.   | Mystical Ritual Circles          | Abhyuday Gupta |        | | |
 | 03    | GreatSerpentofEternity           | Mahika Kapil   |  | | |
+| 04    | Kingdom Of Numeria               | Rishabh Raj    |        | | |
 | 05    | The Enchanted Crossing           | Rishit Singh   |  | | |
 | 06    | Mystic Rune Fusion               | Rishit Singh   |        | | |
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |        | | |
@@ -13,7 +16,6 @@
 | 13    | Runes of Equilibrium             | Kushal Raj     |        | | |
 | 14    | Scroll of Requirement            | Kushal Raj     |        | | |
 | 18    | Wizard's Guests                  | Rishit Singh   |        | | |
-| 04    | Kingdom Of Numeria               | Rishabh Raj    |        | | |
 | 19    | Spellboard XOR Duel              | Mahika Kapil   |        | | |
 | 20    | Lever Of Divergia                | Rishabh Raj    |        | | |
 | 21    | Enchanted Arrays of Utopia       | Rishabh Raj    |        | | |
@@ -22,8 +24,6 @@
 | 24    | Wizard Potion                    | Rishabh Raj    |        | | |
 | 25    | Philosopher's Scroll             | Mahika Kapil   |        | | |
 | 26    | Wizard's Wand                    | Kushal Raj     |        | | |
-| 01.   | Crystal Resonance                | Abhyuday Gupta |  | | |
-| 02.   | Mystical Ritual Circles          | Abhyuday Gupta |        | | |
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |        | | |
 | 28.   | Alchemist's Array                | Kushal Raj     |        | | |
 | 29.   | Mystical Enchantment Network     | Abhyuday Gupta |        | | |
