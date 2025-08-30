@@ -40,3 +40,4 @@
 | 39    | Grand Conjunction                | Kushal Raj     |        | | |
 | 40    | Spell Of Twin Energies           | Rishit Singh   |        | | |
 | 41    | Celestial Forge                  | Kushal Raj     |        | | |
+| 40    | Spell Of Zero Essence            | Rishit Singh   |        | | |
