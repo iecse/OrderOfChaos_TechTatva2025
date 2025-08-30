@@ -14,3 +14,10 @@ Apart from that, no force pushes. Like stated in the OC meeting, if I see force 
 > No perm time for you kiddo...
 
 ### ~ <a href="https://github.com/Roonil03">Roonil03</a> <sub>Technical Head and Project Head of IECSE '25-26</sub>
+
+### New Changes Log v1:
+- From now onwards, please start filling in the difficulty level of the questions as well
+- Start filling in the different tags of your question so that we don't have too many of a certain tag of question. If you want a format, please refer to [this.](https://github.com/Roonil03/LeetCodeR03/blob/main/ProblemStatements/0226.%20InvertBinaryTree/README.md#concepts-used)
+- Also please start linking the question you've refered it from in the approvals.md, so that others can also see what all questions have been covered.
+- Also please keep the questions numerically ordered... don't have random numbers jumping at random times.
+
