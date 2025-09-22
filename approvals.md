@@ -16,7 +16,11 @@
 | 12    | Paradox                          | Kushal Raj     | Medium | | https://leetcode.com/problems/daily-temperatures|
 | 13    | Runes of Equilibrium             | Kushal Raj     | Medium | | Self|
 | 14    | Scroll of Requirement            | Kushal Raj     | Hard   | | https://leetcode.com/problems/minimum-window-substring|
-| 18    | Wizard's Guests                  | Rishit Singh   | Medium       | | https://codeforces.com/problemset/problem/2014/D|
+| 15    | The corridor of Eternal|          Arunima  Bhattacharjee      |    Easy
+| 16    | Hidden Multiplication|          Arunima  Bhattacharjee      |    Easy
+| 17    | One Flip|          Arunima  Bhattacharjee      |    Medium
+| 18    | Wizard's Guests                  | Rishit Singh   | Medium       | | https://codeforces.com/problemset/
+problem/2014/D|
 | 19    | Spellboard XOR Duel              | Mahika Kapil   |        | | |
 | 20    | Lever Of Divergia                | Rishabh Raj    | Easy        | | |
 | 21    | Enchanted Arrays of Utopia       | Rishabh Raj    | Easy       | | |
