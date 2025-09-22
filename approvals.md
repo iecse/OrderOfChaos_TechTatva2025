@@ -16,6 +16,9 @@
 | 12    | Paradox                          | Kushal Raj     | Medium | | https://leetcode.com/problems/daily-temperatures|
 | 13    | Runes of Equilibrium             | Kushal Raj     | Medium | | Self|
 | 14    | Scroll of Requirement            | Kushal Raj     | Hard   | | https://leetcode.com/problems/minimum-window-substring|
+| 15    | The corridor of Eternal|          Arunima  Bhattacharjee      |    Easy
+| 16    | Hidden Multiplication|          Arunima  Bhattacharjee      |    Easy
+| 17    | One Flip|          Arunima  Bhattacharjee      |    Medium
 | 18    | Wizard's Guests                  | Rishit Singh   | Medium       | | https://codeforces.com/problemset/problem/2014/D|
 | 19    | Spellboard XOR Duel              | Mahika Kapil   |        | | |
 | 20    | Lever Of Divergia                | Rishabh Raj    | Easy        | | |
@@ -42,6 +45,10 @@
 | 41    | Celestial Forge                  | Kushal Raj     | Hard   | | Self|
 | 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | | https://codeforces.com/problemset/problem/1133/D|
 | 43    | The Cunning Alchemist            | Rishit Singh   | Easy       | | https://codeforces.com/contest/2132/problem/C1|
+| 44    | Spell Sequence and deadline|          Arunima  Bhattacharjee      |    Medium
+| 45    | Rain Water With Cursed leak|          Arunima  Bhattacharjee      |    Hard
+| 46    | The Array of Radiant Runes|          Arunima  Bhattacharjee      |    Easy
+| 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Easy
 | 48    | Mystic Wall                       | Mahika Kapil   | Hard  |Kept for backup |https://leetcode.com/problems/push-dominoes|
 | 49    | Magical Potion Mixing            | Rishit Singh   | Easy       | | Self|
 
