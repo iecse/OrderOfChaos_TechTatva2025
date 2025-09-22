@@ -1,26 +1,28 @@
-# The Enchanted Crossing
+# The Enchanted Crossing  
 
-## Question Difficulty: Easy
+## Difficulty: Easy  
 
-In the enchanted forest of **Jaadoo Nagar**, there is a **bridge made of magical tiles** that stretches over a chasm. Each tile has a **weight capacity**, represented by an integer.  
+In the enchanted forest of **Jaadoo Nagar**, there is a magical bridge made of tiles.  
+Each tile has a **capacity** (an integer), and each traveler has a **weight**.  
 
-A group of **travelers** must cross the bridge. Each traveler has a **weight**. The bridge has a peculiar property:
+The bridge works as follows:  
+- A traveler can step on a tile if their weight ≤ tile’s current capacity.  
+- After stepping, the tile’s capacity decreases by the traveler’s weight (but not below 0).  
+- If the traveler cannot step on the current tile, they must try the next one.  
+- Travelers cross **in order**, always choosing the **leftmost tile** that can hold them.  
 
-- A traveler can step on a tile if their weight is **less than or equal to the tile's current capacity**.  
-- **After stepping on a tile**, the tile’s capacity **reduces by the traveler’s weight** (but it cannot go below 0).  
-- **If a traveler cannot step on a tile**, they must **skip it and move to the next tile**.  
+**Task:** For each test case, given `tiles` and `travelers`, output how many travelers successfully cross the bridge.  
 
-The travelers must cross **in order**, stepping on the **leftmost tile possible** that can hold them.  
-
-**Task:** For each test case, given arrays `tiles` (tile capacities) and `travelers` (weights), output the number of travelers who successfully cross the bridge.  
-
-
-## Input
-- The first line contains a single integer `t` (1 ≤ t ≤ 10) — the number of test cases.  
+## Input  
+- First line: integer `t` (1 ≤ t ≤ 10), the number of test cases.  
 - For each test case:  
-  - The first line contains two integers `n` and `m` (1 ≤ n, m ≤ 10^5).  
-  - The second line contains `n` integers `tiles[i]` (1 ≤ tiles[i] ≤ 10^9).  
-  - The third line contains `m` integers `travelers[j]` (1 ≤ travelers[j] ≤ 10^9).
+  - First line: two integers `n` and `m` (1 ≤ n, m ≤ 10^5).  
+  - Second line: `n` integers `tiles[i]` (1 ≤ tiles[i] ≤ 10^9).  
+  - Third line: `m` integers `travelers[j]` (1 ≤ travelers[j] ≤ 10^9).  
+
+
+## Output  
+For each test case, print a single integer — the number of travelers who cross the bridge.  
 
 ### Example Input
 ```
