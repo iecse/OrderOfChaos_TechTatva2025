@@ -43,10 +43,10 @@ Your task is to determine the **maximum magical energy** Tantrika can obtain.
 ```
 ### Explanation
 **Test case 1:**  
-Skip the second `5`. Valid subarray → `[3, 5, 2, 6, 2, 4]` → sum = 22.  
+Skip the second `5`. Valid subarray - `[3, 5, 2, 6, 2, 4]` - sum = 22.  
 
 **Test case 2:**  
-All gems are unique, so take the entire array → sum = 15.  
+All gems are unique, so take the entire array - sum = 15.  
 
 **Test case 3:**  
 Tantrika can only take **one `7`** from the consecutive sequence of `7`s, then take the `3`.  
