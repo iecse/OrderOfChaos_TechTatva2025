@@ -4,7 +4,7 @@
 | ----- | -------------------------------- | -------------- | ------ | ------ | ------ |
 | 01.   | Crystal Resonance                | Abhyuday Gupta |  | | |
 | 02.   | Mystical Ritual Circles          | Abhyuday Gupta |        | | |
-| 03    | GreatSerpentofEternity           | Mahika Kapil   |            |         |       |
+| 03    | GreatSerpentofEternity           | Mahika Kapil   |  Easy  |         |   https://leetcode.com/problems/middle-of-the-linked-list/submissions/1751313475/?envType=problem-list-v2&envId=linked-list    |
 | 04    | Kingdom Of Numeria               | Rishabh Raj    |        | | |
 | 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | Self|
 | 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | Self|
