@@ -20,13 +20,13 @@
 | 16    | Hidden Multiplication|          Arunima  Bhattacharjee      |    Easy
 | 17    | One Flip|          Arunima  Bhattacharjee      |    Medium
 | 18    | Wizard's Guests                  | Rishit Singh   | Medium       | | https://codeforces.com/problemset/problem/2014/D|
-| 19    | Spellboard XOR Duel              | Mahika Kapil   |        | | |
+| 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      | |https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory |
 | 20    | Lever Of Divergia                | Rishabh Raj    | Easy        | | |
 | 21    | Enchanted Arrays of Utopia       | Rishabh Raj    | Easy       | | |
 | 22    | Arcane Punge                     | Rishabh Raj    | Medium     | | |
 | 23    | Crystal Bridges                  | Rishabh Raj    | Medium      | | | https://codeforces.com/problemset/gymProblem/100551/C
 | 24    | Wizard Potion                    | Rishabh Raj    | Medium       | | |https://leetcode.com/problems/container-with-most-water/description/
-| 25    | Philosopher's Scroll             | Mahika Kapil   |        | | |
+| 25    | Philosopher's Scroll             | Mahika Kapil   |   Medium     | | https://leetcode.com/problems/decode-string/description/?envType=problem-list-v2&envId=stack|
 | 26    | Wizard's Wand                    | Kushal Raj     | Hard   | | https://leetcode.com/problems/maximum-subarray|
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |        | | |
 | 28.   | Alchemist's Array                | Kushal Raj     | Hard   | | Self|
