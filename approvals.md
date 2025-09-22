@@ -51,5 +51,6 @@
 | 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Easy
 | 48    | Mystic Wall                       | Mahika Kapil   | Hard  |Kept for backup |https://leetcode.com/problems/push-dominoes|
 | 49    | Magical Potion Mixing            | Rishit Singh   | Easy       | | Self|
+| 50    | Scroll of Balance                   | Mahika Kapil   | Hard  | |[https://leetcode.com/problems/push-dominoes](https://codeforces.com/problemset/problem/2127/C)|
 
 
