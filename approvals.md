@@ -22,7 +22,7 @@
 | 21    | Enchanted Arrays of Utopia       | Rishabh Raj    | Easy       | | |
 | 22    | Arcane Punge                     | Rishabh Raj    | Medium     | | |
 | 23    | Crystal Bridges                  | Rishabh Raj    | Medium      | | |
-| 24    | Wizard Potion                    | Rishabh Raj    | Medium       | | |
+| 24    | Wizard Potion                    | Rishabh Raj    | Medium       | | |https://leetcode.com/problems/container-with-most-water/description/
 | 25    | Philosopher's Scroll             | Mahika Kapil   |        | | |
 | 26    | Wizard's Wand                    | Kushal Raj     | Hard   | | https://leetcode.com/problems/maximum-subarray|
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |        | | |
