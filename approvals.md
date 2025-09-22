@@ -10,7 +10,7 @@
 | 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | Self|
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |        | | |
 | 08    | Energy Core Synchronization      | Mahika Kapil   | Easy     | |https://codeforces.com/problemset/problem/2111/A |
-| 09    | Sacred Portal                    | Mahika Kapil   |        | | |
+| 09    | Sacred Portal                    | Mahika Kapil   | Hard       | |https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory|
 | 10    | Ancestral Guardian               | Kushal Raj     | Medium | | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree |
 | 11    | Archon Attunement                | Kushal Raj     | Medium | | https://leetcode.com/problems/koko-eating-bananas|
 | 12    | Paradox                          | Kushal Raj     | Medium | | https://leetcode.com/problems/daily-temperatures|
