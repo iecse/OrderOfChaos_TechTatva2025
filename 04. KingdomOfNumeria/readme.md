@@ -1,5 +1,5 @@
 
-# The Scrolls of Numeria
+# The Kingdom of Numeria
 
 ## Question Difficulty: Easy
 
