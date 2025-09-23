@@ -36,20 +36,30 @@ Your task is to determine the **number of wizard fleets** that will arrive at th
 
 **Input**  
 ```
-1
+2
 5 12
 10 8 0 5 3
 2 4 1 1 3
+3 100
+0 2 4
+4 2 1
 ```
 
 **Output**
 ```
 3
+1
 ```
 
 
 ## Explanation
 
+### Test Case 1
+
 - The caravans starting at mile 10 (speed 2) and mile 8 (speed 4) meet and form a fleet at mile 12.  
 - The caravan starting at mile 0 (speed 1) does not meet any other caravan and is a fleet by itself.  
-- The caravans at miles 5 (speed 1) and 3 (speed 3) form a fleet at mile 6 and move together at speed 1 until reaching the tower.  
+- The caravans at miles 5 (speed 1) and 3 (speed 3) form a fleet at mile 6 and move together at speed 1 until reaching the tower.
+
+### Test Case 2
+- The caravans starting at 0 (speed 4) and 2 (speed 2) become a fleet, meeting each other at 4. The caravan starting at 4 (speed 1) travels to 5.
+- Then, the fleet at 4 (speed 2) and the caravan at position 5 (speed 1) become one fleet, meeting each other at 6. The fleet moves at speed 1 until it reaches the tower.
