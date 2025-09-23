@@ -4,7 +4,7 @@
 | ----- | -------------------------------- | -------------- | ------ | ------ | ------ |
 | 01.   | Crystal Resonance                | Abhyuday Gupta | Easy | Reword in a simpler manner|https://leetcode.com/problems/contains-duplicate/description/|
 | 02.   | Mystical Ritual Circles          | Abhyuday Gupta |    Medium    | Reword in a simpler manner|https://codeforces.com/problemset/problem/2121/F|
-| 04    | Kingdom Of Numeria               | Rishabh Raj    |  Easy     | | https://leetcode.com/problems/merge-sorted-array/description/|
+| 04    | Kingdom Of Pataal Lok               | Rishabh Raj    |  Easy     | | https://leetcode.com/problems/merge-sorted-array/description/|
 | 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | Self|
 | 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | Self|
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |    Medium    |change zelda |https://codeforces.com/problemset/problem/2131/F |
@@ -20,9 +20,9 @@
 | 17    | One Flip|          Arunima  Bhattacharjee      |    Medium
 | 18    | Wizard's Guests                  | Rishit Singh   | Medium       | | https://codeforces.com/problemset/problem/2014/D|
 | 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      | |https://leetcode.com/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=brainteaser|
-| 20    | Lever Of Divergia                | Rishabh Raj    | Easy        | | |
-| 21    | Enchanted Arrays of Utopia       | Rishabh Raj    | Easy       | | |
-| 22    | Arcane Punge                     | Rishabh Raj    | Medium     | | |
+| 20    | Lever Of Jadoo Nagar               | Rishabh Raj    | Easy        | | |
+| 21    | Enchanted Arrays of Eldoria       | Rishabh Raj    | Easy       | | |
+| 22    | Arcane Purge                     | Rishabh Raj    | Medium     | | |
 | 23    | Crystal Bridges                  | Rishabh Raj    | Medium      | |  https://codeforces.com/problemset/gymProblem/100551/C |
 | 24    | Wizard Potion                    | Rishabh Raj    | Medium | | https://leetcode.com/problems/container-with-most-water/description/ |
 | 25    | Philosopher's Scroll             | Mahika Kapil   |        | | |
