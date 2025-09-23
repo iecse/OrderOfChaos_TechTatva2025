@@ -8,7 +8,7 @@
 | 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | Self|
 | 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | Self|
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |    Medium    |change zelda |https://codeforces.com/problemset/problem/2131/F |
-| 08    | Energy Core Synchronization      | Mahika Kapil   | Easy     | |https://codeforces.com/problemset/problem/2111/A |
+| 08    | Energy Core Synchronization      | Mahika Kapil   | Medium     | Approved |https://codeforces.com/problemset/problem/2111/A |
 | 09    | Sacred Portal                    | Mahika Kapil   | Hard       | |https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory|
 | 10    | Ancestral Guardian               | Kushal Raj     | Medium | | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree |
 | 11    | Archon Attunement                | Kushal Raj     | Medium | | https://leetcode.com/problems/koko-eating-bananas|
