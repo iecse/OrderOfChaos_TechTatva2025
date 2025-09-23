@@ -5,7 +5,7 @@
 | 01.   | Crystal Resonance                | Abhyuday Gupta |  | | |
 | 02.   | Mystical Ritual Circles          | Abhyuday Gupta |        | | |
 | 03    | GreatSerpentofEternity           | Mahika Kapil   |  Easy  |         |   https://leetcode.com/problems/middle-of-the-linked-list/submissions/1751313475/?envType=problem-list-v2&envId=linked-list    |
-| 04    | Kingdom Of Numeria               | Rishabh Raj    |  Easy     | | | https://leetcode.com/problems/merge-sorted-array/description/
+| 04    | Kingdom Of Numeria               | Rishabh Raj    |  Easy     | | https://leetcode.com/problems/merge-sorted-array/description/|
 | 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | Self|
 | 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | Self|
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |        | | |
@@ -24,8 +24,8 @@
 | 20    | Lever Of Divergia                | Rishabh Raj    | Easy        | | |
 | 21    | Enchanted Arrays of Utopia       | Rishabh Raj    | Easy       | | |
 | 22    | Arcane Punge                     | Rishabh Raj    | Medium     | | |
-| 23    | Crystal Bridges                  | Rishabh Raj    | Medium      | | | https://codeforces.com/problemset/gymProblem/100551/C
-| 24    | Wizard Potion                    | Rishabh Raj    | Medium       | | |https://leetcode.com/problems/container-with-most-water/description/
+| 23    | Crystal Bridges                  | Rishabh Raj    | Medium      | |  https://codeforces.com/problemset/gymProblem/100551/C |
+| 24    | Wizard Potion                    | Rishabh Raj    | Medium | | https://leetcode.com/problems/container-with-most-water/description/ |
 | 25    | Philosopher's Scroll             | Mahika Kapil   |        | | |
 | 26    | Wizard's Wand                    | Kushal Raj     | Hard   | | https://leetcode.com/problems/maximum-subarray|
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |        | | |
