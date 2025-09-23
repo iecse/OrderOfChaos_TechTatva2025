@@ -31,7 +31,7 @@
 | 28.   | Alchemist's Array                | Kushal Raj     | Hard   | | Self|
 | 29.   | Mystical Enchantment Network     | Abhyuday Gupta |   Hard     | | https://codeforces.com/problemset/problem/19/E|
 | 30    | Arcane Coin Clash                | Rishit Singh   | Hard       | | https://codeforces.com/problemset/problem/2127/C|
-| 31    | Guild Of Magical Hiring          | Rishit Singh   | Medium       | | https://leetcode.com/problems/minimum-cost-to-hire-k-workers/|
+| 31    | Guild Of Magical Hiring          | Rishit Singh   | Hard       | | https://leetcode.com/problems/minimum-cost-to-hire-k-workers/|
 | 32    | Path of Power                    | Kushal Raj     | Medium | | https://leetcode.com/problems/binary-tree-maximum-path-sum|
 | 33    | Chronomancer's Time Fabric       | Kushal Raj     | Hard   | | https://leetcode.com/problems/rotting-oranges|
 | 34    | Sorcerer's Spell Book            | Kushal Raj     | Medium | | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string|
