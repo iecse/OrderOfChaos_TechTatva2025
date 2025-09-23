@@ -1,5 +1,6 @@
 # MysticWall (Hard)
-## Problem Statement
+## String, Dynamic Programming
+-Mahika
 
 Amsu the warlock stands before the Gates of Wisdom, where mystical walls are arranged in a long horizontal row. Each wall may either:
 
