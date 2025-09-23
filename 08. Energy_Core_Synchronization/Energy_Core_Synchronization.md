@@ -1,4 +1,4 @@
-# Energy Core Synchronization (EASY)
+# Energy Core Synchronization (MEDIUM)
 ## Greedy
 -Mahika
 ## Problem statement
