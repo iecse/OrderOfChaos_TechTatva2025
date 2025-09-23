@@ -8,7 +8,7 @@ In the Kingdom of **Numeria**, two enchanted scrolls of numbers exist:
 - The **Golden Scroll** (`nums1`)  
 - The **Silver Scroll** (`nums2`)  
 
-Each scroll contains **sorted magical runes** (numbers).  
+Each scroll contains **sorted magical numbers**. 
 
 The Golden Scroll is powerful — it has enough empty slots (marked with `0`s) at the end to store all runes from both scrolls combined.  
 
@@ -17,7 +17,7 @@ The Golden Scroll is powerful — it has enough empty slots (marked with `0`s) a
 ## The Spell of Unification
 The Great Wizard must **merge** the Silver Scroll into the Golden Scroll such that:  
 - After the ritual, the Golden Scroll contains **all runes from both scrolls**.  
-- The runes must be arranged in **non-decreasing magical order** (ascending).  
+- The runes must be arranged in **ascending magical order**. 
 - The Silver Scroll vanishes after merging — all its power flows into the Golden one.
 
 ---

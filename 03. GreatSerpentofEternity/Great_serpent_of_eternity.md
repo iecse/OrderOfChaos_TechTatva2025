@@ -1,6 +1,7 @@
-# Great Serpent of Eternity 
+# Great Serpent of Eternity (EASY) 
+## Linked list
 -Mahika
-(easy)
+
 
 ## Problem Statement
 The Great Serpent of Eternity is a mystical creature whose body is made up of enchanted scales, each linked one after another like a chain.
@@ -41,5 +42,6 @@ Output: 34
 
 Explanation:
 The serpent has 6 scales. The two middle scales are 21 and 34. By the serpent’s rule, we choose the second middle → 34.
+
 
 

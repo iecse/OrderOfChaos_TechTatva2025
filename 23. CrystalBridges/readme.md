@@ -1,10 +1,10 @@
 # The Crystal Bridges  
 
-**Question Difficulty: Medium**  
+**Question Difficulty: Hard**  
 
 ## Description:  
 
-In the kingdom of **Lumora**, there are **n floating islands** connected by magical crystal bridges.  
+There are **n floating islands** connected by magical crystal bridges.  
 Each bridge has a **stability value** (an integer). The higher the value, the more stable the bridge.  
 
 Every day, the storm winds of Lumora weaken the bridges:  
@@ -50,7 +50,7 @@ For each test case, print **YES** if you can reach Island `n` starting from Isla
 ```
 
 ### Output:
-YES <br>
+YES  
 NO
 
 
