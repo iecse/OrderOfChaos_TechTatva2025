@@ -1,10 +1,8 @@
 # Spellboard XOR duel (Hard)
 ## Array, Game theory
 -Mahika
-## Problem statement 
-You are given an array of integers runes representing the magical runes inscribed on an ancient Spellboard. The archmages Gandalf the Grey and Morgana the Enchantress take turns erasing exactly one rune from the Spellboard, with Gandalf starting first. If erasing a rune causes the combined magical resonance (the bitwise XOR of all remaining runes) to become 0, then that mage loses immediately, as the spell collapses on them.
-If any mage begins their turn and the combined magical resonance is already 0, then that mage wins instantly, since the spell has aligned in their favor.
-Return true if and only if Gandalf (the first mage) can guarantee victory, assuming both mages play with perfect magical strategy.
+
+Two kingdoms, Eldoria and Drakoria, are fighting over a magical Spellboard filled with numbers. Eldoria always moves first, and then they take turns erasing exactly one number from the board. If erasing a number makes the XOR of all the remaining numbers equal to zero, the player who made that move loses immediately. On the other hand, if it is the beginning of a player’s turn and the XOR of all numbers is already zero, that player wins instantly without making a move. Your task is to determine whether Eldoria, the first kingdom, can always guarantee victory if both kingdoms play with perfect strategy.
 
 ## Input
 -The first line contains two integers n and m — the number of mages and the number of candidates.
