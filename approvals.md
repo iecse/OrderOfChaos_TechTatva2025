@@ -20,7 +20,7 @@
 | 16    | Hidden Multiplication|          Arunima  Bhattacharjee      |    Easy
 | 17    | One Flip|          Arunima  Bhattacharjee      |    Medium
 | 18    | Wizard's Guests                  | Rishit Singh   | Medium       | | https://codeforces.com/problemset/problem/2014/D|
-| 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      | |https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory |
+| 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      | |[https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory ](https://leetcode.com/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=brainteaser)|
 | 20    | Lever Of Divergia                | Rishabh Raj    | Easy        | | |
 | 21    | Enchanted Arrays of Utopia       | Rishabh Raj    | Easy       | | |
 | 22    | Arcane Punge                     | Rishabh Raj    | Medium     | | |
