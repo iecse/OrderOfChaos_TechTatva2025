@@ -24,7 +24,7 @@
 | 20    | Lever Of Jadoo Nagar               | Rishabh Raj    | Easy        | | |
 | 21    | Enchanted Arrays of Eldoria       | Rishabh Raj    | Easy       | | |
 | 22    | Arcane Purge                     | Rishabh Raj    | Medium     | | |
-| 23    | Crystal Bridges                  | Rishabh Raj    | Medium      | |  https://codeforces.com/problemset/gymProblem/100551/C |
+| 23    | Crystal Bridges                  | Rishabh Raj    | Hard      | |  https://codeforces.com/problemset/gymProblem/100551/C |
 | 24    | Wizard Potion                    | Rishabh Raj    | Medium | | https://leetcode.com/problems/container-with-most-water/description/ |
 | 25    | Philosopher's Scroll             | Mahika Kapil   |        | | |
 | 23    | Crystal Bridges                  | Rishabh Raj    | Medium      | | | https://codeforces.com/problemset/gymProblem/100551/C
