@@ -43,7 +43,7 @@
 | 40    | Spell Of Twin Energies           | Rishit Singh   | Easy       | | https://leetcode.com/problems/sum-of-square-numbers/|
 | 41    | Celestial Forge                  | Kushal Raj     | Hard   | | Self|
 | 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | | https://codeforces.com/problemset/problem/1133/D|
-| 43    | The Cunning Alchemist            | Rishit Singh   | Easy       | | https://codeforces.com/contest/2132/problem/C1|
+| 43    | The Cunning Alchemist            | Rishit Singh   | Medium       | | https://codeforces.com/contest/2132/problem/C1|
 | 44    | Spell Sequence and deadline|          Arunima  Bhattacharjee      |    Medium
 | 45    | Rain Water With Cursed leak|          Arunima  Bhattacharjee      |    Hard
 | 46    | The Array of Radiant Runes|          Arunima  Bhattacharjee      |    Easy
