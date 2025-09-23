@@ -7,7 +7,7 @@
 | 04    | Kingdom Of Numeria               | Rishabh Raj    |  Easy     | | https://leetcode.com/problems/merge-sorted-array/description/|
 | 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | Self|
 | 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | Self|
-| 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |    Medium    | | |
+| 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |    Medium    | |https://codeforces.com/problemset/problem/2131/F |
 | 08    | Energy Core Synchronization      | Mahika Kapil   | Easy     | |https://codeforces.com/problemset/problem/2111/A |
 | 09    | Sacred Portal                    | Mahika Kapil   | Hard       | |https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory|
 | 10    | Ancestral Guardian               | Kushal Raj     | Medium | | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree |
@@ -27,9 +27,9 @@
 | 24    | Wizard Potion                    | Rishabh Raj    | Medium       | | https://leetcode.com/problems/container-with-most-water/description/|
 | 25    | Philosopher's Scroll             | Mahika Kapil   |   Medium     | | https://leetcode.com/problems/decode-string/description/?envType=problem-list-v2&envId=stack|
 | 26    | Wizard's Wand                    | Kushal Raj     | Hard   | | https://leetcode.com/problems/maximum-subarray|
-| 27.   | Enchanted Battle Arena           | Abhyuday Gupta |    Hard    | | |
+| 27.   | Enchanted Battle Arena           | Abhyuday Gupta |    Hard    | |https://codeforces.com/problemset/problem/2108/F |
 | 28.   | Alchemist's Array                | Kushal Raj     | Hard   | | Self|
-| 29.   | Mystical Enchantment Network     | Abhyuday Gupta |   Hard     | | |
+| 29.   | Mystical Enchantment Network     | Abhyuday Gupta |   Hard     | | https://codeforces.com/problemset/problem/19/E|
 | 30    | Arcane Coin Clash                | Rishit Singh   | Hard       | | https://codeforces.com/problemset/problem/2127/C|
 | 31    | Guild Of Magical Hiring          | Rishit Singh   | Medium       | | https://leetcode.com/problems/minimum-cost-to-hire-k-workers/|
 | 32    | Path of Power                    | Kushal Raj     | Medium | | https://leetcode.com/problems/binary-tree-maximum-path-sum|
