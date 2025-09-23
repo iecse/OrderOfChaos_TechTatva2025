@@ -82,25 +82,5 @@ A sacred pathway exists when nodes form a contiguous sequence with:
 0
 ```
 
-## Explanation:
-
-**Test Case 1:** The sequence [0] has sum 0 and max 0. ✓
-
-**Test Case 3:** The valid sequences are [−1] (position 1) and [−1] (position 3). Both have sum −1 and max −1.
-
-**Test Case 5:** The valid sequences are [2, 2] (positions 1-2) and [2, 2] (positions 7-8). Both have sum 4... wait, that doesn't match. Let me recalculate: we need sum 3 and max 2. Valid sequences include [2] at various positions and [2, 2, -1] which sums to 3 with max 2.
-
-**Test Case 6:** Multiple contiguous sequences work, including several single-element sequences with value 3, and some multi-element sequences that sum to 6 with maximum value 3.
-
----
-
-## Notes:
-
-- A sequence is valid only if it contains at least one node with energy level exactly _p_
-- No node in the sequence can have energy level greater than _p_ (this would destabilize the ritual)
-- The total energy must sum to exactly _s_ for the ritual to work
-- Negative energy levels represent nodes that absorb magical energy rather than emit it
-
----
 
 _Question designed by [Abhyuday-Gupta912](https://github.com/Abhyuday-Gupta912)_
