@@ -1,5 +1,5 @@
 # Sacred Portal (Hard)
-## Game Theory
+## Game Theory, Graphs
 
 -Mahika
 ## Problem Statement
