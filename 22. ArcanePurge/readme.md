@@ -68,21 +68,6 @@ For each collection, output a single integer — the minimum number of mana crys
 ```
 
 
----
-
-## Sample Explanation:
-
-**Test Case 1:**  
-Relics: `[10, 4, 15, 1, 8]`  
-- Destroy relic with weight `10` freely (`10 ≤ 10`).  
-- Destroy relic with weight `8` freely (`8 ≤ 10`).  
-- Later, `32` becomes too strong (`> 10`), costing 1 mana crystal.  
-- Finally, `240` also costs 1 mana crystal.  
-Total = **2 mana crystals**.  
-
-**Test Case 2:**  
-Every relic’s weight (`10⁹`) is greater than the limit `42`, so **each one costs 1 mana crystal**.  
-Total = **3 mana crystals**.  
 
 ---
 ~ <a href=https://github.com/r1shu-R> Rishabh </a>

@@ -1,4 +1,4 @@
-# The Enchanted Arrays of Utopia
+# The Enchanted Arrays of Eldoria
 
 **Question Difficulty: Easy**
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-In the mystical kingdom of **Utopia**, even numbers are enchanted.  
+In the mystical kingdom of **Eldoria**, even numbers are enchanted.  
 Arrays of numbers are judged by the **Council of Magic Fashion**:
 
 An array is called **fashionable** if:
@@ -60,26 +60,6 @@ For each test case, output a single integer — the **minimum number of rituals*
 0
 0
 ```
-
----
-
-## Explanation
-
-- **Test Case 1:**  
-  Array = `[1, 4, 3]`  
-  min = 1, max = 4 → 5 (odd). Not fashionable.  
-  Remove `4` → `[1, 3]` → 1 + 3 = 4 (even). Fashionable.  
-  Minimum rituals = **1**
-
-- **Test Case 2:**  
-  Array = `[2, 2, 2, 2]`  
-  min = max = 2 → 2 + 2 = 4 (even). Already fashionable.  
-  Rituals = **0**
-
-- **Test Case 3:**  
-  Array = `[5, 7, 9, 10, 2]`  
-  min = 2, max = 10 → 12 (even). Already fashionable.  
-  Rituals = **0**
 
 ---
 ~ <a href=https://github.com/r1shu-R> Rishabh </a>

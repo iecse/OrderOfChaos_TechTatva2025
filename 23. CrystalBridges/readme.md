@@ -7,7 +7,7 @@
 There are **n floating islands** connected by magical crystal bridges.  
 Each bridge has a **stability value** (an integer). The higher the value, the more stable the bridge.  
 
-Every day, the storm winds of Lumora weaken the bridges:
+Every day, the storm winds weaken the bridges:
 
 - All bridges lose **1 stability point** at the end of the day.
 - If a bridge’s stability becomes **0**, it collapses forever.  
@@ -57,23 +57,6 @@ For each test case, print **YES** if you can reach Island `n` starting from Isla
 YES  
 NO
 ```
-
----
-
-## Sample Explanation:  
-
-**Test Case 1:**  
-- Path: `1 → 2 → 3 → 4`.  
-  - Day 1: Cross `1–2` (stability 3 → 2 left for later).  
-  - Day 2: Cross `2–3` (stability 2 → 1 left).  
-  - Day 3: Cross `3–4` (stability 2 → 1 left).  
-You safely reach island `4` → **YES**.  
-
-**Test Case 2:**  
-- Bridges have stability 1.  
-- You can only cross one bridge per day.  
-- By the time you need the second bridge, it has already collapsed.  
-So the answer is **NO**.  
 
 ---
 ~ <a href=https://github.com/r1shu-R> Rishabh </a>

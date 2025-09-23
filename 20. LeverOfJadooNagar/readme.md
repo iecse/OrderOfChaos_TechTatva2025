@@ -1,9 +1,11 @@
-# The Lever of Divergia
+# The Lever of Jadoo Nagar
+
 ## Question Difficulty: Easy
 
 
 
-In the mystical realm of **Divergia**, two enchanted arrays of numbers exist:  
+In the mystical realm of **Jadoo Nagar**, two enchanted arrays of numbers exist:  
+
 - The **Array of Flame** (`a`)  
 - The **Array of Frost** (`b`)  
 
@@ -12,6 +14,7 @@ Both arrays contain exactly `n` numbers each.
 ---
 
 ## The Ritual of the Lever
+
 The ancient artifact known as **The Lever** iterates through magical steps. In each iteration, it performs the following ritual:
 
 1. The Lever seeks an index `i` where the **Flame rune** is **greater** than the Frost rune (`a[i] > b[i]`).  
@@ -63,22 +66,5 @@ For each test case, return the **number of iterations** that the Lever performs 
 3
 3
 ```
-
-
-
----
-
-### Explanation of Example
-
-- **Test Case 1**:  
-  - Arrays: `a = [5,2,3]`, `b = [2,2,4]`  
-  - Differences: `(5→2 needs 3 decrements)`, `(3→4 needs 1 increment)`  
-  - Total iterations = `3`.  
-
-- **Test Case 2**:  
-  - Arrays: `a = [1,5,3,2]`, `b = [2,2,3,5]`  
-  - Differences: `(5→2 needs 3 decrements)`; other elements only need increments (which don’t affect termination).  
-  - Total iterations = `3`.  
-
 ---
 ~ <a href=https://github.com/r1shu-R> Rishabh </a>
