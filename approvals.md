@@ -46,7 +46,7 @@
 | 39    | Grand Conjunction                | Kushal Raj     | Easy   | | https://leetcode.com/problems/rotate-list|
 | 40    | Spell Of Twin Energies           | Rishit Singh   | Medium       | Approved| https://leetcode.com/problems/sum-of-square-numbers/|
 | 41    | Celestial Forge                  | Kushal Raj     | Hard   | | Self|
-| 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | Rephrase| https://codeforces.com/problemset/problem/1133/D|
+| 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | Dropped| https://codeforces.com/problemset/problem/1133/D|
 | 43    | The Cunning Alchemist            | Rishit Singh   | Medium       | Approved| https://codeforces.com/contest/2132/problem/C1|
 | 44    | Spell Sequence and deadline|          Arunima  Bhattacharjee      |    Medium
 | 45    | Rain Water With Cursed leak|          Arunima  Bhattacharjee      |    Hard
