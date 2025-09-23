@@ -62,18 +62,5 @@ YES
 NO
 ```
 
-## Sample Explanation:
-
-**Test Case 1:** Elara can arrange the crystals as [7, 7]. The resonance achieves perfect balance with matching endpoints.
-
-**Test Case 2:** Multiple crystals share power level 8, allowing for perfect resonance alignment.
-
-**Test Case 3:** No two crystals share the same power signature - resonance impossible.
-
-**Test Case 4:** Several crystals have power level 14, enabling various resonance configurations.
-
-**Test Case 5:** All crystals have unique power levels - the magical frequencies cannot achieve harmony.
-
----
 
 _Question designed by [Abhyuday-Gupta912](https://github.com/Abhyuday-Gupta912)_
