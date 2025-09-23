@@ -2,30 +2,25 @@
 ## Game Theory, Graphs
 
 -Mahika
-## Problem Statement
-In a mystical kingdom, a Light Spirit is trying to escape into the Sacred Portal (Hole, node 0) while being hunted by a Shadow Beast.
-The kingdom is modeled as an undirected magical realm (graph), where each node is a mystical location (castle, forest, cavern). Paths between locations are edges of the graph.
-The Light Spirit starts at node 1.
-The Shadow Beast starts at node 2.
-The Sacred Portal is at node 0, where the Light Spirit can vanish to safety.
 
-Rules of the chase:
-The Light Spirit moves first, then the Shadow Beast, and they alternate turns.
-Each turn, they must travel along one magical pathway (edge).
-The Shadow Beast is forbidden from entering the Sacred Portal (node 0).
+A kingdom is represented as an undirected graph. There are three special nodes:
+- 0 → The Sacred Portal (the exit).
+- 1 → Starting position of the Light Spirit.
+- 2 → Starting position of the Shadow Beast.
 
-The chase can end in three ways:
-If the Light Spirit reaches the Sacred Portal, the Light Spirit wins (return 1).
-If the Shadow Beast catches the Light Spirit (both at same node), the Shadow Beast wins (return 2).
-If a magical stalemate occurs (repeating the same configuration with the same turn), the game is a draw (return 0).
+The Light Spirit wants to reach the Sacred Portal (node 0) to escape. The Shadow Beast wants to catch the Light Spirit (both on the same node).
+The game works like this:
+The Light Spirit moves first, then the Shadow Beast, and they keep alternating.
+On each turn, a player must move to one of the connected nodes (follow an edge).
+The Shadow Beast is not allowed to enter the Sacred Portal (node 0).
 
-Both beings are assumed to play optimally to maximize their chances of winning.
+The game can end in three ways:
 
-## Task:
+1. If the Light Spirit reaches node 0 → Light Spirit wins (output 1).
+2. If the Shadow Beast lands on the same node as the Light Spirit → Shadow Beast wins (output 2).
+3. If the same situation repeats again and again (same positions, same turn) → Draw (output 0).
 
-Given the magical map (graph), determine the outcome of the duel assuming both play optimally.
-
-
+You need to determine the result of the game if both play optimally.
 ## Input
 
 The first line contains an integer n (the number of nodes in the graph).
@@ -52,11 +47,7 @@ Example 1
 graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
 
 ```
-Explanation 
 
-There are six mystical locations.
-The Spirit starts at 1, Beast at 2, Portal at 0.
-With optimal play, neither can force a decisive win — the chase cycles endlessly.
 Output:
 ```
 0   // Magical stalemate (draw)
@@ -67,12 +58,6 @@ Input:
 ```
 graph = [[1,3],[0],[3],[0,2]]
 ```
-
-Explanation 
-
-Four mystical locations.
-The Spirit moves from node 1 → 0 immediately into the Sacred Portal.
-The Spirit escapes instantly!
 
 Output:
 ```
