@@ -12,7 +12,7 @@ Morgana's ancient battle doctrine requires that **each warrior must cast their u
 
 However, there's a crucial mystical constraint: the **Sacred Law of Ascending Power** demands that after all ultimate spells have been cast, the final power levels must form a **non-decreasing sequence**. This means for any i < j, the warrior at position i must not possess more power than the warrior at position j, lest the magical balance of the arena be shattered.
 
-Your task is to help Morgana determine the maximum **Mystical Exclusion Number (MEN)** she can achieve with her optimal casting strategy.
+Your task is to help Morgana determine the maximum **MEN (Mystical Exclusion Number)** she can achieve with her optimal casting strategy.
 
 The **MEN** of an array represents the smallest non-negative integer power level that is not present among any warrior in the final formation.
 

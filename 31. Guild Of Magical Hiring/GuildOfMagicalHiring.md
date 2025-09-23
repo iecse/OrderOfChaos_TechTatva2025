@@ -1,5 +1,5 @@
 # Guild Of Magical Hiring
-## Difficulty – Medium
+## Difficulty – Hard 
 
 The Grand Wizard **Chatur** is forming a special squad of apprentices. There are `n` wizards available. Each wizard has:  
 

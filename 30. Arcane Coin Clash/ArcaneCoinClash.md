@@ -3,31 +3,28 @@
 
 Two wizards, **Titli** and **Babli**, have discovered two rows of **arcane crystals**, each containing `n` crystals. Each crystal stores a certain amount of **magical energy**.
 
-To determine how many **arcane coins** they must spend for their upcoming ritual, they decide to play a strategic game on these crystals.
-
+To determine how many **arcane coins** they will spend for their ritual, they decide to play a strategic game on these crystals.
 
 ### Game Rules
 
-1. The game lasts for **`k` rounds**.
+1. The game lasts for **`k` rounds**.  
 2. In each round:
-   - **Titli** chooses two distinct indices `i` and `j` (1 ≤ i < j ≤ n).  
-   - **Babli**, the trickster, may **rearrange the four selected crystals** `{a[i], a[j], b[i], b[j]}` in **any way**:
+   - **Titli** selects two distinct indices `i` and `j` (1 ≤ i < j ≤ n).  
+   - **Babli** can then **rearrange the four selected crystals** `{a[i], a[j], b[i], b[j]}` in **any way**:
      - He can swap crystals **between rows**.
-     - He can also leave them **unchanged**.
-3. After all `k` rounds, the **ritual cost** is computed as:
+     - He can also leave them unchanged.  
+3. After all `k` rounds, the **ritual cost** is calculated as:
 
 $$
 v = \sum_{i=1}^{n} |a_i - b_i|
 $$
 
-
 ### Objectives
 
-- **Titli** wants to **minimize** the ritual cost `v` (spend fewer coins).  
-- **Babli** wants to **maximize** the ritual cost `v` (spend as many coins as possible).  
+- **Titli** wants to **minimize** the ritual cost `v`.  
+- **Babli** wants to **maximize** the ritual cost `v`.  
 
 Both wizards play **optimally**, considering the best strategy of the other.
-
 
 ## Input Format
 
@@ -43,11 +40,12 @@ Both wizards play **optimally**, considering the best strategy of the other.
 
 ## Output Format
 
-For each scenario, output a single integer — the **final ritual cost** in arcane coins after both wizards play optimally.
+For each scenario, output a single integer — the **final ritual cost** in arcane coins if both wizards play optimally.
 
 ## Example
 
 **Input**  
+
 ```
 5
 
@@ -80,24 +78,25 @@ For each scenario, output a single integer — the **final ritual cost** in arca
 16
 312
 ```
-
-
-## Explanation  
+## Explanation
 
 1. **Scenario 1** (`n=2, k=1`):  
-   - Titli must choose the only possible pair `(1, 2)`.  
-   - Babli rearranges `{1, 7, 3, 5}` to maximize the sum of differences.  
-   - The cost becomes `|7 − 3| + |1 − 5| = 4 + 4 = 8`.
+   - Only possible pair `(1,2)` can be chosen.  
+   - Babli rearranges `{1, 7, 3, 5}` to maximize differences: `a = [5,1], b = [3,7]`.  
+   - Ritual cost: `|5-3| + |1-7| = 4 + 4 = 8`.
 
 2. **Scenario 2** (`n=3, k=2`):  
-   - Titli tries to minimize, but Babli keeps the arrays unchanged to maintain optimal differences.  
-   - Final cost: `|1 − 6| + |5 − 2| + |3 − 4| = 5 + 3 + 1 = 9`.
+   - Titli tries to minimize, but Babli keeps arrays unchanged to maximize differences.  
+   - Cost: `|1-6| + |5-2| + |3-4| = 9`.
 
 3. **Scenario 3** (`n=5, k=4`):  
-   - Babli uses his freedom to rearrange four rounds to maximize mismatches, reaching a cost of `30`.
+   - Babli rearranges in 4 rounds to maximize mismatches.  
+   - Cost: `30`.
 
 4. **Scenario 4** (`n=4, k=1`):  
-   - With limited rounds, Titli restricts Babli’s power, resulting in a cost of `16`.
+   - With only 1 round, Titli can limit Babli’s advantage.  
+   - Cost: `16`.
 
 5. **Scenario 5** (`n=10, k=10`):  
-   - Babli has full control and maximizes every mismatch, yielding `312` arcane coins.
+   - Babli has full control to maximize differences.  
+   - Cost: `312`.

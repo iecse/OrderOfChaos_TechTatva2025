@@ -1,4 +1,4 @@
-# Energy Core Synchronization (EASY)
+# Energy Core Synchronization (MEDIUM)
 ## Greedy
 -Mahika
 ## Problem statement
@@ -20,3 +20,23 @@ Each of the next t lines contains an integer X (1 ≤ X ≤ 10⁹).
 ## Output
 For each test case, output a single integer — the minimum number of ritual actions required.
 
+## Examples
+
+Input
+
+```5
+1
+5
+14
+2025
+31415
+```
+
+Output
+```
+3
+7
+9
+23
+31
+```

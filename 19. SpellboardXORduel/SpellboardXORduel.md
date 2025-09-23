@@ -1,4 +1,4 @@
-# Spellboard XOR duel (Medium)
+# Spellboard XOR duel (Hard)
 ## Array, Game theory
 -Mahika
 ## Problem statement 
