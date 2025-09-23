@@ -1,4 +1,4 @@
-# Problem: Rain Water With Cursed Leaks
+# Rain Water With Cursed Leaks
 
 You are given two mystical arrays `height` and `leak` of length `n`:
 

@@ -1,4 +1,4 @@
-# ⚔️ Longest Uniform Subarray After One Flip  
+# Longest Uniform Subarray After One Flip  
 
 You are given a **binary array** `nums`.  
 
@@ -8,17 +8,17 @@ Your quest: find the length of the **longest contiguous subarray** that contains
 
 ---
 
-## 📥 Input  
+## Input  
 - A binary array `nums`.  
 
 ---
 
-## 📤 Output  
+## Output  
 - The length of the longest uniform subarray possible after one flip.  
 
 ---
 
-## 🌟 Examples  
+## Examples  
 
 ### Example 1  
 **Input:**  
@@ -34,6 +34,7 @@ nums = [1,1,0,1]
 ---
 
 **Explanation:**  
+---
 - Flip the `0` → `[1,1,1,1]`.  
 - Entire array becomes length `4`. ✅  
 
@@ -52,6 +53,7 @@ nums = [0,1,1,0,0,1]
 ```
 ---
 **Explanation:**  
+---
 - Flip different positions:  
   - Flip `1` → longest = 3 zeros.  
   - Flip another `1` → longest = 3 ones.  
@@ -66,17 +68,19 @@ nums = [0,1,1,0,0,1]
 nums = [0,0,0]
 ```
 **Output:** 
+---
 ```
 3
 ```
----
+
 **Explanation:**  
+---
 - Flip any `0`.  
 - Still max uniform subarray length = 3.  
 
 ---
 
-## ⚖️ Constraints  
+## Constraints  
 - `1 ≤ nums.length ≤ 10^5`  
 - `nums[i] ∈ {0,1}`  
 
