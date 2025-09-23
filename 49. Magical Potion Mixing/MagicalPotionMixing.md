@@ -1,5 +1,7 @@
 # Magical Potion Mixing
 
+## Question difficulty - Easy
+
 In the enchanted kingdom of Rahasvan, gems hold mystical powers.  
 Tantrika, a young sorceress, is collecting magical gems lined up in a row. Each gem has an integer power value.  
 
