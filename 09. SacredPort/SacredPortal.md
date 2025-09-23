@@ -1,5 +1,6 @@
-# Sacred Portal
-## Level-Hard
+# Sacred Portal (Hard)
+## Game Theory, Graphs
+
 -Mahika
 ## Problem Statement
 In a mystical kingdom, a Light Spirit is trying to escape into the Sacred Portal (Hole, node 0) while being hunted by a Shadow Beast.
