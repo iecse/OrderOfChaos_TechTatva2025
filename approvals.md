@@ -4,11 +4,12 @@
 | ----- | -------------------------------- | -------------- | ------ | ------ | ------ |
 | 01.   | Crystal Resonance                | Abhyuday Gupta | Easy | Reword in a simpler manner|https://leetcode.com/problems/contains-duplicate/description/|
 | 02.   | Mystical Ritual Circles          | Abhyuday Gupta |    Medium    | Reword in a simpler manner|https://codeforces.com/problemset/problem/2121/F|
-| 04    | Kingdom Of Pataal Lok               | Rishabh Raj    |  Easy     | | https://leetcode.com/problems/merge-sorted-array/description/|
-| 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | Self|
-| 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | Self|
+|03    | GreatSerpentofEternity           | Mahika Kapil   |  Easy  |  Approved       |   https://leetcode.com/problems/middle-of-the-linked-list/submissions/1751313475/?envType=problem-list-v2&envId=linked-list    |
+| 04    | Kingdom Of Numeria               | Rishabh Raj    |  Easy     | | https://leetcode.com/problems/merge-sorted-array/description/|
+| 05    | The Enchanted Crossing           | Rishit Singh   | Easy | Approved| Self|
+| 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | Approved| Self|
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |    Medium    |change zelda |https://codeforces.com/problemset/problem/2131/F |
-| 08    | Energy Core Synchronization      | Mahika Kapil   | Easy     | |https://codeforces.com/problemset/problem/2111/A |
+| 08    | Energy Core Synchronization      | Mahika Kapil   | Medium     | Approved |https://codeforces.com/problemset/problem/2111/A |
 | 09    | Sacred Portal                    | Mahika Kapil   | Hard       | |https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory|
 | 10    | Ancestral Guardian               | Kushal Raj     | Medium | | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree |
 | 11    | Archon Attunement                | Kushal Raj     | Medium | | https://leetcode.com/problems/koko-eating-bananas|
