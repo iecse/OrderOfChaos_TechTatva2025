@@ -1,4 +1,5 @@
-# Spellboard XOR duel (med)
+# Spellboard XOR duel (Medium)
+## Array, Game theory
 -Mahika
 ## Problem statement 
 You are given an array of integers runes representing the magical runes inscribed on an ancient Spellboard. The archmages Gandalf the Grey and Morgana the Enchantress take turns erasing exactly one rune from the Spellboard, with Gandalf starting first. If erasing a rune causes the combined magical resonance (the bitwise XOR of all remaining runes) to become 0, then that mage loses immediately, as the spell collapses on them.
