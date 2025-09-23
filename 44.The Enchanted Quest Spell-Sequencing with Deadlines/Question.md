@@ -1,4 +1,4 @@
-# Problem: The Enchanted Quest: Spell Sequencing with Deadlines
+# The Enchanted Quest: Spell Sequencing with Deadlines
 
 You are given `n` mystical spells (jobs). Each spell holds:  
 - a Rune of Identity  **id**(unique id)

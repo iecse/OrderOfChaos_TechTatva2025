@@ -27,7 +27,7 @@ It is foretold that every trial holds at least one shattered runestone.
 
 ---
 
-## 🔮 Output  
+## Output  
 For each trial, whisper **“YES”** if Arun can escape the Corridor of Eternal Night, or **“NO”** if the darkness devours him.  
 
 ---

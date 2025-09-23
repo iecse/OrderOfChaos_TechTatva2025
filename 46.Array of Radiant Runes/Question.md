@@ -1,4 +1,4 @@
-# Problem: Array of Radiant Runes
+# Array of Radiant Runes
 
 A rune in the array is called **radiant** if it **shines brighter than all the runes to its right.**  
 
