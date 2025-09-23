@@ -3,7 +3,7 @@
 
 -Mahika
 
-A kingdom is represented as an undirected graph. There are three special nodes:
+The kingdom Eldoria is represented as an undirected graph. There are three special nodes:
 - 0 → The Sacred Portal (the exit).
 - 1 → Starting position of the Light Spirit.
 - 2 → Starting position of the Shadow Beast.
