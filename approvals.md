@@ -2,7 +2,7 @@
 
 | Sr.No | Question Name                    | OC             | Difficulty | Status | Question Inspiration |
 | ----- | -------------------------------- | -------------- | ------ | ------ | ------ |
-| 01.   | Crystal Resonance                | Abhyuday Gupta | Easy | |https://leetcode.com/problems/contains-duplicate/description/|
+| 01.   | Crystal Resonance                | Abhyuday Gupta | Easy | Reword in a simpler manner|https://leetcode.com/problems/contains-duplicate/description/|
 | 02.   | Mystical Ritual Circles          | Abhyuday Gupta |    Medium    | |https://codeforces.com/problemset/problem/2121/F|
 | 04    | Kingdom Of Numeria               | Rishabh Raj    |  Easy     | | https://leetcode.com/problems/merge-sorted-array/description/|
 | 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | Self|
