@@ -19,7 +19,7 @@
 | 15    | The corridor of Eternal|          Arunima  Bhattacharjee      |    Easy
 | 16    | Hidden Multiplication|          Arunima  Bhattacharjee      |    Easy
 | 17    | One Flip|          Arunima  Bhattacharjee      |    Medium
-| 18    | Wizard's Guests                  | Rishit Singh   | Medium       | | https://codeforces.com/problemset/problem/2014/D|
+| 18    | Wizard's Guests                  | Rishit Singh   | Medium       | Backup| https://codeforces.com/problemset/problem/2014/D|
 | 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      | |https://leetcode.com/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=brainteaser|
 | 20    | Lever Of Jadoo Nagar               | Rishabh Raj    | Easy        | | |
 | 21    | Enchanted Arrays of Eldoria       | Rishabh Raj    | Easy       | | |
@@ -34,26 +34,26 @@
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |    Hard    |approved |https://codeforces.com/problemset/problem/2108/F |
 | 28.   | Alchemist's Array                | Kushal Raj     | Hard   | | Self|
 | 29.   | Mystical Enchantment Network     | Abhyuday Gupta |   Hard     | | https://codeforces.com/problemset/problem/19/E|
-| 30    | Arcane Coin Clash                | Rishit Singh   | Hard       | | https://codeforces.com/problemset/problem/2127/C|
-| 31    | Guild Of Magical Hiring          | Rishit Singh   | Hard       | | https://leetcode.com/problems/minimum-cost-to-hire-k-workers/|
+| 30    | Arcane Coin Clash                | Rishit Singh   | Hard       | Backup| https://codeforces.com/problemset/problem/2127/C|
+| 31    | Guild Of Magical Hiring          | Rishit Singh   | Hard       | Backup| https://leetcode.com/problems/minimum-cost-to-hire-k-workers/|
 | 32    | Path of Power                    | Kushal Raj     | Medium | | https://leetcode.com/problems/binary-tree-maximum-path-sum|
 | 33    | Chronomancer's Time Fabric       | Kushal Raj     | Hard   | | https://leetcode.com/problems/rotting-oranges|
 | 34    | Sorcerer's Spell Book            | Kushal Raj     | Medium | | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string|
-| 35    | Caravans Of The Realm            | Rishit Singh   | Medium       | | https://leetcode.com/problems/car-fleet/|
-| 36    | Magical Gem Quest                | Rishit Singh   | Hard | Kept for backup | https://leetcode.com/problems/cherry-pickup/|
+| 35    | Caravans Of The Realm            | Rishit Singh   | Medium       | Approved| https://leetcode.com/problems/car-fleet/|
+| 36    | Magical Gem Quest                | Rishit Singh   | Hard | Dropped | https://leetcode.com/problems/cherry-pickup/|
 | 37    | Summit of Eldoria                | Kushal Raj     | Medium | | https://leetcode.com/problems/find-a-peak-element-ii|
 | 38    | Sun Shadow                       | Kushal Raj     | Medium | | https://leetcode.com/problems/asteroid-collision|
 | 39    | Grand Conjunction                | Kushal Raj     | Easy   | | https://leetcode.com/problems/rotate-list|
-| 40    | Spell Of Twin Energies           | Rishit Singh   | Easy       | | https://leetcode.com/problems/sum-of-square-numbers/|
+| 40    | Spell Of Twin Energies           | Rishit Singh   | Medium       | Approved| https://leetcode.com/problems/sum-of-square-numbers/|
 | 41    | Celestial Forge                  | Kushal Raj     | Hard   | | Self|
-| 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | | https://codeforces.com/problemset/problem/1133/D|
-| 43    | The Cunning Alchemist            | Rishit Singh   | Medium       | | https://codeforces.com/contest/2132/problem/C1|
+| 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | Rephrase| https://codeforces.com/problemset/problem/1133/D|
+| 43    | The Cunning Alchemist            | Rishit Singh   | Medium       | Approved| https://codeforces.com/contest/2132/problem/C1|
 | 44    | Spell Sequence and deadline|          Arunima  Bhattacharjee      |    Medium
 | 45    | Rain Water With Cursed leak|          Arunima  Bhattacharjee      |    Hard
 | 46    | The Array of Radiant Runes|          Arunima  Bhattacharjee      |    Easy
 | 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Easy
 | 48    | Mystic Wall                       | Mahika Kapil   | Hard  |Kept for backup |https://leetcode.com/problems/push-dominoes|
-| 49    | Magical Potion Mixing            | Rishit Singh   | Easy       | | Self|
+| 49    | Magical Potion Mixing            | Rishit Singh   | Easy       | Approved| Self|
 | 50    | Scroll of Balance                   | Mahika Kapil   | Hard  | |[https://leetcode.com/problems/push-dominoes](https://codeforces.com/problemset/problem/2127/C)|
 
 
