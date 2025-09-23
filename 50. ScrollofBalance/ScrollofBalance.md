@@ -1,4 +1,5 @@
 # Scroll of Balance (Hard)
+## Greedy, Sorting, Games
 -Mahika
 
 In the land of Bharatavarsha, two mages wandered: Arjun, the Harmonizer, and Aarambh, the Trickster. Arjun carried the calm light of the moon, seeking balance. Aarambh carried the fire of mischief, twisting spells for chaos.
