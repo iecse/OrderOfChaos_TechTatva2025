@@ -1,5 +1,5 @@
 # Philosopher's Scroll (Medium)
-## String
+## String, Stack
 -Mahika
 ## Problem Statement
 The great Philosopher's Scroll is written in a magical code. Each spell is inscribed as:
