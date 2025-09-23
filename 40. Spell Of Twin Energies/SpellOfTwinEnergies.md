@@ -1,5 +1,5 @@
 # Spell of Twin Energies  
-## Question Difficulty – Medium  
+## Question Difficulty – Easy  
 
 The great wizard **Rudra** has discovered a mysterious **magical crystal** containing **`c` units of pure energy**.  
 
