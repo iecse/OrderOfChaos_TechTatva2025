@@ -8,7 +8,7 @@
 | 05    | The Enchanted Crossing           | Rishit Singh   | Easy | | Self|
 | 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | | Self|
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |    Medium    | |https://codeforces.com/problemset/problem/2131/F |
-| 08    | Energy Core Synchronization      | Mahika Kapil   | Easy     | |https://codeforces.com/problemset/problem/2111/A |
+| 08    | Energy Core Synchronization      | Mahika Kapil   | Medium     | |https://codeforces.com/problemset/problem/2111/A |
 | 09    | Sacred Portal                    | Mahika Kapil   | Hard       | |https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory|
 | 10    | Ancestral Guardian               | Kushal Raj     | Medium | | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree |
 | 11    | Archon Attunement                | Kushal Raj     | Medium | | https://leetcode.com/problems/koko-eating-bananas|
@@ -19,7 +19,7 @@
 | 16    | Hidden Multiplication|          Arunima  Bhattacharjee      |    Easy
 | 17    | One Flip|          Arunima  Bhattacharjee      |    Medium
 | 18    | Wizard's Guests                  | Rishit Singh   | Medium       | | https://codeforces.com/problemset/problem/2014/D|
-| 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      | |https://leetcode.com/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=brainteaser|
+| 19    | Spellboard XOR Duel              | Mahika Kapil   |  Easy      | |https://leetcode.com/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=brainteaser|
 | 20    | Lever Of Divergia                | Rishabh Raj    | Easy        | | |
 | 21    | Enchanted Arrays of Utopia       | Rishabh Raj    | Easy       | | |
 | 22    | Arcane Punge                     | Rishabh Raj    | Medium     | | |
