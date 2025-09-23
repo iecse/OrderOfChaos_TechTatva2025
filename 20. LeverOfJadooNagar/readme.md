@@ -15,21 +15,20 @@ Both arrays contain exactly `n` numbers each.
 
 ## The Ritual of the Lever
 
-The ancient artifact known as **The Lever** iterates through magical steps. In each iteration, it performs the following ritual:
+The magical Lever works in iterations:
 
-1. The Lever seeks an index `i` where the **Flame rune** is **greater** than the Frost rune (`a[i] > b[i]`).  
-   - If such an index exists, the Lever **reduces** the Flame rune (`a[i] = a[i] - 1`).  
-   - If no such index exists, this step is ignored.  
+If there exists an index i where `a[i] > b[i]`, reduce that rune `(a[i] = a[i] - 1)`.
 
-2. The Lever then seeks an index `i` where the **Flame rune** is **less** than the Frost rune (`a[i] < b[i]`).  
-   - If such an index exists, the Lever **increases** the Flame rune (`a[i] = a[i] + 1`).  
-   - If no such index exists, this step is ignored.  
+If there exists an index i where `a[i] < b[i]`, increase that rune `(a[i] = a[i] + 1)`.
 
-3. After each iteration, if Step 1 was ignored (i.e., no Flame rune was greater than its Frost counterpart), the Lever’s magic ceases and the ritual ends.  
+If in Step 1 no such index exists, the ritual ends.
+
+The number of iterations is unique and does not depend on which indices are chosen.
 
 ---
 
 ## The Task
+
 Given the two enchanted arrays `a` and `b`, determine the **exact number of iterations** the Lever will perform before its power fades.  
 
 It is foretold that this number is **unique** and does not depend on which runes the Lever chooses in each step.
