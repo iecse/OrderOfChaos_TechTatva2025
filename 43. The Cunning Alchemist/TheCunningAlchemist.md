@@ -1,5 +1,5 @@
 # The Cunning Alchemist 
-## Question Difficulty – Easy  
+## Question Difficulty – Medium  
 
 The cunning alchemist **Zerathus** discovered a special type of **magical potion**. He realized that selling them cleverly could increase his profit.  
 
