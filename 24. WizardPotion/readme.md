@@ -19,13 +19,19 @@ In the mystical land of **Eldoria**, a group of wizards are attempting to brew t
 
 ## Input
 
-* `thresholds` → an array of integers representing the magical essence in each threshold.
+The first line contains a single integer t — the number of testcases.
+
+For each testcase:
+
+The first line contains an integer n — the number of thresholds.
+
+The second line contains n integers — the array thresholds
 
 ---
 
 ## Output
 
-* The **maximum potion strength** that can be brewed by any pair of thresholds.
+The **maximum potion strength** that can be brewed by any pair of thresholds.
 
 ---
 
@@ -34,7 +40,13 @@ In the mystical land of **Eldoria**, a group of wizards are attempting to brew t
 **Input:**
 
 ```
-thresholds = [1,8,6,2,5,4,8,3,7]
+3
+9
+1 8 6 2 5 4 8 3 7
+5
+5 5 5 5 5
+4
+1 2 4 3
 ```
 
 
@@ -42,6 +54,8 @@ thresholds = [1,8,6,2,5,4,8,3,7]
 
 ```
 49
+20
+4
 ```
 
 ---

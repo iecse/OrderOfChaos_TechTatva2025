@@ -40,17 +40,11 @@ For each test case, output a single integer — the **minimum number of rituals*
 **Input**
 ```
 3
-
 3
-
 1 4 3
-
 4
-
 2 2 2 2
-
 5
-
 5 7 9 10 2
 ```
 

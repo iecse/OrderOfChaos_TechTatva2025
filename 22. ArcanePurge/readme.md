@@ -4,16 +4,17 @@
 
 ## Description:
 
-In the enchanted kingdom of **Eldoria**, Archmage Kaelen is tasked with cleansing the world of cursed relics scattered across the land. Each relic hums with unstable magic, measured by its **arcane weight**.  
 
-To purify the world, Kaelen must destroy all relics one by one. But destroying relics comes at a price:  
+In Eldoria, there are **n cursed relics**, each with an arcane weight. Archmage Kaelen must destroy them one by one.
 
-- If a relic’s **arcane weight** is **greater than the sacred limit** `C`, Kaelen must expend **1 mana crystal** to shatter it.  
-- Otherwise, the relic collapses freely without consuming any mana.  
+If a relic’s weight is greater than the sacred limit `C`, Kaelen must spend **1 mana crystal** to destroy it.
 
-Yet, the realm’s chaotic magic brings a terrible curse — **with every passing second, the power of all remaining relics doubles**. This makes waiting dangerous, as weak relics may grow beyond the sacred limit if left unchecked.  
+Otherwise, it can be destroyed freely.
 
-Kaelen seeks your guidance: what is the **minimum number of mana crystals** he must spend to completely purge all relics?  
+After each second, all remaining relics **double** in weight.
+
+Find the **minimum number** of mana crystals needed to destroy all relics. 
+
 
 ---
 
