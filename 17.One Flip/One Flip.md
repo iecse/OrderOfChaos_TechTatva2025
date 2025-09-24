@@ -1,87 +1,48 @@
-# Longest Uniform Subarray After One Flip  
+# The Spell of Perfect Harmony
 
-You are given a **binary array** `nums`.  
+In the Realm of Binary Plains, an ancient path is paved with n glowing stones, each shining with either darkness (0) or light (1).
 
-You possess a **single spell of transformation**: you may flip **exactly one bit** (turn `0 → 1` or `1 → 0`).  
+You possess a single spell of transformation:
 
-Your quest: find the length of the **longest contiguous subarray** that contains only **one type of element** (all `0`s or all `1`s) after this magical flip.  
+- You may flip exactly one stone’s essence (turn 0 → 1 or 1 → 0).
+
+Your quest is to determine the length of the longest continuous stretch of stones that radiate in perfect harmony (all glowing the same) after casting your spell.
 
 ---
 
 ## Input  
-- A binary array `nums`.  
+- The first line contains an integer t (1 ≤ t ≤ 10^4) — the number of trials.
 
----
+- Each trial begins with an integer n (1 ≤ n ≤ 10^5) — the number of stones.
 
+- The next line contains n integers a1, a2, …, an (ai ∈ {0,1}) — the glow of each stone.
+
+It is guaranteed that the sum of n across all trials does not exceed 10^5.
 ## Output  
-- The length of the longest uniform subarray possible after one flip.  
+For each trial, output a single integer — the maximum length of a harmonious stretch possible after one transformation. 
 
----
+
 
 ## Examples  
 
-### Example 1  
+
 **Input:**  
----
+
 ```
-nums = [1,1,0,1]
+3
+4
+1 1 0 1
+6
+0 1 1 0 0 1
+3
+0 0 0
 ```
 **Output:**  
----
+
 ```
 4
-```
----
-
-**Explanation:**  
----
-- Flip the `0` → `[1,1,1,1]`.  
-- Entire array becomes length `4`. ✅  
-
----
-
-### Example 2  
-**Input:**  
----
-```
-nums = [0,1,1,0,0,1]
-```
-**Output:**  
----
-```
 4
-```
----
-**Explanation:**  
----
-- Flip different positions:  
-  - Flip `1` → longest = 3 zeros.  
-  - Flip another `1` → longest = 3 ones.  
-  - Flip middle `0` → longest = 3 ones.  
-- Best possible = subarray of `4` zeros (indices 3–6). ✅  
-
----
-### Example 3  
-**Input:**  
----
-```
-nums = [0,0,0]
-```
-**Output:** 
----
-```
 3
 ```
 
-**Explanation:**  
----
-- Flip any `0`.  
-- Still max uniform subarray length = 3.  
 
----
-
-## Constraints  
-- `1 ≤ nums.length ≤ 10^5`  
-- `nums[i] ∈ {0,1}`  
-
----

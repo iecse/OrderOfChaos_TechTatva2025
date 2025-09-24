@@ -1,59 +1,42 @@
-#  Hidden Multiplication  
+#  Hidden Multiplication of the Arcane Scroll
 
-Artem thought of a **mystical number** `x`. To cloak it in mystery, he multiplied it by a **power of 10** (at least `10^1`), creating `y = x ⋅ 10^k`.  
+Long ago, the sage Artem discovered a secret of the Arcane Scroll of Numbers.
+He chose a hidden number x and, to mask its true form, he performed two mystical acts:
 
-Then, to further confuse everyone, he **added both numbers together**:  
+- He summoned a power of ten (10^k, with k ≥ 1).
 
-
-You are given the final number `n`. Your task is to determine **all possible values of `x`** that Artem could have originally thought of.  
-`Formula: n = x ⋅ (1 + 10^k)`
-
----
+- He multiplied x by this power and then bound the two numbers together into one:
+```
+n = x + (x ⋅ 10^k)
+n = x ⋅ (1 + 10^k)
+```
 
 ## Input  
 
-- The first line contains a single integer `t` (`1 ≤ t ≤ 10^4`) — the number of test cases.  
-- Each of the next `t` lines contains a single integer `n` (`11 ≤ n ≤ 10^18`).  
+- The first line contains an integer t (1 ≤ t ≤ 10^4) — the number of test cases.
 
----
+- Each of the next t lines contains a single integer n (11 ≤ n ≤ 10^18).
 
 ## Output  
-For each test case:  
-- Output `0` if no suitable `x` exists.  
-- Otherwise, output the **number of possible `x` values**, followed by all valid values in **ascending order**.  
+For each test case, output:
 
----
+- 0 if no such x exists.
+
+- Otherwise, first print the number of possible x values, followed by the values in ascending order.  
+
 
 ## Example  
 
 **Input**  
----
+
 ```
 2
 121
 1100
 ```
 **Output**  
----
+
 ```
 1 11
 1 100
 ```
----
-## Explanation  
-
-For `n = 121`:  
-- If `k = 1`, then `n = x ⋅ (1 + 10^1) = 11x`.  
-  - `x = 121 / 11 = 11` (valid)  
-- No other `k` divides `121`.  
-
-For `n = 1100`:  
-- If `k = 1`, denominator = `1 + 10^1 = 11`.  
-  - `x = 1100 / 11 = 100` (valid)  
-- Higher values of `k` don’t divide `1100`.  
-
-Thus:  
-- `121 → x = 11`  
-- `1100 → x = 100`  
-
----
