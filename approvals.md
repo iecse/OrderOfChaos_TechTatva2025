@@ -29,7 +29,7 @@
 | 25    | Philosopher's Scroll             | Mahika Kapil   |        | | |
 | 23    | Crystal Bridges                  | Rishabh Raj    | Medium      | | | https://codeforces.com/problemset/gymProblem/100551/C
 | 24    | Wizard Potion                    | Rishabh Raj    | Medium       | | |https://leetcode.com/problems/container-with-most-water/description/
-| 25    | Philosopher's Scroll             | Mahika Kapil   |   Medium     |Reworded | https://leetcode.com/problems/decode-string/description/?envType=problem-list-v2&envId=stack|
+| 25    | Philosopher's Scroll             | Mahika Kapil   |   Medium     |approved | https://leetcode.com/problems/decode-string/description/?envType=problem-list-v2&envId=stack|
 | 26    | Wizard's Wand                    | Kushal Raj     | Hard   | | https://leetcode.com/problems/maximum-subarray|
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |    Hard    |approved |https://codeforces.com/problemset/problem/2108/F |
 | 28.   | Alchemist's Array                | Kushal Raj     | Hard   | | Self|
