@@ -10,7 +10,7 @@
 | 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | Approved| Self|
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |    Medium    |change zelda |https://codeforces.com/problemset/problem/2131/F |
 | 08    | Energy Core Synchronization      | Mahika Kapil   | Medium     | Approved |https://codeforces.com/problemset/problem/2111/A |
-| 09    | Sacred Portal                    | Mahika Kapil   | Hard       | |https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory|
+| 09    | Sacred Portal                    | Mahika Kapil   | Hard       |Approved |https://leetcode.com/problems/cat-and-mouse/?envType=problem-list-v2&envId=game-theory|
 | 10    | Ancestral Guardian               | Kushal Raj     | Medium | | https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree |
 | 11    | Archon Attunement                | Kushal Raj     | Medium | | https://leetcode.com/problems/koko-eating-bananas|
 | 12    | Paradox                          | Kushal Raj     | Medium | | https://leetcode.com/problems/daily-temperatures|
@@ -20,7 +20,7 @@
 | 16    | Hidden Multiplication|          Arunima  Bhattacharjee      |    Medium|Approved
 | 17    | Longest Uniform Subarray After One Flip|          Arunima  Bhattacharjee      |    Medium|Approved
 | 18    | Wizard's Guests                  | Rishit Singh   | Medium       | Backup| https://codeforces.com/problemset/problem/2014/D|
-| 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      | |https://leetcode.com/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=brainteaser|
+| 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      |Approved|https://leetcode.com/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=brainteaser|
 | 20    | Lever Of Jadoo Nagar               | Rishabh Raj    | Easy        | | |
 | 21    | Enchanted Arrays of Eldoria       | Rishabh Raj    | Easy       | | |
 | 22    | Arcane Purge                     | Rishabh Raj    | Medium     | | |
@@ -54,6 +54,6 @@
 | 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Medium|BackUp
 | 48    | Mystic Wall                       | Mahika Kapil   | Hard  |Kept for backup |https://leetcode.com/problems/push-dominoes|
 | 49    | Magical Potion Mixing            | Rishit Singh   | Easy       | Approved| Self|
-| 50    | Scroll of Balance                   | Mahika Kapil   | Hard  | |[https://leetcode.com/problems/push-dominoes](https://codeforces.com/problemset/problem/2127/C)|
+| 50    | Scroll of Balance                   | Mahika Kapil   | Hard  |Approved |[https://leetcode.com/problems/push-dominoes](https://codeforces.com/problemset/problem/2127/C)|
 
 
