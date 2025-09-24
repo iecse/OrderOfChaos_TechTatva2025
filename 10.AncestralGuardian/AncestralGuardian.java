@@ -8,7 +8,6 @@ class TreeNode {
 }
 
 public class AncestralGuardian {
-
     public int findGuardian(TreeNode root, int id1, int id2) {
         TreeNode lca = findLCA(root, id1, id2);
         while (lca != null) {

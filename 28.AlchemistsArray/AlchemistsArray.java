@@ -47,17 +47,4 @@ public class AlchemistsArray {
         }
         return Math.max(potions.length > 0 ? 1 : 0, longestMix);
     }
-
-    public static void main(String[] args) {
-        int[] potions1 = {2, 2, 1, 1, 5, 3, 3}; 
-        int[] potions2 = {1, 1, 2, 2, 1, 3, 4, 5};
-
-        System.out.println("--- Corrected Alchemist's Array Tests ---");
-
-        int result1 = findLongestBalancedMix(potions1);
-        System.out.println("Input: " + Arrays.toString(potions1) + ", Longest Mix: " + result1);
-
-        int result2 = findLongestBalancedMix(potions2);
-        System.out.println("Input: " + Arrays.toString(potions2) + ", Longest Mix: " + result2);
-    }
 }
