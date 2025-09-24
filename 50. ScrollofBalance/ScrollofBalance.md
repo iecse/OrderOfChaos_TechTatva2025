@@ -6,6 +6,7 @@ In the land of Bharatavarsha, two mages wandered: Arjun, the Harmonizer, and Bha
 One summer, they discovered two ancient scrolls of symbols, Scroll A and Scroll B, each holding n symbols. They agreed to play a magical game lasting k rounds.
 
 In each round:
+
 -Arjun chose two rune positions i and j (1 ≤ i < j ≤ n).
 
 -Bhavesh rearranged the four runes a[i], a[j], b[i], b[j] in any way, even swapping between scrolls.
@@ -20,7 +21,9 @@ This imbalance became the number of destiny coins. Arjun wished to minimize v, w
 
 For each test case:
 -The first line contains two integers n and k: the number of runes and rounds.
+
 -The second line contains n integers a[1..n]: runes in Scroll A.
+
 -The third line contains n integers b[1..n]: runes in Scroll B.
 
 ## Output
