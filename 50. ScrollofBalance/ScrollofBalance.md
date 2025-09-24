@@ -7,7 +7,9 @@ One summer, they discovered two ancient scrolls of symbols, Scroll A and Scroll 
 
 In each round:
 -Arjun chose two rune positions i and j (1 ≤ i < j ≤ n).
+
 -Bhavesh rearranged the four runes a[i], a[j], b[i], b[j] in any way, even swapping between scrolls.
+
 -At the end of all k rounds, the imbalance between the scrolls was measured:
 v = Σ |a[i] − b[i]|
 This imbalance became the number of destiny coins. Arjun wished to minimize v, while Bhavesh wished to maximize it. You must determine the final number of coins if both play optimally.
