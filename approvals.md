@@ -16,9 +16,9 @@
 | 12    | Paradox                          | Kushal Raj     | Medium | | https://leetcode.com/problems/daily-temperatures|
 | 13    | Runes of Equilibrium             | Kushal Raj     | Medium | | Self|
 | 14    | Scroll of Requirement            | Kushal Raj     | Hard   | | https://leetcode.com/problems/minimum-window-substring|
-| 15    | The corridor of Eternal|          Arunima  Bhattacharjee      |    Easy
-| 16    | Hidden Multiplication|          Arunima  Bhattacharjee      |    Easy
-| 17    | Longest Uniform Subarray After One Flip|          Arunima  Bhattacharjee      |    Medium
+| 15    | The corridor of Eternal|          Arunima  Bhattacharjee      |    Easy| Approved
+| 16    | Hidden Multiplication|          Arunima  Bhattacharjee      |    Medium|Approved
+| 17    | Longest Uniform Subarray After One Flip|          Arunima  Bhattacharjee      |    Medium|Approved
 | 18    | Wizard's Guests                  | Rishit Singh   | Medium       | Backup| https://codeforces.com/problemset/problem/2014/D|
 | 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      | |https://leetcode.com/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=brainteaser|
 | 20    | Lever Of Jadoo Nagar               | Rishabh Raj    | Easy        | | |
@@ -48,10 +48,10 @@
 | 41    | Celestial Forge                  | Kushal Raj     | Hard   | | Self|
 | 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | Dropped| https://codeforces.com/problemset/problem/1133/D|
 | 43    | The Cunning Alchemist            | Rishit Singh   | Medium       | Approved| https://codeforces.com/contest/2132/problem/C1|
-| 44    | The Enchanted Quest: Spell Sequencing with Deadlines|          Arunima  Bhattacharjee      |    Medium
-| 45    | Rain Water With Cursed leak|          Arunima  Bhattacharjee      |    Hard
-| 46    | The Array of Radiant Runes|          Arunima  Bhattacharjee      |    Easy
-| 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Easy
+| 44    | The Enchanted Quest: Spell Sequencing with Deadlines|          Arunima  Bhattacharjee      |    Hard|Approve
+| 45    | |        |    
+| 46    | The Array of Radiant Runes|          Arunima  Bhattacharjee      |    Easy|Approve
+| 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Medium|BackUp
 | 48    | Mystic Wall                       | Mahika Kapil   | Hard  |Kept for backup |https://leetcode.com/problems/push-dominoes|
 | 49    | Magical Potion Mixing            | Rishit Singh   | Easy       | Approved| Self|
 | 50    | Scroll of Balance                   | Mahika Kapil   | Hard  | |[https://leetcode.com/problems/push-dominoes](https://codeforces.com/problemset/problem/2127/C)|
