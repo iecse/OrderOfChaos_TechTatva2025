@@ -19,15 +19,6 @@ Print two integers:
 Input: runes = [1,1,2]  
 Output: false
 
-
-Explanation:
-Gandalf has two choices:
-If he erases the rune 1, the Spellboard becomes [1,2]. The resonance is 1 XOR 2 = 3. Morgana can then erase whichever rune she wants, and Gandalf will be forced to erase the final rune, collapsing the spell and losing.
-
-If Gandalf erases the rune 2, the Spellboard becomes [1,1]. The resonance is 1 XOR 1 = 0. Gandalf loses immediately.
-
-Thus, Gandalf cannot win.
-
 ## Example 2
 
 Input: runes = [0,1]  
