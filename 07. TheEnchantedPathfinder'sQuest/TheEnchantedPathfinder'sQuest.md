@@ -4,11 +4,11 @@
 
 ## Description:
 
-Zelda the sorceress has discovered two magical crystal formations α and β, each containing n crystals arranged in a line. Each crystal can be either **Fire** (represented by 1) or **Ice** (represented by 0). The two formations dynamically create a mystical n × n energy grid where the energy at position (i,j) equals αᵢ ⊕ βⱼ (where ⊕ denotes the magical XOR resonance).
+Lara the sorceress has discovered two magical crystal formations α and β, each containing n crystals arranged in a line. Each crystal can be either **Fire** (represented by 1) or **Ice** (represented by 0). The two formations dynamically create a mystical n × n energy grid where the energy at position (i,j) equals αᵢ ⊕ βⱼ (where ⊕ denotes the magical XOR resonance).
 
-Zelda's familiar, a wise phoenix, always starts its journey at the top-left corner (1,1) of the energy grid. From any cell (i,j), the phoenix can only fly down to (i+1,j) or right to (i,j+1). The phoenix can successfully complete its journey to any cell only if there exists a valid path where **all cells on the path, including (1,1), have energy value 0**.
+Lara's familiar, a wise phoenix, always starts its journey at the top-left corner (1,1) of the energy grid. From any cell (i,j), the phoenix can only fly down to (i+1,j) or right to (i,j+1). The phoenix can successfully complete its journey to any cell only if there exists a valid path where **all cells on the path, including (1,1), have energy value 0**.
 
-Before beginning her quest, Zelda can perform the following **Crystal Transmutation** ritual any number of times:
+Before beginning her quest, Lara can perform the following **Crystal Transmutation** ritual any number of times:
 
 - Choose one crystal position 1 ≤ i ≤ n, and flip either αᵢ or βᵢ (Fire becomes Ice, Ice becomes Fire). The entire energy grid will magically reconfigure accordingly.
 
@@ -63,50 +63,6 @@ For each test case, output one integer — the sum of minimum transmutations ove
 4
 24
 ```
-
-## Explanation:
-
-**Test Case 1:** The 2×2 energy grid initially looks like:
-
-```
-11
-11
-```
-
-In the initial state, the phoenix cannot reach any cell since (1,1) has energy 1.
-
-Zelda can transmute α₁ so the grid becomes:
-
-```
-01
-01
-```
-
-Now the phoenix can reach cells (1,1) and (1,2).
-
-Alternatively, she can transmute β₁ so the grid becomes:
-
-```
-10
-10
-```
-
-Now the phoenix can reach cells (1,1) and (2,1).
-
-To reach cell (2,2), she must perform at least two transmutations. For example, transmute both α₁ and α₂:
-
-```
-00
-00
-```
-
-Therefore, the answer is 1 + 1 + 1 + 2 = 5.
-
-**Test Case 2:** With formations "01" and "01", strategic transmutations allow the phoenix to reach all destinations with a total of 4 transmutations.
-
-**Test Case 3:** The larger 4×4 grid requires more complex analysis across all 16 possible destinations, resulting in 24 total transmutations.
-
----
 
 ## Notes:
 
