@@ -16,21 +16,37 @@ Your task as the Apprentice Wizard is to fully decode the scroll and reveal the 
 
 ## Input
 
-A string s representing the magical encoded scroll.
-
-Valid symbols: lowercase letters (spells), digits (repeat counts), and brackets [].
+- The first line contains an integer t (1 ≤ t ≤ 100) — the number of test cases.
+- Each of the next t lines contains a non-empty string s, the encoded scroll.
+- The string s consists of lowercase English letters, digits, and square brackets [].
+- It is guaranteed that the input is always valid and properly encoded.
 
 ## Output
 
-The fully decoded chant (a string).
+For each test case, print the fully decoded chant as a string.
 
-## Example Spells
+## Example
 
-Input: 3[a]2[bc]
-Output: aaabcbc
+Input
+```
+3
+3[a]2[bc]
+3[a2[c]]
+2[abc]3[cd]ef
+```
 
-Input: 3[a2[c]]
-Output: accaccacc
+Output
 
-Input: 2[abc]3[cd]ef
-Output: abcabccdcdcdef
+```
+aaabcbc
+accaccacc
+abcabccdcdcdef
+```
+
+## Constraints
+
+- 1 ≤ t ≤ 100
+- 1 ≤ |s| ≤ 1000 (length of each encoded scroll)
+- 1 ≤ k ≤ 300 (repeat count for any spell)
+- The encoded string s contains only lowercase English letters, digits, and square brackets [].
+- It is guaranteed that all encoded strings are valid and properly nested.
