@@ -1,11 +1,4 @@
-
------
-
-# The Sorcerer's Spellbook: The Curse of Annihilation
-
-## Question Difficulty: Easy - Medium
-
-### Description:
+## The Sorcerer's Spellbook: The Curse of Annihilation
 
 A master sorcerer stores powerful **spells** on an ancient, **enchanted scroll**. This scroll is represented as a string, where each character is a magical **rune** (a lowercase English letter).
 
@@ -15,30 +8,23 @@ Your task is to foresee the final state of this cursed scroll after all possible
 
 -----
 
-### Input:
+## Input Format
 
-The input will be a single string `s`, representing the initial sequence of runes on the scroll.
+The only line of each test case contains a single string **`s`** ($1 \le |s| \le 2 \cdot 10^5$) — the initial sequence of runes on the scroll.  
 
------
-
-### Output:
-
-Return a single string representing the final, stable state of the scroll.
-
-If the scroll becomes completely empty after all annihilations, return the string `"Empty Spellbook"`.
+The scroll is composed exclusively of lowercase English letters. The sum of **`|s|`** over all test cases will not exceed $2 \cdot 10^5$.
 
 -----
 
-### Constraints
+## Output Format
 
-  * **Length of the Scroll (`s`):** The scroll can contain between $1$ and $200,000$ runes, inclusive.
-  * **Rune Alphabet:** The spells are composed exclusively of lowercase English letters (i.e., `a` through `z`).
+For each test case, print the final, stable state of the scroll on a new line.
+
+If the scroll becomes completely empty after all annihilations, print the string `Empty Spellbook`.
 
 -----
 
-### Examples
-
-#### Example 1
+## Example 1
 
 **Input**
 
@@ -47,17 +33,14 @@ abccba
 ```
 
 **Output**
-`Empty Spellbook`
 
-**Explanation**
-The annihilation process occurs in a chain reaction:
+```
+Empty Spellbook
+```
 
-1.  The initial scroll is `abccba`.
-2.  The two `c` runes in the middle are adjacent and annihilate, leaving the scroll as `abba`.
-3.  This brings the two `b` runes together. They annihilate, leaving `aa`.
-4.  Finally, the two `a` runes annihilate, leaving the scroll completely empty.
+-----
 
-#### Example 2
+## Example 2
 
 **Input**
 
@@ -66,17 +49,14 @@ azxxzy
 ```
 
 **Output**
-`ay`
 
-**Explanation**
-The process unfolds as follows:
+```
+ay
+```
 
-1.  The initial scroll is `azxxzy`.
-2.  The `xx` runes annihilate, resulting in `azzy`.
-3.  This brings the two `z` runes together. They annihilate, leaving `ay`.
-4.  The scroll is now stable as no adjacent runes are identical.
+-----
 
-#### Example 3
+## Example 3
 
 **Input**
 
@@ -85,16 +65,11 @@ aabcca
 ```
 
 **Output**
-`ba`
 
-**Explanation**
-The sequence of annihilations is:
-
-1.  The initial scroll is `aabcca`.
-2.  The `aa` runes at the start annihilate, leaving `bcca`.
-3.  The `cc` runes are now adjacent. They annihilate, leaving `ba`.
-4.  The scroll is now stable.
+```
+ba
+```
 
 -----
 
-### *Question designed by Kushal [rkushell](https://github.com/rkushell)*
+*Question designed by Kushal [rkushell](https://github.com/rkushell)*

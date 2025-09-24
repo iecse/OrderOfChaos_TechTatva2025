@@ -1,72 +1,62 @@
-
-***
-
-# The Grand Conjunction: Runic Rotation
-
-## Question Difficulty: Easy
-
-### Description:
+## The Grand Conjunction: Runic Rotation
 
 In the highest chamber of the Astral Tower, an ancient artifact is kept: a chain of **magical runes**, structured as a **doubly linked list**. Each rune is etched with an integer value, representing a fragment of cosmic power.
 
 During the Grand Conjunction, which occurs once every millennium, the runes realign themselves in a powerful magical shift. This alignment is a precise **clockwise rotation** of the entire chain by `k` positions.
 
-As the Keeper of the Tower, your sacred duty is to predict the outcome of this event. Given the head of the runic chain and a rotation amount `k`, you must perform this magical rotation efficiently and determine the new head of the chain.
+As the Keeper of the Tower, your sacred duty is to predict the outcome of this event. Given the runic chain and a rotation amount `k`, you must perform this magical rotation efficiently and determine the new order of the runes.
 
----
+-----
 
-### Input:
+## Input Format
 
-The input will be provided directly to a function, which receives:
-- `head`: The head node of a doubly linked list of runes.
-- `k`: An integer representing the number of positions to rotate.
+For each test case:
 
-*(A pre-defined `DoublyListNode` class or struct will be available.)*
+1. The first line contains two integers **`n`** and **`k`** ($1 \le n \le 2 \cdot 10^5$; $0 \le k \le 10^9$) — the number of runes and the rotation amount, respectively.  
+2. The second line contains `n` space-separated integers $r_1, r_2, \dots, r_n$ ($-10^4 \le r_i \le 10^4$) — the values of the runes in their initial order.  
 
----
+The sum of **`n`** over all test cases will not exceed $2 \cdot 10^5$.
 
-### Output:
+-----
 
-Return the `head` of the doubly linked list after it has been rotated.
+## Output Format
 
----
+For each test case, print a single line containing `n` space-separated integers representing the values of the runes after the rotation, starting from the new head.
 
-### Constraints
+-----
 
-* **Number of Runes (`n`):** The list will contain between $1$ and $2 \times 10^5$ runes.
-* **Rune Values:** The value of a rune can range from $-10^4$ to $10^4$.
-* **Rotation Amount (`k`):** The rotation amount `k` can range from $0$ to $10^9$.
+## Example 1
 
----
+**Input**
 
-### Examples
+```
+5 2
+10 20 30 40 50
+```
 
-#### Example 1
+**Output**
 
-**Input:**
-`head` of list `10 ↔ 20 ↔ 30 ↔ 40 ↔ 50`
-`k = 2`
+```
+40 50 10 20 30
+```
 
-**Output:**
-The `head` of the new list `40 ↔ 50 ↔ 10 ↔ 20 ↔ 30`
+-----
 
-**Explanation:**
-The original chain is `10-20-30-40-50`. Rotating it clockwise by 2 positions means the last two runes (`40`, `50`) move to the front. The new order becomes `40-50-10-20-30`.
+## Example 2
 
+**Input**
 
+```
+6 4
+1 2 3 4 5 6
+```
 
-#### Example 2
+**Output**
 
-**Input:**
-`head` of list `1 ↔ 2 ↔ 3 ↔ 4 ↔ 5 ↔ 6`
-`k = 4`
+```
+3 4 5 6 1 2
+```
 
-**Output:**
-The `head` of the new list `3 ↔ 4 ↔ 5 ↔ 6 ↔ 1 ↔ 2`
+-----
 
-**Explanation:**
-Rotating the chain of 6 runes by 4 positions shifts the last four runes (`3`, `4`, `5`, `6`) to the front of the list.
-
----
-
-### *Question designed by Kushal [rkushell](https://github.com/rkushell)*
+*Question designed by Kushal [rkushell](https://github.com/rkushell)*

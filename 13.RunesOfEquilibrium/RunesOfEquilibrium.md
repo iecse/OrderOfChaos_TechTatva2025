@@ -1,5 +1,4 @@
-# Runes of Equilibrium
-## Question Difficulty: Medium
+## Runes of Equilibrium
 
 ### Description:
 Deep inside the **Obsidian Library**, you discover a row of **ancient runes**, each glowing with an integer value.  
@@ -50,9 +49,6 @@ For each rune sequence, output `"YES"` if the ritual can be performed, otherwise
 **Output**
 YES
 
-**Explanation**  
-Already possible without removal: split `[1,1]` and `[1,1]`.  
-
 ---
 
 #### Example 2
@@ -85,10 +81,6 @@ No matter which rune is removed, no valid continuous split with equal sums exist
 **Output**
 NO
 
-
-**Explanation**  
-Even after removing one rune, there is no way to split into two equal halves.  
-
 ---
 
 #### Example 4
@@ -103,9 +95,6 @@ Even after removing one rune, there is no way to split into two equal halves.
 **Output**
 YES
 
-**Explanation**  
-Split `[10]` and `[5,5]` → both sums equal 10.  
-
 ---
 
-### *Question designed by Kushal [rkushell](https://github.com/rkushell)*
+*Question designed by Kushal [rkushell](https://github.com/rkushell)*

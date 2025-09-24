@@ -32,16 +32,16 @@
 | 25    | Philosopher's Scroll             | Mahika Kapil   |   Medium     | | https://leetcode.com/problems/decode-string/description/?envType=problem-list-v2&envId=stack|
 | 26    | Wizard's Wand                    | Kushal Raj     | Hard   | | https://leetcode.com/problems/maximum-subarray|
 | 27.   | Enchanted Battle Arena           | Abhyuday Gupta |    Hard    |approved |https://codeforces.com/problemset/problem/2108/F |
-| 28.   | Alchemist's Array                | Kushal Raj     | Hard   | | Self|
+| 28.   | Alchemist's Array                | Kushal Raj     | Medium   | | Self|
 | 29.   | Mystical Enchantment Network     | Abhyuday Gupta |   Hard     | | https://codeforces.com/problemset/problem/19/E|
 | 30    | Arcane Coin Clash                | Rishit Singh   | Hard       | Backup| https://codeforces.com/problemset/problem/2127/C|
 | 31    | Guild Of Magical Hiring          | Rishit Singh   | Hard       | Backup| https://leetcode.com/problems/minimum-cost-to-hire-k-workers/|
 | 32    | Path of Power                    | Kushal Raj     | Medium | | https://leetcode.com/problems/binary-tree-maximum-path-sum|
 | 33    | Chronomancer's Time Fabric       | Kushal Raj     | Hard   | | https://leetcode.com/problems/rotting-oranges|
-| 34    | Sorcerer's Spell Book            | Kushal Raj     | Medium | | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string|
+| 34    | Sorcerer's Spell Book            | Kushal Raj     | Easy | | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string|
 | 35    | Caravans Of The Realm            | Rishit Singh   | Medium       | Approved| https://leetcode.com/problems/car-fleet/|
 | 36    | Magical Gem Quest                | Rishit Singh   | Hard | Dropped | https://leetcode.com/problems/cherry-pickup/|
-| 37    | Summit of Eldoria                | Kushal Raj     | Medium | | https://leetcode.com/problems/find-a-peak-element-ii|
+| 37    | Summit of Eldoria                | Kushal Raj     | Medium | Backup | https://leetcode.com/problems/find-a-peak-element-ii|
 | 38    | Sun Shadow                       | Kushal Raj     | Medium | | https://leetcode.com/problems/asteroid-collision|
 | 39    | Grand Conjunction                | Kushal Raj     | Easy   | | https://leetcode.com/problems/rotate-list|
 | 40    | Spell Of Twin Energies           | Rishit Singh   | Medium       | Approved| https://leetcode.com/problems/sum-of-square-numbers/|

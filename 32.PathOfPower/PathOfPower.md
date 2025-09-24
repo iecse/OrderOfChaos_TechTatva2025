@@ -1,8 +1,4 @@
-# The Enchanted Forest: Path of Power
-
-## Question Difficulty: Medium
-
-### Description:
+## The Enchanted Forest: Path of Power
 
 In the heart of an ancient, **Enchanted Forest**, the trees are imbued with raw magic. This magic is stored in the **magical fruits** that grow on their branches. The entire forest is represented as a sacred **binary tree**, where each node is a branch holding a fruit with a specific **magic power** (an integer value).
 
@@ -12,96 +8,83 @@ Your quest is to find the **maximum magical power** that can be drawn from any p
 
 -----
 
-### Input:
+## Input Format
 
-The input will be provided directly to a function, which receives:
+For each test case:
 
-  - The `root` of a binary tree, where each node represents a branch and has a `val` attribute storing the fruit's magic power.
+1. The first line contains an integer **`n`** ($1 \le n \le 10^5$) — the number of branches (nodes) in the tree.  
+2. The next `n` lines describe the nodes, indexed from 1 to `n`. The `i`-th of these lines contains three integers: `val_i`, `left_i`, and `right_i`.  
+   - `val_i` ($-1000 \le val_i \le 1000$) is the magic power of the fruit at node `i`.  
+   - `left_i` and `right_i` are the 1-based indices of the left and right children, respectively. A value of `0` indicates that a child does not exist.  
 
------
-
-### Output:
-
-Return a single integer: the maximum magical power found among all possible paths in the tree.
-
------
-
-### Constraints
-
-  - Number of nodes in the tree: 1 ≤ `n` ≤ 10^5
-  - Node `val`: -1000 ≤ `Node.val` ≤ 1000
+The node with index `1` is always the root of the tree. The sum of **`n`** over all test cases will not exceed $10^5$.
 
 -----
 
-### Examples
+## Output Format
 
-The following trees are used for the examples:
+For each test case, print a single integer on a new line: the maximum magical power found among all possible paths in the tree.
 
-#### Example 1
+-----
 
-**Tree Structure:**
-
-```
-      1
-     / \
-    2   3
-```
+## Example 1
 
 **Input**
-`root` of the tree above.
+
+```
+3
+1 2 3
+2 0 0
+3 0 0
+```
 
 **Output**
-`6`
 
-**Explanation**
-The optimal magical path connects branch `2` to branch `3` through the root, `1`. The total power is the sum of the fruit values: $2 + 1 + 3 = 6$.
+```
+6
+```
 
 -----
 
-#### Example 2
-
-**Tree Structure:**
-
-```
-     -10
-     /   \
-    9     20
-         /  \
-        15   7
-```
+## Example 2
 
 **Input**
-`root` of the tree above.
+
+```
+5
+-10 2 3
+9 0 0
+20 4 5
+15 0 0
+7 0 0
+```
 
 **Output**
-`42`
 
-**Explanation**
-The path with the maximum magical power does not involve the root (`-10`). Instead, it is entirely within the right subtree, connecting branch `15` to branch `7` through `20`. The total power is $15 + 20 + 7 = 42$.
+```
+42
+```
 
 -----
 
-#### Example 3
-
-**Tree Structure:**
-
-```
-      -3
-     /
-    5
-   / \
- -1   4
-```
+## Example 3
 
 **Input**
-`root` of the tree above.
+
+```
+4
+-3 2 0
+5 3 4
+-1 0 0
+4 0 0
+```
 
 **Output**
-`8`
 
-**Explanation**
-The best path is from node `-1` to node `4`, passing through node `5`. The sum is $-1 + 5 + 4 = 8$. The root (`-3`) is not part of this optimal path because its negative value would reduce the total power.
+```
+8
+```
 
 -----
 
-### *Question designed by Kushal [rkushell](https://github.com/rkushell)*
+*Question designed by Kushal [rkushell](https://github.com/rkushell)*

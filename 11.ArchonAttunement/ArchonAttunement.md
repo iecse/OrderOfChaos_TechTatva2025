@@ -1,97 +1,79 @@
-# The Archon's Aetherium Attunement 
-## Question Difficulty: Medium
+## The Archon's Aetherium Attunement
 
-### Description
+In the celestial realm of **Eldoria**, a rare cosmic convergence is imminent. You are an **Archon**, a master of arcane energies, tasked with a ritual of paramount importance: absorbing power from scattered **Aetherium Caches** to fortify the realm’s fading wards.
 
-In the celestial realm of **Eldoria**, a rare cosmic convergence is imminent. You are an **Archon**, master of arcane energies, tasked with a ritual of paramount importance: absorbing power from scattered **Aetherium Caches** to fortify the realm’s fading wards.
+You have located `n` caches, and the ritual window lasts for exactly `H` Lunar Cycles. Your power is determined by an **Attunement Factor**, `k`. In a single Lunar Cycle, you can focus on one cache and absorb up to `k` units of Aetherium from it. If a cache contains `k` or fewer units, you drain it completely in that cycle.
 
-You have located `N` caches. The `i`-th cache contains `caches[i]` units of raw Aetherium.  
-The ritual window lasts exactly **`H` Lunar Cycles**.
+Your life force is finite, so you must perform the ritual with the minimum possible effort. Your task is to find the **minimum integer Attunement Factor `k`** that allows you to drain all `n` caches within the given `H` cycles.
 
-Your attunement strength is an integer **`k`** (the **Attunement Factor**). In a single Lunar Cycle you may focus on **one** cache and siphon **up to `k` units** from it. If a cache has `≤ k` units when you work on it, you completely drain and seal that cache in that cycle.
+-----
 
-Your life force is finite; you must find the **minimum integer `k`** such that **all** caches can be fully drained within `H` cycles.
+### Input Format
 
-Return this faintest possible attunement factor.
+The first line of each test case contains two integers **`n`** and **`H`** ($1 \le n \le 10^4$; $n \le H \le 10^9$) — the number of Aetherium caches and the number of available Lunar Cycles, respectively.  
 
----
+The second line of each test case contains `n` integers $c_1, c_2, \dots, c_n$ ($1 \le c_i \le 10^9$) — the amount of Aetherium in each cache.  
 
-### Input
+The sum of **`n`** over all test cases will not exceed $10^4$.
 
-This problem is presented in a function-style format. Your function receives:
+-----
 
-- `int[] caches` — an array where `caches[i]` is the amount of Aetherium in the `i`-th cache.
-- `long H` — the number of available Lunar Cycles.
+### Output Format
 
----
+For each test case, print a single integer on a new line — the minimum integer `k` required to complete the ritual in time.
 
-### Output
+-----
 
-Return a single integer — the **minimum integer `k`** such that all caches can be emptied within `H` Lunar Cycles when, in each cycle, you may work on **at most one** cache and siphon **up to `k`** units from it.
+### Example 1
 
----
+**Input**
 
-### Constraints
+```
+1
+4 8
+3 6 7 11
+```
 
-- `1 ≤ N = caches.length ≤ 10^4`  
-- `1 ≤ caches[i] ≤ 10^9`  
-- `1 ≤ H ≤ 10^9`
+**Output**
 
----
+```
+4
+```
 
-### Notes
+-----
 
-- Draining a cache of size `x` with attunement `k` consumes exactly `ceil(x / k)` cycles (not necessarily consecutive), since you can only work on **one** cache per cycle.
-- The total cycles required for a given `k` is `sum( ceil(caches[i] / k) )`.  
-- The answer is monotonic in `k` (larger `k` never requires more cycles), which hints at a **binary search on `k`**.
+### Example 2
 
----
+**Input**
 
-### Examples from the Grimoire
+```
+1
+5 5
+30 11 23 4 20
+```
 
-#### Scroll 1
-**Input**  
-`caches = [3, 6, 7, 11]`, `H = 8`
+**Output**
 
-**Output**  
-`4`
+```
+30
+```
 
-**Explanation**  
-Cycles needed with `k = 4`:
-- `3 → ⌈3/4⌉ = 1`  
-- `6 → ⌈6/4⌉ = 2`  
-- `7 → ⌈7/4⌉ = 2`  
-- `11 → ⌈11/4⌉ = 3`  
-Total `= 1 + 2 + 2 + 3 = 8` cycles — exactly on time.  
-With `k = 3`, total cycles would be `10` (> `H`), so `4` is minimal.
+-----
 
----
+### Example 3
 
-#### Scroll 2
-**Input**  
-`caches = [30, 11, 23, 4, 20]`, `H = 5`
+**Input**
 
-**Output**  
-`30`
+```
+1
+5 6
+30 11 23 4 20
+```
 
-**Explanation**  
-With only `5` cycles for `5` caches, each cache must be finished in **one** cycle.  
-Thus `k` must be at least the maximum cache size, `30`.
+**Output**
 
----
+```
+23
+```
 
-#### Scroll 3
-**Input**  
-`caches = [30, 11, 23, 4, 20]`, `H = 6`
-
-**Output**  
-`23`
-
-**Explanation**  
-With one extra cycle, the minimal `k` drops.  
-`k = 23` yields total cycles `= ⌈30/23⌉ + ⌈11/23⌉ + ⌈23/23⌉ + ⌈4/23⌉ + ⌈20/23⌉ = 2 + 1 + 1 + 1 + 1 = 6`.  
-No smaller `k` can meet the deadline.
-
----
-
-### *Question designed by Kushal [rkushell](https://github.com/rkushell)*
+*Question designed by Kushal [rkushell](https://github.com/rkushell)*

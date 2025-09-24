@@ -1,15 +1,6 @@
 import java.util.*;
 
 public class ScrollOfRequirement {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String S = sc.nextLine();
-        String T = sc.nextLine();
-        sc.close();
-
-        String result = minWindow(S, T);
-        System.out.println(result == null ? "IMPOSSIBLE" : result);
-    }
 
     private static String minWindow(String s, String t) {
         if (t.length() > s.length()) return null;
