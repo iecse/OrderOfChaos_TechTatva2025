@@ -2,49 +2,44 @@
 
 **Question Difficulty: Medium**
 
-## Description:
+## Problem
 
-In the forgotten depths of the Whispering Citadel, where time itself seems to bend and warp around crystalline formations, Archmage Zara has uncovered the legendary Axis of Eternal Resonance - an ancient mystical circle with nodes of pure magical energy arranged in perfect linear harmony. Each node pulses with its own unique frequency, some radiating brilliant light while others seem to drink in the very essence of magic itself, creating a delicate balance between creation and void.
+In the Whispering Citadel, Archmage Zara studies ancient ritual circles made of mystical nodes. Each node holds a certain energy level, and together they may form powerful _sacred pathways_.
 
-The sacred texts of the Elder Conclave speak of ritual sequences hidden within these arrangements - contiguous pathways where the total harmonic energy aligns with cosmic forces, while the peak resonance reaches but never exceeds the threshold of dimensional stability. Legend tells that when Zara channels her power through such a sequence, reality itself bends to her will, but only if the magical equilibrium is maintained with absolute precision.
+A sacred pathway is simply a contiguous sequence of nodes (a subarray) that satisfies both of the following conditions:
 
-Master Kaelen, the last surviving member of the Order of Harmonic Weavers, once warned her that exceeding the peak threshold would tear holes in the fabric of existence itself, while failing to reach it would leave the ritual powerless and dormant. Each valid sequence represents a fragment of the ancient knowledge, a key to unlocking the deepest mysteries of the arcane arts that have been lost for millennia.
+1. The **total energy** of the pathway is exactly **s**.
+2. The **strongest node** (maximum energy in that pathway) is exactly **p**.
 
-Your task is to help Zara identify all the sacred pathways within each mystical formation, counting every contiguous sequence that achieves perfect harmonic balance while maintaining dimensional stability.
+If any node in the pathway has energy greater than **p**, the ritual collapses. If no node reaches **p**, the ritual is incomplete.
 
-## Input:
+Your task is to help Zara count how many sacred pathways exist in each mystical formation.
 
-The first line contains a single integer t (1 ≤ t ≤ 10⁴) - the number of mystical formations Zara must analyze.
+---
 
-For each mystical formation:
+## Input
 
-- First line contains three integers n, s, and p (1 ≤ n ≤ 2×10⁵, −2×10¹⁴ ≤ s ≤ 2×10¹⁴, −10⁹ ≤ p ≤ 10⁹) - the number of nodes, the required total harmonic energy, and the maximum allowed peak resonance
-- Second line contains n integers e₁, e₂, ..., eₙ (−10⁹ ≤ eᵢ ≤ 10⁹) - the energy level of each mystical node
+- The first line contains an integer **t** (1 ≤ t ≤ 10⁴) — the number of mystical formations.
+- For each formation:
+  - The first line contains three integers **n, s, p**:
+    - **n** — number of nodes (1 ≤ n ≤ 2×10⁵)
+    - **s** — required total energy (−2×10¹⁴ ≤ s ≤ 2×10¹⁴)
+    - **p** — required peak energy (−10⁹ ≤ p ≤ 10⁹)
+  - The second line contains **n integers** `e₁, e₂, …, eₙ` (−10⁹ ≤ eᵢ ≤ 10⁹) — the energy of each node.
 
-It is guaranteed that the sum of n across all formations does not exceed 2×10⁵.
+It is guaranteed that the total of all **n** across test cases does not exceed 2×10⁵.
 
-## Output:
+---
 
-For each mystical formation, output a single integer representing the number of sacred pathways (contiguous sequences) where the total energy equals s and the peak energy equals exactly p.
+## Output
 
-A sacred pathway exists when nodes form a contiguous sequence with:
+For each formation, print a single integer: the number of sacred pathways (contiguous subsequences) that meet the conditions.
 
-- Total harmonic energy summing to exactly s
-- Peak resonance reaching exactly p (not exceeding it, as this would destabilize reality)
-- At least one node achieving the peak resonance level p
+---
 
-## Constraints:
+## Example
 
-- Number of formations: 1 ≤ t ≤ 10⁴
-- Nodes per formation: 1 ≤ n ≤ 2×10⁵
-- Required total energy: −2×10¹⁴ ≤ s ≤ 2×10¹⁴
-- Maximum peak resonance: −10⁹ ≤ p ≤ 10⁹
-- Node energy levels: −10⁹ ≤ eᵢ ≤ 10⁹
-- Total nodes across all formations: ≤ 2×10⁵
-
-## Example:
-
-### Input:
+### Input
 
 ```
 9
@@ -68,7 +63,7 @@ A sacred pathway exists when nodes form a contiguous sequence with:
 -1 -2
 ```
 
-### Output:
+### Output
 
 ```
 1
@@ -82,5 +77,6 @@ A sacred pathway exists when nodes form a contiguous sequence with:
 0
 ```
 
+---
 
 _Question designed by [Abhyuday-Gupta912](https://github.com/Abhyuday-Gupta912)_
