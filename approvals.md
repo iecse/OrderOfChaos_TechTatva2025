@@ -5,7 +5,7 @@
 | 01.   | Crystal Resonance                | Abhyuday Gupta | Easy | Reword in a simpler manner|https://leetcode.com/problems/contains-duplicate/description/|
 | 02.   | Mystical Ritual Circles          | Abhyuday Gupta |    Medium    | Reword in a simpler manner|https://codeforces.com/problemset/problem/2121/F|
 |03    | GreatSerpentofEternity           | Mahika Kapil   |  Easy  |  Approved       |   https://leetcode.com/problems/middle-of-the-linked-list/submissions/1751313475/?envType=problem-list-v2&envId=linked-list    |
-| 04    | Kingdom Of Numeria               | Rishabh Raj    |  Easy     | | https://leetcode.com/problems/merge-sorted-array/description/|
+| 04    | Kingdom Of Pataal Lok               | Rishabh Raj    |  Easy     | Approved | https://leetcode.com/problems/merge-sorted-array/description/|
 | 05    | The Enchanted Crossing           | Rishit Singh   | Easy | Approved| Self|
 | 06    | Mystic Rune Fusion               | Rishit Singh   | Medium       | Approved| Self|
 | 07    | The Enchanted Pathfinder's Quest | Abhyuday Gupta |    Medium    |change zelda |https://codeforces.com/problemset/problem/2131/F |
@@ -21,11 +21,11 @@
 | 17    | Longest Uniform Subarray After One Flip|          Arunima  Bhattacharjee      |    Medium|Approved
 | 18    | Wizard's Guests                  | Rishit Singh   | Medium       | Backup| https://codeforces.com/problemset/problem/2014/D|
 | 19    | Spellboard XOR Duel              | Mahika Kapil   |  Hard      |Reworded|https://leetcode.com/problems/chalkboard-xor-game/description/?envType=problem-list-v2&envId=brainteaser|
-| 20    | Lever Of Jadoo Nagar               | Rishabh Raj    | Easy        | | |
-| 21    | Enchanted Arrays of Eldoria       | Rishabh Raj    | Easy       | | |
-| 22    | Arcane Purge                     | Rishabh Raj    | Medium     | | |
-| 23    | Crystal Bridges                  | Rishabh Raj    | Hard      | |  https://codeforces.com/problemset/gymProblem/100551/C |
-| 24    | Wizard Potion                    | Rishabh Raj    | Medium | | https://leetcode.com/problems/container-with-most-water/description/ |
+| 20    | Lever Of Jadoo Nagar               | Rishabh Raj    | Easy        | Approved | |
+| 21    | Enchanted Arrays of Eldoria       | Rishabh Raj    | Easy       | Approved | |
+| 22    | Arcane Purge                     | Rishabh Raj    | Medium     | Approved | |
+| 23    | Crystal Bridges                  | Rishabh Raj    | Hard      | Approved |  https://codeforces.com/problemset/gymProblem/100551/C |
+| 24    | Wizard Potion                    | Rishabh Raj    | Medium | Approved | https://leetcode.com/problems/container-with-most-water/description/ |
 | 25    | Philosopher's Scroll             | Mahika Kapil   |        | | |
 | 23    | Crystal Bridges                  | Rishabh Raj    | Medium      | | | https://codeforces.com/problemset/gymProblem/100551/C
 | 24    | Wizard Potion                    | Rishabh Raj    | Medium       | | |https://leetcode.com/problems/container-with-most-water/description/
