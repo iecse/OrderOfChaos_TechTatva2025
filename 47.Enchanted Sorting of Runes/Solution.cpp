@@ -1,7 +1,12 @@
+// Solution.hpp
+#ifndef SOLUTION_HPP
+#define SOLUTION_HPP
+
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> magicalSorting(vector<int>& nums) {
+// Solution function: magicalSorting
+vector<int> magicalSorting(const vector<int>& nums) {
     vector<int> evens, odds;
 
     // Step 1: Separate the runes
@@ -25,21 +30,4 @@ vector<int> magicalSorting(vector<int>& nums) {
     return result;
 }
 
-int main() {
-    vector<int> nums1 = {5, 2, 8, 7, 1, 4};
-    vector<int> ans1 = magicalSorting(nums1);
-    for (int x : ans1) cout << x << " ";
-    cout << endl;
-
-    vector<int> nums2 = {9, 4, 1, 6, 3, 8};
-    vector<int> ans2 = magicalSorting(nums2);
-    for (int x : ans2) cout << x << " ";
-    cout << endl;
-
-    vector<int> nums3 = {10, 21, 32, 43, 54};
-    vector<int> ans3 = magicalSorting(nums3);
-    for (int x : ans3) cout << x << " ";
-    cout << endl;
-
-    return 0;
-}
+#endif

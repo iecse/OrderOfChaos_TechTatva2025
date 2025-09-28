@@ -43,26 +43,21 @@ pair<vector<int>, int> enchantedQuest(vector<Spell>& spells, int n) {
 }
 
 int main() {
-    // Example 1
-    vector<Spell> spells1 = {{1,4,20}, {2,1,10}, {3,1,40}, {4,1,30}};
-    auto res1 = enchantedQuest(spells1, 4);
-    cout << "[";
-    for (int id : res1.first) cout << id << " ";
-    cout << "], " << res1.second << endl; // [3 1], 60
+    int n;
+    cout << "Enter number of spells: ";
+    cin >> n;
 
-    // Example 2
-    vector<Spell> spells2 = {{1,2,100}, {2,1,19}, {3,2,27}, {4,1,25}, {5,1,15}};
-    auto res2 = enchantedQuest(spells2, 5);
-    cout << "[";
-    for (int id : res2.first) cout << id << " ";
-    cout << "], " << res2.second << endl; // [1 3], 127
+    vector<Spell> spells(n);
+    cout << "Enter spell details (id deadline treasure) each in new line:\n";
+    for (int i = 0; i < n; i++) {
+        cin >> spells[i].id >> spells[i].deadline >> spells[i].treasure;
+    }
 
-    // Example 3
-    vector<Spell> spells3 = {{1,3,15}, {2,2,20}, {3,1,30}};
-    auto res3 = enchantedQuest(spells3, 3);
-    cout << "[";
-    for (int id : res3.first) cout << id << " ";
-    cout << "], " << res3.second << endl; // [3 2 1], 65
+    auto res = enchantedQuest(spells, n);
+
+    cout << "Chosen Spells: [";
+    for (int id : res.first) cout << id << " ";
+    cout << "], Total Treasure: " << res.second << endl;
 
     return 0;
 }
