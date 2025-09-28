@@ -1,89 +1,84 @@
-## The Enchanted Forest: Path of Power
+## The Chronomancer's Time Fabric
 
-In the heart of an ancient, **Enchanted Forest**, the trees are imbued with raw magic. This magic is stored in the **magical fruits** that grow on their branches. The entire forest is represented as a sacred **binary tree**, where each node is a branch holding a fruit with a specific **magic power** (an integer value).
+### Problem Statement
 
-A **magical path** is a connection between any two branches (nodes) in the tree. The total power of a path is the sum of the magic power of all fruits along that path. As the guardian of this forest, you are tasked with a profound challenge: to discover the single most powerful magical path that exists.
+You are a **Chronomancer**, a guardian of the very fabric of time. This fabric is represented as a 2D grid of **Temporal Nexuses**. Each nexus can exist in one of three states:
 
-Your quest is to find the **maximum magical power** that can be drawn from any possible path within the forest's tree structure. Note that a path must contain at least one node and does not need to pass through the root.
+  * **Stable (0):** A healthy, functioning point in time.
+  * **Corrupted (1):** A nexus that has succumbed to a temporal anomaly. This corruption is contagious.
+  * **Void (2):** An empty, impassable rift in the fabric. Corruption cannot enter or pass through a void nexus.
 
------
+The temporal corruption spreads in discrete **ticks**. In a single tick, any stable nexus that is adjacent (up, down, left, or right) to a corrupted nexus will also become corrupted.
 
-## Input Format
+Your task is to predict the future. Given the initial state of the Time Fabric, determine the minimum number of ticks required for the corruption to spread to every single stable nexus. If there is at least one stable nexus that is permanently safe from the corruption (i.e., it can never be reached), then the timeline is considered salvageable.
 
-The input for a single test case is as follows:
+### Input Format
 
-1. The first line contains an integer **`n`** ($1 \le n \le 10^5$) — the number of branches (nodes) in the tree.  
-2. The next `n` lines describe the nodes, indexed from 1 to `n`. The `i`-th of these lines contains three integers: `val_i`, `left_i`, and `right_i`.  
-   - `val_i` ($-1000 \le val_i \le 1000$) is the magic power of the fruit at node `i`.  
-   - `left_i` and `right_i` are the 1-based indices of the left and right children, respectively. A value of `0` indicates that a child does not exist.
+  * The first line contains an integer $T$, the number of test cases.
+  * The first line of each test case contains two space-separated integers, $R$ and $C$, representing the number of rows and columns in the Time Fabric grid.
+  * The next $R$ lines each contain $C$ space-separated integers, describing the initial state of each nexus in the grid.
 
-The node with index `1` is always the root of the tree.
+### Output Format
 
------
+For each test case, print a single integer on a new line:
 
-## Output Format
+  * The minimum number of ticks required for all stable nexuses to become corrupted.
+  * If it is impossible for all stable nexuses to be corrupted, print `-1`.
+  * If there are no stable nexuses to begin with, print `0`.
 
-Print a single integer on a new line: the maximum magical power found among all possible paths in the tree.
+### Constraints
 
------
-
-## Example 1
-
-**Input**
-
-```
-3
-1 2 3
-2 0 0
-3 0 0
-```
-
-**Output**
-
-```
-6
-```
+  * $1 \le T \le 100$
+  * $1 \le R, C \le 500$
+  * The value of each nexus will be $0$, $1$, or $2$.
+  * The sum of $R \times C$ over all test cases will not exceed $250,000$.
 
 -----
 
-## Example 2
-
-**Input**
+### Sample Input 1
 
 ```
-5
--10 2 3
-9 0 0
-20 4 5
-15 0 0
-7 0 0
+1
+3 3
+1 0 2
+0 0 0
+0 1 0
 ```
 
-**Output**
+### Sample Output 1
 
 ```
-42
+2
 ```
+
+### Explanation 1
+
+  * **Tick 0:** The grid has two corruption sources at `(0,0)` and `(2,1)`.
+  * **Tick 1:** The corruption spreads to adjacent stable nexuses. The nexuses at `(1,0)`, `(0,1)`, `(1,1)`, `(2,0)`, and `(2,2)` become corrupted. The nexus at `(0,2)` is a void and blocks the spread.
+  * **Tick 2:** The newly corrupted nexus at `(1,1)` spreads its corruption to the last remaining stable nexus at `(1,2)`.
+    After 2 ticks, all stable nexuses have been corrupted.
 
 -----
 
-## Example 3
-
-**Input**
+### Sample Input 2
 
 ```
-4
--3 2 0
-5 3 4
--1 0 0
-4 0 0
+1
+3 3
+0 2 0
+2 1 2
+0 2 0
 ```
 
-**Output**
+### Sample Output 2
 
 ```
-8
+-1
 ```
+
+### Explanation 2
+
+The initial corrupted nexus at `(1,1)` is completely surrounded by void nexuses. It cannot spread its corruption to any of the four stable nexuses, so they remain eternally safe. Thus, the output is `-1`.
 
 -----
 

@@ -10,6 +10,8 @@ As the Keeper of the Tower, your sacred duty is to predict the outcome of this e
 
 ## Input Format
 
+The first line contains number of test cases.
+
 For each test case:
 
 1. The first line contains two integers **`n`** and **`k`** ($1 \le n \le 2 \cdot 10^5$; $0 \le k \le 10^9$) — the number of runes and the rotation amount, respectively.  
@@ -30,6 +32,7 @@ For each test case, print a single line containing `n` space-separated integers 
 **Input**
 
 ```
+1
 5 2
 10 20 30 40 50
 ```
@@ -47,6 +50,7 @@ For each test case, print a single line containing `n` space-separated integers 
 **Input**
 
 ```
+1
 6 4
 1 2 3 4 5 6
 ```

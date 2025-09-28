@@ -8,6 +8,8 @@ Your task is to find the **shortest contiguous snippet** of the scroll that cont
 
 ## Input Format
 
+The first line contains the number of test cases
+
 The input for each test case consists of two lines:
 
 1.  The first line contains the string **`S`**, the spell scroll.
@@ -39,6 +41,7 @@ For each test case, print the result on a new line.
 **Input**
 
 ```
+1
 ADOBECODEBANC
 ABC
 ```
@@ -56,6 +59,7 @@ BANC
 **Input**
 
 ```
+1
 aAaAa
 AaA
 ```

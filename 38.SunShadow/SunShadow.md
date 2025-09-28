@@ -19,6 +19,9 @@ After all collisions have resolved, the duel's outcome is judged. If the final s
 -----
 
 ## Input Format
+
+The first lines contains number of Test cases.
+
 For each test case:
 
 1. The first line contains an integer **`n`** ($1 \le n \le 10^5$) — the number of spells.  
@@ -39,6 +42,7 @@ For each test case, print a single string, `"Harmonious"` or `"Chaotic"`, on a n
 **Input**
 
 ```
+1
 4
 5 10 -8 5
 ```
@@ -56,6 +60,7 @@ Harmonious
 **Input**
 
 ```
+1
 5
 10 6 -4 -8 5
 ```
