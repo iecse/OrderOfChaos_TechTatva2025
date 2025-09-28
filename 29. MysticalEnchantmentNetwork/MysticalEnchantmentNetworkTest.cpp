@@ -1,6 +1,8 @@
+#include "../testlib.h"
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <fstream>
 using namespace std;
 
 struct Solver
@@ -211,35 +213,198 @@ struct Solver
     }
 };
 
-int main()
+// Generate a random connected graph
+vector<pair<int, int>> generateConnectedGraph(int n, int m)
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    vector<pair<int, int>> edges;
+    vector<bool> connected(n + 1, false);
 
-    int n, m;
-    if (!(cin >> n >> m))
+    // First create a random spanning tree to ensure connectivity
+    vector<int> vertices;
+    for (int i = 1; i <= n; i++)
     {
-        cout << 0 << "\n";
-        return 0;
+        vertices.push_back(i);
+    }
+    shuffle(vertices.begin(), vertices.end());
+
+    connected[vertices[0]] = true;
+    for (int i = 1; i < n; i++)
+    {
+        int u = vertices[i];
+        int v = vertices[rnd.next(0, i - 1)];
+        edges.push_back({u, v});
+        connected[u] = true;
     }
 
+    // Add remaining random edges
+    while (edges.size() < m)
+    {
+        int u = rnd.next(1, n);
+        int v = rnd.next(1, n);
+        if (u == v)
+            continue;
+        if (u > v)
+            swap(u, v);
+
+        bool exists = false;
+        for (auto &e : edges)
+        {
+            int x = e.first, y = e.second;
+            if (x > y)
+                swap(x, y);
+            if (x == u && y == v)
+            {
+                exists = true;
+                break;
+            }
+        }
+        if (!exists)
+        {
+            edges.push_back({u, v});
+        }
+    }
+
+    return edges;
+}
+
+// Generate a cycle graph
+vector<pair<int, int>> generateCycle(int n)
+{
+    vector<pair<int, int>> edges;
+    for (int i = 1; i < n; i++)
+    {
+        edges.push_back({i, i + 1});
+    }
+    edges.push_back({n, 1});
+    return edges;
+}
+
+// Generate a bipartite graph
+vector<pair<int, int>> generateBipartiteGraph(int n, int m)
+{
+    vector<pair<int, int>> edges;
+    int n1 = rnd.next(1, n - 1);
+    int n2 = n - n1;
+
+    while (edges.size() < m)
+    {
+        int u = rnd.next(1, n1);
+        int v = rnd.next(n1 + 1, n);
+
+        bool exists = false;
+        for (auto &e : edges)
+        {
+            if ((e.first == u && e.second == v) || (e.first == v && e.second == u))
+            {
+                exists = true;
+                break;
+            }
+        }
+        if (!exists)
+        {
+            edges.push_back({u, v});
+        }
+    }
+
+    return edges;
+}
+
+void writeTest(int z)
+{
+    string inputFile = "Input" + (z > 9 ? to_string(z) : "0" + to_string(z)) + ".txt";
+    string outputFile = "Output" + (z > 9 ? to_string(z) : "0" + to_string(z)) + ".txt";
+
+    ofstream input(inputFile);
+    ofstream output(outputFile);
+
+    int n, m;
+    vector<pair<int, int>> edges;
+
+    if (z == 0)
+    {
+        // Test case 0: Small bipartite graph (should allow removing any non-tree edge)
+        n = 4;
+        m = 4;
+        edges = {{1, 2}, {1, 3}, {2, 4}, {3, 4}};
+    }
+    else if (z == 1)
+    {
+        // Test case 1: Odd cycle + chord (only chord can be removed)
+        n = 5;
+        m = 6;
+        edges = {{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 1}, {1, 3}};
+    }
+    else if (z == 2)
+    {
+        // Test case 2: Larger mixed case
+        n = rnd.next(50, 100);
+        m = min(rnd.next(n, 2 * n), n * (n - 1) / 2);
+
+        // Start with a bipartite graph
+        edges = generateBipartiteGraph(n, min(m - 2, n * n / 4));
+
+        // Add a few edges to make it non-bipartite
+        while (edges.size() < m)
+        {
+            int u = rnd.next(1, n);
+            int v = rnd.next(1, n);
+            if (u == v)
+                continue;
+            if (u > v)
+                swap(u, v);
+
+            bool exists = false;
+            for (auto &e : edges)
+            {
+                int x = e.first, y = e.second;
+                if (x > y)
+                    swap(x, y);
+                if (x == u && y == v)
+                {
+                    exists = true;
+                    break;
+                }
+            }
+            if (!exists)
+            {
+                edges.push_back({u, v});
+            }
+        }
+    }
+
+    // Write input
+    input << n << " " << m << "\n";
+    for (auto &edge : edges)
+    {
+        input << edge.first << " " << edge.second << "\n";
+    }
+    input.close();
+
+    // Generate output using solver
     Solver solver(n, m);
     for (int i = 0; i < m; i++)
     {
-        int u, v;
-        cin >> u >> v;
-        solver.add_edge(i, u, v);
+        solver.add_edge(i, edges[i].first, edges[i].second);
     }
 
-    vector<int> ans = solver.solve();
-    cout << ans.size() << "\n";
-    for (int i = 0; i < (int)ans.size(); i++)
+    vector<int> result = solver.solve();
+
+    output << result.size() << "\n";
+    for (int i = 0; i < (int)result.size(); i++)
     {
-        if (i)
-            cout << ' ';
-        cout << ans[i];
+        if (i > 0)
+            output << " ";
+        output << result[i];
     }
-    if (!ans.empty())
-        cout << "\n";
+    if (!result.empty())
+        output << "\n";
+    output.close();
+}
+
+int main(int argc, char *argv[])
+{
+    registerGen(argc, argv, 1);
+    for (int no = 0; no < 3; no++)
+        writeTest(no);
     return 0;
 }
