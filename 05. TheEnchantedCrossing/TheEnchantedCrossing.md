@@ -14,7 +14,7 @@ The bridge works as follows:
 **Task:** For each test case, given `tiles` and `travelers`, output how many travelers successfully cross the bridge.  
 
 ## Input  
-- First line: integer `t` (1 ≤ t ≤ 10), the number of test cases.  
+- First line: integer `t` (1 ≤ t ≤ 10^3), the number of test cases.  
 - For each test case:  
   - First line: two integers `n` and `m` (1 ≤ n, m ≤ 10^5).  
   - Second line: `n` integers `tiles[i]` (1 ≤ tiles[i] ≤ 10^9).  
