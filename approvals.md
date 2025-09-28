@@ -37,7 +37,7 @@
 | 33    | Chronomancer's Time Fabric       | Kushal Raj     | Hard   | Approved | https://leetcode.com/problems/rotting-oranges|
 | 34    | Sorcerer's Spell Book            | Kushal Raj     | Easy | Approved | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string|
 | 35    | Caravans Of The Realm            | Rishit Singh   | Medium       | Approved| https://leetcode.com/problems/car-fleet/|
-| 36    | Magical Gem Quest                | Rishit Singh   | Hard | Dropped | https://leetcode.com/problems/cherry-pickup/|
+| 36    | Magical Binary Spell             | Rishit Singh   | Hard |  | https://leetcode.com/problems/special-binary-string/|
 | 37    | Summit of Eldoria                | Kushal Raj     | Medium | Backup | https://leetcode.com/problems/find-a-peak-element-ii|
 | 38    | Sun Shadow                       | Kushal Raj     | Medium | Approved | https://leetcode.com/problems/asteroid-collision|
 | 39    | Grand Conjunction                | Kushal Raj     | Easy   | Approved | https://leetcode.com/problems/rotate-list|
