@@ -32,6 +32,17 @@ The first line contains a single integer t — the number of testcases.
 
 ---
 
+## Constraints
+
+- `1 <= t <= 10^5`
+- `nums1.length == m + n`  
+- `nums2.length == n`  
+- `0 <= m, n <= 200`  
+- `1 <= m + n <= 200`  
+- `-10^9 <= nums1[i], nums2[j] <= 10^9`  
+
+---
+
 ## Output
 
 Transform the Golden Scroll (`nums1`) so that it holds **all runes** in sorted order, with the Silver Scroll’s runes properly infused.  
