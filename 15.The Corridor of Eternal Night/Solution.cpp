@@ -21,15 +21,16 @@ int main() {
 
         for (int i = 0; i < n; i++) {
             if (runestones[i] == 0) {
-                // Shining runestone, step safely
-                if (lantern_time > 0) lantern_time--; 
+                // shining stone
+                if (lantern_time > 0) lantern_time--;
             } else {
-                // Shattered runestone
+                // shattered stone
                 if (!lantern_used) {
                     lantern_used = true;
-                    lantern_time = rune_power - 1; 
+                    lantern_time = rune_power; // cover current + next (x-1)
+                    lantern_time--;            // consume for this step
                 } else if (lantern_time > 0) {
-                    lantern_time--; 
+                    lantern_time--;
                 } else {
                     escaped = false;
                     break;
