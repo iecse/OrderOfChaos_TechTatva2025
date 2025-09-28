@@ -24,7 +24,7 @@ Your task is to determine the **number of wizard fleets** that will arrive at th
 
 
 ### Constraints
-- `1 <= T <= 100`  
+- `1 <= T <= 1000`  
 - `1 <= n <= 10^5`  
 - `0 < target <= 10^6`  
 - `0 <= position[i] < target`  
