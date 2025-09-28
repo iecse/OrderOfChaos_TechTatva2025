@@ -10,6 +10,8 @@ Your quest is to find the **maximum magical power** that can be drawn from any p
 
 ## Input Format
 
+First line contains number of test cases
+
 For each test case:
 
 1. The first line contains an integer **`n`** ($1 \le n \le 10^5$) — the number of branches (nodes) in the tree.  
@@ -32,6 +34,7 @@ For each test case, print a single integer on a new line: the maximum magical po
 **Input**
 
 ```
+1
 3
 1 2 3
 2 0 0
@@ -51,6 +54,7 @@ For each test case, print a single integer on a new line: the maximum magical po
 **Input**
 
 ```
+1
 5
 -10 2 3
 9 0 0
@@ -72,6 +76,7 @@ For each test case, print a single integer on a new line: the maximum magical po
 **Input**
 
 ```
+1
 4
 -3 2 0
 5 3 4

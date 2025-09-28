@@ -10,6 +10,8 @@ Your mission is to assist the wizard by determining the absolute maximum power t
 
 ## Input Format
 
+The first line contains the number of test cases
+
 The input for a single test case is as follows:
 
 1. The first line contains an integer **`n`** ($1 \le n \le 2 \cdot 10^5$) — the number of beads on the wand.  
@@ -28,6 +30,7 @@ For each test case, print a single integer on a new line: the maximum sum of a m
 **Input**
 
 ```
+1
 5
 2 -3 -1 4 -2
 ```
@@ -45,6 +48,7 @@ For each test case, print a single integer on a new line: the maximum sum of a m
 **Input**
 
 ```
+1
 4
 -5 -2 -3 -4
 ```
@@ -62,6 +66,7 @@ For each test case, print a single integer on a new line: the maximum sum of a m
 **Input**
 
 ```
+1
 5
 1 2 3 4 5
 ```
@@ -79,6 +84,7 @@ For each test case, print a single integer on a new line: the maximum sum of a m
 **Input**
 
 ```
+1
 6
 8 -1 -20 15 4 -3
 ```

@@ -10,6 +10,8 @@ Your task is to help the alchemist by analyzing the array of potions and finding
 
 ## Input Format
 
+The first line contains number of test cases
+
 For each test case:
 
 1. The first line contains an integer **`n`** ($1 \le n \le 2 \cdot 10^5$) — the number of magical potions.  
@@ -30,6 +32,7 @@ For each test case, print a single integer on a new line: the length of the long
 **Input**
 
 ```
+1
 7
 2 2 1 1 5 3 3
 ```
@@ -47,6 +50,7 @@ For each test case, print a single integer on a new line: the length of the long
 **Input**
 
 ```
+1
 6
 1 1 1 2 2 2
 ```
@@ -64,6 +68,7 @@ For each test case, print a single integer on a new line: the length of the long
 **Input**
 
 ```
+1
 8
 1 2 3 1 2 3 1 2
 ```
@@ -81,6 +86,7 @@ For each test case, print a single integer on a new line: the length of the long
 **Input**
 
 ```
+1
 8
 1 1 2 2 1 3 4 5
 ```

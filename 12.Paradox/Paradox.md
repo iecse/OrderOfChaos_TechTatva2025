@@ -29,6 +29,7 @@ For each test case, print a single line containing `n` space-separated integers.
 **Input**
 
 ```
+1
 7
 89 91 95 87 85 90 97
 ```

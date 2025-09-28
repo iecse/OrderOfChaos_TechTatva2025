@@ -12,6 +12,8 @@ Lyra seeks to forge a blade that is not only powerful but also perfectly stable.
 
 ## Input Format
 
+The first line consists of number of test cases.
+
 For each test case:
 1. The first line contains an integer **`n`** ($1 \le n \le 10^5$) and a long long integer **`K`** ($1 \le K \le 10^{14}$) — the number of crystals and the required energy threshold.  
 2. The second line contains `n` space-separated integers $C_1, C_2, \dots, C_n$ ($1 \le C_i \le 10^9$) — the energy of each crystal.  
@@ -31,6 +33,7 @@ For each test case, print a single integer on a new line representing the **mini
 **Input**
 
 ```
+1
 5 20
 8 3 10 1 9
 ```

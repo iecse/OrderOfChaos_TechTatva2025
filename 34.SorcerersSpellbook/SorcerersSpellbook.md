@@ -10,7 +10,9 @@ Your task is to foresee the final state of this cursed scroll after all possible
 
 ## Input Format
 
-The only line of each test case contains a single string **`s`** ($1 \le |s| \le 2 \cdot 10^5$) — the initial sequence of runes on the scroll.  
+The first line contains the number of test cases
+
+The next line of each test case contains a single string **`s`** ($1 \le |s| \le 2 \cdot 10^5$) — the initial sequence of runes on the scroll.  
 
 The scroll is composed exclusively of lowercase English letters. The sum of **`|s|`** over all test cases will not exceed $2 \cdot 10^5$.
 
@@ -29,6 +31,7 @@ If the scroll becomes completely empty after all annihilations, print the string
 **Input**
 
 ```
+1
 abccba
 ```
 
@@ -45,6 +48,7 @@ Empty Spellbook
 **Input**
 
 ```
+1
 azxxzy
 ```
 
@@ -61,6 +65,7 @@ ay
 **Input**
 
 ```
+1
 aabcca
 ```
 
