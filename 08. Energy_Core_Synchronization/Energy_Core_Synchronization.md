@@ -24,7 +24,8 @@ For each test case, output a single integer — the minimum number of ritual act
 
 Input
 
-```5
+```
+5
 1
 5
 14

@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main() {
     int t;
-    printf("")
-    scanf("%d", &t);
+    cin >> t;
     while (t--) {
         long long x;
-        scanf("%lld", &x);
+        cin >> x;
 
         int bits = 0;
         long long temp = x;
@@ -16,7 +16,7 @@ int main() {
         }
 
         // answer is number of bits + 2
-        printf("%d\n", bits + 2);
+        cout << bits + 2 << "\n";
     }
     return 0;
 }
