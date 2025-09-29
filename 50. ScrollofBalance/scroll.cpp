@@ -1,4 +1,11 @@
+<<<<<<< HEAD
+#include <iostream>  // For cin, cout
+#include <vector>    // For std::vector
+#include <algorithm> // For std::sort, std::min, std::max, std::swap
+#include <climits>   // For INT_MAX
+=======
 #include <bits/stdc++.h>
+>>>>>>> cc4f792068bb6026adb91173f7a89889029649cd
 using namespace std;
 
 struct Pair {
