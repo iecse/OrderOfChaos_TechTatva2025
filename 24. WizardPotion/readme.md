@@ -30,11 +30,11 @@ The second line contains n integers — the array thresholds.
 
 ## Constraints
 
-- 1 ≤ t ≤ 1000
+- `1 ≤ t ≤ 1000`
 
-- 2 ≤ n ≤ 2000
+- `2 ≤ n ≤ 2000`
 
-- 1≤thresholds[i]≤10000
+- `1 ≤ thresholds[i] ≤ 10000`
 
 The sum of n over all test cases does not exceed $2$ x $10^5$.
 

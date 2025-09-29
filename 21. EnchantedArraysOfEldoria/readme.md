@@ -22,12 +22,18 @@ Your task is to determine the **minimum number of rituals** required to make the
 
 ## Input
 
-- The first line contains a single integer `t` (1 ≤ t ≤ 1000) — the number of test cases.  
+- The first line contains a single integer `t`  — the number of test cases.  
 - For each test case:  
-  - The first line contains an integer `n` (1 ≤ n ≤ 50) — the size of the array.  
-  - The second line contains `n` integers `a₁, a₂, …, aₙ` (1 ≤ aᵢ ≤ 50) — the magical values of the array.  
+  - The first line contains an integer `n`  — the size of the array.  
+  - The second line contains `n` integers `a₁, a₂, …, aₙ`  — the magical values of the array.  
 
 ---
+
+## Constraints
+
+- `1 ≤ t ≤ 1000`
+- `1 ≤ n ≤ 50`
+- `1 ≤ aᵢ ≤ 50`
 
 ## Output
 
