@@ -25,13 +25,11 @@ For each testcase:
 
 The first line contains an integer n — the number of thresholds.
 
-The second line contains n integers — the array thresholds
-
-
-
+The second line contains n integers — the array thresholds.
 
 
 ## Constraints
+
 - 1 ≤ t ≤ 1000
 
 - 2≤n≤2000
