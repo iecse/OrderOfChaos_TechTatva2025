@@ -1,15 +1,12 @@
+#include "../testlib.h"
 #include <iostream>
 #include <vector>
-#include <queue>
 #include <fstream>
 #include <string>
 #include <algorithm>
-#include <cstdlib>
-#include <ctime>
-#include "../testlib.h"
 using namespace std;
 
-
+// --- Solution Logic (for generating outputs) ---
 int enchantedCrossing(vector<int> tiles, const vector<int>& travelers) {
     int n = tiles.size();
     int m = travelers.size();
@@ -28,43 +25,42 @@ int enchantedCrossing(vector<int> tiles, const vector<int>& travelers) {
     return crossed;
 }
 
+// --- Write one test file ---
 void writeTest(int z) {
-    string num = (z > 9) ? to_string(z) : "0" + to_string(z);
-    fstream test;
-    fstream answer;
-    test.open("Input" + num + ".txt", ios::out);
-    answer.open("Output" + num + ".txt", ios::out);
+    string num = (z < 10 ? "0" : "") + to_string(z);
+    ofstream fin("Input" + num + ".txt", ios::trunc);
+    ofstream fout("Output" + num + ".txt", ios::trunc);
 
     // Number of test cases
-    int t = rnd.next(1, 1000);
-    test << t << "\n";
+    int t = rnd.next(1, 100);  // 1 ≤ t ≤ 100
+    fin << t << "\n";
 
     while (t--) {
-        int n = rnd.next(1, 100000);  // small range for manageable output
-        int m = rnd.next(1, 100000);
-
-        test << n << " " << m << "\n";
+        int n = rnd.next(1, 20000); // 1 ≤ n ≤ 20000
+        int m = rnd.next(1, 20000); // 1 ≤ m ≤ 20000
+        fin << n << " " << m << "\n";
 
         vector<int> tiles(n), travelers(m);
 
         for (int i = 0; i < n; i++) {
-            tiles[i] = rnd.next(1, 1000000000); // tile capacity
-            test << tiles[i] << (i == n - 1 ? "\n" : " ");
+            tiles[i] = rnd.next(1, 1000000); // capacity ≤ 1e6
+            fin << tiles[i] << (i == n - 1 ? "\n" : " ");
         }
 
         for (int j = 0; j < m; j++) {
-            travelers[j] = rnd.next(1, 1000000000); // traveler weight
-            test << travelers[j] << (j == m - 1 ? "\n" : " ");
+            travelers[j] = rnd.next(1, 1000000); // weight ≤ 1e6
+            fin << travelers[j] << (j == m - 1 ? "\n" : " ");
         }
 
         int ans = enchantedCrossing(tiles, travelers);
-        answer << ans << "\n";
+        fout << ans << "\n";
     }
 
-    test.close();
-    answer.close();
+    fin.close();
+    fout.close();
 }
 
+// --- Main driver ---
 int main(int argc, char* argv[]) {
     registerGen(argc, argv, 1);
     for (int no = 0; no < 3; no++) {

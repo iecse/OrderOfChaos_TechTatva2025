@@ -2,11 +2,9 @@
 #include <vector>
 using namespace std;
 
-// Using long long is NECESSARY to avoid overflow
-// Worst case: 200,000 gems * 10^9 each = 2*10^14 (exceeds int limit)
-long long solve(vector<int>& gems) {
+int solve(vector<int>& gems) {
     int n = gems.size();
-    long long total = 0;
+    int total = 0;  // int is safe under new constraints
     
     for (int i = 0; i < n; i++) {
         total += gems[i];

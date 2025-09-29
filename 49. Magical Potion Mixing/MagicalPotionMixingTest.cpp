@@ -5,10 +5,10 @@
 #include <string>
 using namespace std;
 
-// --- Solution Logic (to generate correct outputs) ---
-long long solve(vector<int>& gems) {
+// --- Solution Logic (same as problem) ---
+int solve(vector<int>& gems) {
     int n = gems.size();
-    long long total = 0;
+    int total = 0;  // now int is safe because constraints are reduced
     
     for (int i = 0; i < n; i++) {
         total += gems[i];
@@ -27,8 +27,8 @@ void writeTest(int z) {
     ofstream fin("Input" + num + ".txt", ios::trunc);
     ofstream fout("Output" + num + ".txt", ios::trunc);
 
-    // Number of test cases
-    int T = rnd.next(1, 1000);  // up to 20 cases per file
+    // Number of test cases (scaled down for file size, but ≤ 100000 in problem)
+    int T = rnd.next(1, 50);  
     fin << T << "\n";
 
     while (T--) {
@@ -37,7 +37,7 @@ void writeTest(int z) {
 
         vector<int> gems(n);
         for (int i = 0; i < n; i++) {
-            gems[i] = rnd.next(1, 1000000000); // 1 ≤ gems[i] ≤ 1e9
+            gems[i] = rnd.next(1, 10000); // 1 ≤ gems[i] ≤ 10000
             fin << gems[i] << (i + 1 == n ? "\n" : " ");
         }
 

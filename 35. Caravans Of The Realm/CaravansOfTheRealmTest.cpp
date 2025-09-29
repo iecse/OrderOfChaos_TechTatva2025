@@ -39,16 +39,19 @@ void writeTest(int z) {
     ofstream answer("Output" + num + ".txt", ios::trunc);
 
     // Number of test cases
-    int T = rnd.next(1, 1000);
+    int T = rnd.next(1, 100); // fix: constraint is up to 100
     test << T << "\n";
 
     while (T--) {
         int n = rnd.next(1, 100000);
-        int target = rnd.next(n + 1, 1000000); // ensure target > n so we can pick unique positions
+        int target = rnd.next(1, 1000000);
+
+        // ensure we can actually pick n unique positions
+        if (n >= target) n = target - 1;
 
         test << n << " " << target << "\n";
 
-        // Generate unique positions efficiently
+        // Generate unique positions
         vector<int> allPos(target);
         iota(allPos.begin(), allPos.end(), 0);
         shuffle(allPos.begin(), allPos.end());
@@ -71,6 +74,7 @@ void writeTest(int z) {
         answer << ans << "\n";
     }
 }
+
 
 int main(int argc, char* argv[]) {
     registerGen(argc, argv, 1);

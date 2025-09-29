@@ -55,6 +55,6 @@ Tantrika can only take **one `7`** from the consecutive sequence of `7`s, then t
 
 ## Constraints
 
-- `2 ≤ n ≤ 2 * 10^5`  
-- `1 ≤ gems[i] ≤ 10^9`  
+- `2 ≤ n ≤ 200000`  
+- `1 ≤ gems[i] ≤ 10000`  
 - Time complexity requirement: **O(n)**  
