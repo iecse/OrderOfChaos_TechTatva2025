@@ -1,0 +1,6 @@
+05.[[:space:]]TheEnchantedCrossing/input/*.txt filter=lfs diff=lfs merge=lfs -text
+05.[[:space:]]TheEnchantedCrossing/output/*.txt filter=lfs diff=lfs merge=lfs -text
+35.[[:space:]]Caravans[[:space:]]Of[[:space:]]The[[:space:]]Realm/input/*.txt filter=lfs diff=lfs merge=lfs -text
+35.[[:space:]]Caravans[[:space:]]Of[[:space:]]The[[:space:]]Realm/output/*.txt filter=lfs diff=lfs merge=lfs -text
+49.[[:space:]]Magical[[:space:]]Potion[[:space:]]Mixing/input/*.txt filter=lfs diff=lfs merge=lfs -text
+49.[[:space:]]Magical[[:space:]]Potion[[:space:]]Mixing/output/*.txt filter=lfs diff=lfs merge=lfs -text
