@@ -32,7 +32,7 @@ The second line contains n integers — the array thresholds.
 
 - 1 ≤ t ≤ 1000
 
-- 2≤n≤2000
+- 2 ≤ n ≤ 2000
 
 - 1≤thresholds[i]≤10000
 
