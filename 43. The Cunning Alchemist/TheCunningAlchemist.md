@@ -62,6 +62,6 @@ For each trial, print a single integer — the **minimum gold coins** the appren
 - **Trial 4**: Buy 2 potions - 2 Deal A - cost = 6 coins.  
 - **Trial 5**: Buy 10 potions - combine deals optimally - cost = 36 coins.  
 - **Trial 6**: Buy 20 potions - combine deals optimally - cost = 72 coins.  
-- **Trial 7**: Buy 260010000 potions - combine deals optimally - cost = 2250964728 coins.  
+- **Trial 7**: Buy 260010000 potions - combine deals optimally - cost = 2250964728 coins. (That looks like a "long" calculation... doesn't it!?) 
 
 - The key idea is to **minimize the number of deals** while paying the **least coins**, without exceeding the required number of potions.

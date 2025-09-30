@@ -7,9 +7,9 @@ According to ancient scrolls, this crystal can only be **stabilized** if its ene
 
 In other words, Rudra must determine whether there exist two integers **`a`** and **`b`** such that:  
 
-$$a^2 + b^2 = c$$   
+$a^2 + b^2 = c$  
 
-where $$a^2$$ represents the energy of the **first spell rune** and $$b^2$$ represents the energy of the **second spell rune**.  
+where $a^2$ represents the energy of the **first spell rune** and $b^2$ represents the energy of the **second spell rune**.  
 
 
 ## Input Format  
@@ -22,8 +22,8 @@ For each test case, print:
 - `false` otherwise.
 
 ### Constraints
-- $$1 \leq t \leq 10^5$$  
-- $$0 \leq c \leq 2^{31} - 1$$  
+- $1 \leq t \leq 10^3$  
+- $0 \leq c \leq 2^{31} - 1$  
 
 ## Example  
 
