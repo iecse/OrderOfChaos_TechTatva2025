@@ -17,6 +17,12 @@ If such an arrangement is possible, the collection achieves _perfect resonance_.
   - The first line contains an integer **n** (2 ≤ n ≤ 100) — the number of crystals in the collection.
   - The second line contains **n integers** `p₁, p₂, …, pₙ` (2 ≤ pᵢ ≤ 100) — the power levels of the crystals.
 
+## Constraints
+
+- 1 ≤ t ≤ 1000
+- 2 ≤ n ≤ 100
+- 2 ≤ pᵢ ≤ 100
+
 ## Output
 
 For each test case, output:

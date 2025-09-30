@@ -31,6 +31,14 @@ It is guaranteed that the total of all **n** across test cases does not exceed 2
 
 ---
 
+## Constraints
+
+- number of nodes (1 ≤ n ≤ 2×10⁵)
+- required total energy (−2×10¹⁴ ≤ s ≤ 2×10¹⁴)
+- required peak energy (−10⁹ ≤ p ≤ 10⁹)
+
+---
+
 ## Output
 
 For each formation, print a single integer: the number of sacred pathways (contiguous subsequences) that meet the conditions.
