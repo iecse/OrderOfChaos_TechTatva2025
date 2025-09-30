@@ -14,11 +14,11 @@ The bridge works as follows:
 **Task:** For each test case, given `tiles` and `travelers`, output how many travelers successfully cross the bridge.  
 
 ## Input  
-- First line: integer `t` (1 ≤ t ≤ 10^3), the number of test cases.  
+- First line: integer `t`, the number of test cases.  
 - For each test case:  
-  - First line: two integers `n` and `m` (1 ≤ n, m ≤ 10^5).  
-  - Second line: `n` integers `tiles[i]` (1 ≤ tiles[i] ≤ 10^9).  
-  - Third line: `m` integers `travelers[j]` (1 ≤ travelers[j] ≤ 10^9).  
+  - First line: two integers `n` and `m`.
+  - Second line: `n` integers `tiles[i]`.
+  - Third line: `m` integers `travelers[j]`.
 
 
 ## Output  
@@ -59,8 +59,9 @@ For each test case, print a single integer — the number of travelers who cross
   2 travelers cross
  
 ## Constraints
-- 1 ≤ n, m ≤ 10^5  
-- 1 ≤ tiles[i] ≤ 10^9  
-- 1 ≤ travelers[j] ≤ 10^9  
-- The sum of `n + m` across all test cases does not exceed **2 × 10^5**  
+- $1 ≤ t ≤ 10^3$
+- $1 ≤ n, m ≤ 10^5$  
+- $1 ≤ tiles[i] ≤ 10^9$  
+- $1 ≤ travelers[j] ≤ 10^9$  
+- The sum of `n + m` across all test cases does not exceed **$2 × 10^5$** 
 - Expected time complexity: **O(n + m)** per test case  

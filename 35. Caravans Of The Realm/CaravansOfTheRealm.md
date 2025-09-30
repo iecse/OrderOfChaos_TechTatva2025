@@ -18,19 +18,8 @@ Your task is to determine the **number of wizard fleets** that will arrive at th
   2. Second line: `n` space-separated integers — `position[i]` for each caravan.  
   3. Third line: `n` space-separated integers — `speed[i]` for each caravan.  
 
-
 ## Output
-- For each test case, print a single line: the **number of wizard fleets** that reach the tower.  
-
-
-### Constraints
-- `1 <= T <= 100`  
-- `1 <= n <= 10^5`  
-- `0 < target <= 10^6`  
-- `0 <= position[i] < target`  
-- All `position[i]` are unique.  
-- `0 < speed[i] <= 10^6`  
-
+- For each test case, print a single line: the **number of wizard fleets** that reach the tower.   
 
 ## Example
 
@@ -63,3 +52,11 @@ Your task is to determine the **number of wizard fleets** that will arrive at th
 ### Test Case 2
 - The caravans starting at 0 (speed 4) and 2 (speed 2) become a fleet, meeting each other at 4. The caravan starting at 4 (speed 1) travels to 5.
 - Then, the fleet at 4 (speed 2) and the caravan at position 5 (speed 1) become one fleet, meeting each other at 6. The fleet moves at speed 1 until it reaches the tower.
+
+## Constraints
+- 1 <= T <= 100  
+- $1 <= n <= 10^5$ 
+- $0 < target <= 10^6$  
+- 0 <= `position[i]` < target 
+- All `position[i]` are unique.  
+- $0 < speed[i] <= 10^6$ 

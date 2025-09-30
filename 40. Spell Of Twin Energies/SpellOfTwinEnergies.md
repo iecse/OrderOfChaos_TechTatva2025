@@ -19,11 +19,7 @@ where $a^2$ represents the energy of the **first spell rune** and $b^2$ represen
 ## Output Format  
 For each test case, print:  
 - `true` if Rudra can stabilize the crystal using two perfect spell squares.  
-- `false` otherwise.
-
-### Constraints
-- $1 \leq t \leq 10^3$  
-- $0 \leq c \leq 2^{31} - 1$  
+- `false` otherwise. 
 
 ## Example  
 
@@ -41,5 +37,9 @@ false
 ```
 
 **Explanation:**  
-- For `c = 5`: The crystal’s energy can be split as $$1^2 + 2^2 = 5$$. So Rudra succeeds.  
+- For `c = 5`: The crystal’s energy can be split as $1^2 + 2^2 = 5$. So Rudra succeeds.  
 - For `c = 3`: No combination of magical runes adds up to **3**. The crystal remains unstable.  
+
+## Constraints
+- $1 \leq t \leq 10^3$  
+- $0 \leq c \leq 2^{31} - 1$ 
