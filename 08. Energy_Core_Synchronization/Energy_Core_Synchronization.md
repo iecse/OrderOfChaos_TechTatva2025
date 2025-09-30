@@ -20,11 +20,16 @@ Each of the next t lines contains an integer X (1 ≤ X ≤ 10⁹).
 ## Output
 For each test case, output a single integer — the minimum number of ritual actions required.
 
+## Constraints
+-(1 ≤ t ≤ 10⁴)
+-(1 ≤ X ≤ 10⁹)
+
 ## Examples
 
 Input
 
-```5
+```
+5
 1
 5
 14

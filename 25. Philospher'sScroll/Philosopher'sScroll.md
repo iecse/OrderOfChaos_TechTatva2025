@@ -25,6 +25,14 @@ Your task as the Apprentice Wizard is to fully decode the scroll and reveal the 
 
 For each test case, print the fully decoded chant as a string.
 
+## Constraints
+
+- 1 ≤ t ≤ 100
+- 1 ≤ |s| ≤ 1000 (length of each encoded scroll)
+- 1 ≤ k ≤ 300 (repeat count for any spell)
+- The encoded string s contains only lowercase English letters, digits, and square brackets [].
+- It is guaranteed that all encoded strings are valid and properly nested.
+
 ## Example
 
 Input
@@ -43,10 +51,4 @@ accaccacc
 abcabccdcdcdef
 ```
 
-## Constraints
 
-- 1 ≤ t ≤ 100
-- 1 ≤ |s| ≤ 1000 (length of each encoded scroll)
-- 1 ≤ k ≤ 300 (repeat count for any spell)
-- The encoded string s contains only lowercase English letters, digits, and square brackets [].
-- It is guaranteed that all encoded strings are valid and properly nested.

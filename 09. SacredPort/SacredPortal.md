@@ -39,6 +39,15 @@ Print 2 if the Shadow Beast wins.
 
 Print 0 if the duel is a draw.
 
+## Constraints
+The number of nodes in the graph, N, satisfies 3≤N≤50.
+
+The number of neighbors for any node, k, satisfies 0≤k<N.
+
+The total number of edges in the graph, M, satisfies 1≤M≤N⋅(N−1)/2.
+
+(Note: N must be at least 3 since nodes 0, 1, and 2 are guaranteed to exist.)
+
 ## Examples
 Example 1
 

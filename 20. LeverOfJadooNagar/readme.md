@@ -36,13 +36,21 @@ It is foretold that this number is **unique** and does not depend on which runes
 ---
 
 ## Input
-- The first line contains the number of test cases `t` (`1 ≤ t ≤ 10^4`).  
+- The first line contains the number of test cases `t` .  
 - For each test case:  
-  - The first line contains an integer `n` (`1 ≤ n ≤ 10`).  
-  - The second line contains `n` integers, the **Array of Flame** `a` (`1 ≤ a[i] ≤ 10`).  
-  - The third line contains `n` integers, the **Array of Frost** `b` (`1 ≤ b[i] ≤ 10`).  
+  - The first line contains an integer `n`.  
+  - The second line contains `n` integers, the **Array of Flame** `a` .  
+  - The third line contains `n` integers, the **Array of Frost** `b` .  
 
 ---
+
+## Constraints
+
+- `1 ≤ t ≤ 10^4`
+- `1 ≤ n ≤ 10`
+- `1 ≤ a[i] ≤ 10`
+- `1 ≤ b[i] ≤ 10`
+
 
 ## Output
 For each test case, return the **number of iterations** that the Lever performs before halting.  

@@ -28,7 +28,7 @@ The goal is to return the **lexicographically strongest spell** (largest string)
 ---
 
 ## Constraints
-- `1 <= T <= 10`  
+- `1 <= T <= 1000`  
 - `1 <= s.length <= 50`  
 - `s[i]` is either `'0'` (shadow rune) or `'1'` (light rune).  
 - Each `s` is guaranteed to be a balanced spell.  
@@ -53,4 +53,7 @@ The goal is to return the **lexicographically strongest spell** (largest string)
 **Explanation**  
 - For the first spell, it can be split into `10` and `1100`. Swapping them gives `11100100`, the strongest spell.  
 - For the second spell, no better rearrangement is possible.
+
+
+
 

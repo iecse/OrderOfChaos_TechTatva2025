@@ -20,12 +20,12 @@ Find the **minimum number** of mana crystals needed to destroy all relics.
 
 ## Input:
 
-The first line contains a single integer `t` (1 ≤ t ≤ 1000) — the number of cursed relic collections to be purified.  
+The first line contains a single integer `t`  — the number of cursed relic collections to be purified.  
 
 For each relic collection:  
 
-- The first line contains two integers `n` and `C` (1 ≤ n ≤ 30, 1 ≤ C ≤ 10⁹) — the number of relics and the sacred limit.  
-- The second line contains `n` integers `a₁, a₂, …, aₙ` (1 ≤ aᵢ ≤ 10⁹) — the initial arcane weight of each relic.  
+- The first line contains two integers `n` and `C`  — the number of relics and the sacred limit.  
+- The second line contains `n` integers `a₁, a₂, …, aₙ`  — the initial arcane weight of each relic.  
 
 ---
 

@@ -21,14 +21,20 @@ You need to determine whether it is possible to reach **Island n** before all th
 
 ## Input:  
 
-The first line contains a single integer `t` (1 ≤ t ≤ 1000) — the number of test cases.  
+The first line contains a single integer `t`  — the number of test cases.  
 
 For each test case:
 
-- The first line contains two integers `n` and `m` (2 ≤ n ≤ 100, 1 ≤ m ≤ n·(n−1)/2) — the number of islands and bridges.  
-- The next `m` lines each contain three integers `u`, `v`, `s` (1 ≤ u, v ≤ n, 1 ≤ s ≤ 100), meaning there is a bridge between island `u` and island `v` with stability `s`.  
+- The first line contains two integers `n` and `m` — the number of islands and bridges.  
+- The next `m` lines each contain three integers `u`, `v`, `s` , meaning there is a bridge between island `u` and island `v` with stability `s`.  
 
 ---
+
+## Constraints: 
+- `1 ≤ t ≤ 1000`
+-  `2 ≤ n ≤ 100`
+- `1 ≤ m ≤ n·(n−1)/2`
+- `1 ≤ u, v ≤ n, 1 ≤ s ≤ 100`
 
 ## Output:  
 
