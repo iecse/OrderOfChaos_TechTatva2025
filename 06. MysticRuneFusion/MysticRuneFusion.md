@@ -63,6 +63,6 @@ Choose `[4, 1, 2, 3]`:
 Total = `10`.  
 
 ## Constraints  
-- 2 ≤ n ≤ 2 × 10^5  
+- 1 ≤ t ≤ 50
+- 2 ≤ n ≤ 10^2
 - −10^4 ≤ runes[i] ≤ 10^4  
-- Expected complexity: O(n) or O(n log n)  
