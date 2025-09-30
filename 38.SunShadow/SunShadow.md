@@ -18,16 +18,20 @@ After all collisions have resolved, the duel's outcome is judged. If the final s
 
 -----
 
-## Input Format
+### Input Format
 
-The first lines contains number of Test cases.
+-   The first line contains an integer $T$, the number of test cases.
+-   The first line of each test case contains an integer $N$ — the number of spells.
+-   The second line of each test case contains $N$ space-separated integers $s_1, s_2, \dots, s_n$ — the power of each spell.
 
-For each test case:
+-----
 
-1. The first line contains an integer **`n`** ($1 \le n \le 10^5$) — the number of spells.  
-2. The second line contains `n` space-separated integers $s_1, s_2, \dots, s_n$ ($-1000 \le s_i \le 1000$, $s_i \ne 0$) — the power of each spell.  
+### Constraints
 
-The sum of **`n`** over all test cases will not exceed $10^5$.
+-   $1 \le N \le 10^5$
+-   $-1000 \le s_i \le 1000$
+-   $s_i \ne 0$
+-   The sum of $N$ over all test cases will not exceed $10^5$.
 
 -----
 

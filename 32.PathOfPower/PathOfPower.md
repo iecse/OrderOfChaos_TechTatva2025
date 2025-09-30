@@ -8,18 +8,22 @@ Your quest is to find the **maximum magical power** that can be drawn from any p
 
 -----
 
-## Input Format
+### Input Format
 
-First line contains number of test cases
+-   The first line contains an integer $T$, the number of test cases.
+-   The first line of each test case contains an integer $N$ — the number of branches (nodes) in the tree.
+-   The next $N$ lines describe the nodes, indexed from 1 to $N$. The $i$-th of these lines contains three integers: $val_i$, $left_i$, and $right_i$.
+    -   $val_i$ is the magic power of the fruit at node $i$.
+    -   $left_i$ and $right_i$ are the 1-based indices of the left and right children, respectively. A value of `0` indicates that a child does not exist.
+-   The node with index `1` is always the root of the tree.
 
-For each test case:
+-----
 
-1. The first line contains an integer **`n`** ($1 \le n \le 10^5$) — the number of branches (nodes) in the tree.  
-2. The next `n` lines describe the nodes, indexed from 1 to `n`. The `i`-th of these lines contains three integers: `val_i`, `left_i`, and `right_i`.  
-   - `val_i` ($-1000 \le val_i \le 1000$) is the magic power of the fruit at node `i`.  
-   - `left_i` and `right_i` are the 1-based indices of the left and right children, respectively. A value of `0` indicates that a child does not exist.  
+### Constraints
 
-The node with index `1` is always the root of the tree. The sum of **`n`** over all test cases will not exceed $10^5$.
+-   $1 \le N \le 10^5$
+-   $-1000 \le val_i \le 1000$
+-   The sum of $N$ over all test cases will not exceed $10^5$.
 
 -----
 

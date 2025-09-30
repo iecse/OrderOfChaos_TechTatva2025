@@ -8,14 +8,18 @@ Your task is to foresee the final state of this cursed scroll after all possible
 
 -----
 
-## Input Format
+### Input Format
 
-The first line contains the number of test cases
+-   The first line contains an integer $T$, the number of test cases.
+-   The first line of each test case contains a single string $s$ — the initial sequence of runes on the scroll.
 
-The next line of each test case contains a single string **`s`** ($1 \le |s| \le 2 \cdot 10^5$) — the initial sequence of runes on the scroll.  
+-----
 
-The scroll is composed exclusively of lowercase English letters. The sum of **`|s|`** over all test cases will not exceed $2 \cdot 10^5$.
+### Constraints
 
+-   $1 \le |s| \le 2 \cdot 10^5$, where $|s|$ is the length of the string.
+-   The string $s$ consists of only lowercase English letters.
+-   The sum of $|s|$ over all test cases will not exceed $2 \cdot 10^5$.
 -----
 
 ## Output Format

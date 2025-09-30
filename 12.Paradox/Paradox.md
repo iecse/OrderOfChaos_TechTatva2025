@@ -10,12 +10,18 @@ Peering into the future from any given moment causes a "**Temporal Ripple**." A 
 
 ### Input Format
 
-The first line of each test case contains a single integer **`n`** ($1 \le n \le 5 \cdot 10^5$) — the number of moments in the timeline.
+-   The first line contains an integer $T$, the number of test cases.
+-   The first line of each test case contains a single integer $N$ — the number of moments in the timeline.
+-   The second line of each test case contains $N$ space-separated integers $r_1, r_2, \dots, r_n$ — the aetherial energy readings.
 
-The second line of each test case contains `n` space-separated integers $r_1, r_2, \dots, r_n$ ($1 \le r_i \le 10^6$) — the aetherial energy readings.
+-----
 
-The sum of **`n`** over all test cases will not exceed $5 \cdot 10^5$.
+### Constraints
 
+-   $1 \le N \le 5 \cdot 10^5$
+-   $1 \le r_i \le 10^6$
+-   The sum of $N$ over all test cases will not exceed $5 \cdot 10^5$.
+-   
 -----
 
 ### Output Format

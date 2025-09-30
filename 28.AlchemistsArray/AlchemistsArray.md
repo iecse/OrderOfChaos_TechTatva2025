@@ -8,17 +8,19 @@ Your task is to help the alchemist by analyzing the array of potions and finding
 
 -----
 
-## Input Format
+### Input Format
 
-The first line contains number of test cases
+-   The first line contains an integer $T$, the number of test cases.
+-   The first line of each test case contains an integer $N$ — the number of magical potions.
+-   The second line of each test case contains $N$ space-separated integers $a_1, a_2, \dots, a_n$ — the essence value of each potion.
 
-For each test case:
+-----
 
-1. The first line contains an integer **`n`** ($1 \le n \le 2 \cdot 10^5$) — the number of magical potions.  
-2. The second line contains `n` space-separated integers $a_1, a_2, \dots, a_n$ ($1 \le a_i \le 10^5$) — the essence value of each potion.  
+### Constraints
 
-The sum of **`n`** over all test cases will not exceed $2 \cdot 10^5$.
-
+-   $1 \le N \le 2 \cdot 10^5$
+-   $1 \le a_i \le 10^5$
+-   The sum of $N$ over all test cases will not exceed $2 \cdot 10^5$.
 -----
 
 ## Output Format

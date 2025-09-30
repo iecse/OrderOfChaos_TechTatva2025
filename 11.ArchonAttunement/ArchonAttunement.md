@@ -10,11 +10,18 @@ Your life force is finite, so you must perform the ritual with the minimum possi
 
 ### Input Format
 
-The first line of each test case contains two integers **`n`** and **`H`** ($1 \le n \le 10^4$; $n \le H \le 10^9$) — the number of Aetherium caches and the number of available Lunar Cycles, respectively.  
+-   The first line contains an integer $T$, the number of test cases.
+-   The first line of each test case contains two integers, $N$ and $H$ — the number of Aetherium caches and the number of available Lunar Cycles.
+-   The second line of each test case contains $N$ integers $c_1, c_2, \dots, c_n$ — the amount of Aetherium in each cache.
 
-The second line of each test case contains `n` integers $c_1, c_2, \dots, c_n$ ($1 \le c_i \le 10^9$) — the amount of Aetherium in each cache.  
+-----
 
-The sum of **`n`** over all test cases will not exceed $10^4$.
+### Constraints
+
+-   $1 \le N \le 10^4$
+-   $N \le H \le 10^9$
+-   $1 \le c_i \le 10^9$
+-   The sum of $N$ over all test cases will not exceed $10^4$.
 
 -----
 

@@ -8,14 +8,18 @@ Your mission is to assist the wizard by determining the absolute maximum power t
 
 -----
 
-## Input Format
+### Input Format
 
-The first line contains the number of test cases
+-   The first line contains an integer $T$, the number of test cases.
+-   The first line of each test case contains an integer $N$ — the number of beads on the wand.
+-   The second line of each test case contains $N$ space-separated integers $a_1, a_2, \dots, a_n$ — the power values of the beads.
 
-The input for a single test case is as follows:
+-----
 
-1. The first line contains an integer **`n`** ($1 \le n \le 2 \cdot 10^5$) — the number of beads on the wand.  
-2. The second line contains `n` space-separated integers $a_1, a_2, \dots, a_n$ ($-10^9 \le a_i \le 10^9$) — the power values of the beads.
+### Constraints
+
+-   $1 \le N \le 2 \cdot 10^5$
+-   $-10^9 \le a_i \le 10^9$
 
 -----
 
