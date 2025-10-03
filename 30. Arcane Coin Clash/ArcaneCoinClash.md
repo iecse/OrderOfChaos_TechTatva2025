@@ -28,15 +28,11 @@ Both wizards play **optimally**, considering the best strategy of the other.
 
 ## Input Format
 
-- The first line contains an integer `t` (1 ≤ t ≤ 10^4) — the number of scenarios.  
+- The first line contains an integer `t` the number of scenarios.  
 - Each scenario consists of three lines:
-  1. Two integers `n` and `k` (2 ≤ n ≤ 2·10^5, 1 ≤ k ≤ n) — the number of crystals in each row and the number of rounds.  
-  2. `n` integers `a_1, a_2, …, a_n` (1 ≤ a_i ≤ 10^9) — the energies of Titli’s crystals.  
-  3. `n` integers `b_1, b_2, …, b_n` (1 ≤ b_i ≤ 10^9) — the energies of Babli’s crystals.
-
-**Constraints:**
-
-- The sum of all `n` over all test cases does not exceed 2·10^5.
+  1. Two integers `n` and `k` — the number of crystals in each row and the number of rounds.  
+  2. `n` integers `a_1, a_2, …, a_n` — the energies of Titli’s crystals.  
+  3. `n` integers `b_1, b_2, …, b_n` — the energies of Babli’s crystals.
 
 ## Output Format
 
@@ -100,3 +96,10 @@ For each scenario, output a single integer — the **final ritual cost** in arca
 5. **Scenario 5** (`n=10, k=10`):  
    - Babli has full control to maximize differences.  
    - Cost: `312`.
+
+## Constraints
+- 1 ≤ t ≤ $10^3$ — number of test cases  
+- 1 ≤ n ≤ 2 × $10^5$ — number of coins in a scenario  
+- 1 ≤ k ≤ n  
+- 1 ≤ a[i], b[i] ≤ $10^9$  
+- The sum of all n across all test cases does not exceed 2 × $10^5$  

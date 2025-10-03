@@ -15,10 +15,10 @@ If multiple start days give the same result, choose the **earliest possible day*
 
 ## Input
 
-- The first line contains a single integer `t` (1 ≤ t ≤ 10^4) — the number of scenarios.  
+- The first line contains a single integer `t` — the number of scenarios.  
 - Each scenario consists of:  
-  - A line with three integers `n, d, k` (1 ≤ n ≤ 10^5, 1 ≤ d, k ≤ n) — total days, duration of each visit, and number of quests.  
-  - Next `k` lines, each containing two integers `l_i, r_i` (1 ≤ l_i ≤ r_i ≤ n) — start and end day of each quest.  
+  - A line with three integers `n, d, k` — total days, duration of each visit, and number of quests.  
+  - Next `k` lines, each containing two integers `l_i, r_i` — start and end day of each quest.  
 
 It is guaranteed that the sum of all `n` over all test cases does not exceed 2·10^5.  
 
@@ -82,3 +82,11 @@ Both visits must be entirely within days `1` to `n`.
    - Mother - days [4,5] - overlaps 0 quests  
 
 The rest of the scenarios follow the same logic, always picking the **earliest day** for the required overlap.
+
+## Constraints
+- 1 ≤ t ≤ 100 — number of scenarios  
+- 1 ≤ n ≤ $10^5$ — total number of days  
+- 1 ≤ d, k ≤ n  
+- 1 ≤ l_i ≤ r_i ≤ n  
+- The sum of all n across all test cases does not exceed 2 × $10^5$ 
+

@@ -16,8 +16,6 @@ Two substrings are consecutive if the last rune of the first is exactly before t
 
 The goal is to return the **lexicographically strongest spell** (largest string) that can be formed after performing any number of such magical operations.
 
----
-
 ## Input
 - First line: integer `T` — number of test cases.  
 - Next `T` lines: each line contains one string `s`, a balanced spell.  
@@ -25,17 +23,7 @@ The goal is to return the **lexicographically strongest spell** (largest string)
 ## Output
 - For each test case, print the lexicographically strongest balanced spell possible.  
 
----
-
-## Constraints
-- `1 <= T <= 1000`  
-- `1 <= s.length <= 50`  
-- `s[i]` is either `'0'` (shadow rune) or `'1'` (light rune).  
-- Each `s` is guaranteed to be a balanced spell.  
-
----
-
-## Example 1
+## Example
 
 **Input**  
 ```
@@ -53,6 +41,12 @@ The goal is to return the **lexicographically strongest spell** (largest string)
 **Explanation**  
 - For the first spell, it can be split into `10` and `1100`. Swapping them gives `11100100`, the strongest spell.  
 - For the second spell, no better rearrangement is possible.
+
+## Constraints
+- `1 <= T <= 1000`  
+- `1 <= s.length <= 50`  
+- `s[i]` is either `'0'` (shadow rune) or `'1'` (light rune).  
+- Each `s` is guaranteed to be a balanced spell. 
 
 
 

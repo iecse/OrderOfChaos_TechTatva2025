@@ -27,12 +27,6 @@ Answers within `10^-5` of the actual value will be accepted.
 ## Output 
 - For each test case, print a single line: the **minimum total gold** needed to hire the squad of `k` wizards, rounded to **5 decimal places**.  
 
-
-### Constraints
-- `1 <= T <= 100`  
-- `1 <= k <= n <= 10^4`  
-- `1 <= power[i], gold[i] <= 10^4`  
-
 ## Example
 
 **Input**  
@@ -62,3 +56,8 @@ Answers within `10^-5` of the actual value will be accepted.
 **Test case 2:**  
 - Hire the 0th, 2nd, and 3rd wizards.  
 - Total gold = 4 + 13.33333 + 13.33333 ≈ 30.66667.  
+
+## Constraints
+- 1 <= T <= 100 
+- 1 <= k <= n <= $10^4$  
+- 1 <= power[i], gold[i] <= $10^4$  
