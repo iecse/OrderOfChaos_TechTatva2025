@@ -20,7 +20,7 @@ If multiple start days give the same result, choose the **earliest possible day*
   - A line with three integers `n, d, k` — total days, duration of each visit, and number of quests.  
   - Next `k` lines, each containing two integers `l_i, r_i` — start and end day of each quest.  
 
-It is guaranteed that the sum of all `n` over all test cases does not exceed 2·10^5.  
+It is guaranteed that the sum of all `n` over all test cases does not exceed $2·10^5$.  
 
 
 ## Output
