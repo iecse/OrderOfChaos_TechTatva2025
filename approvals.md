@@ -49,7 +49,7 @@
 | 45    | |        |    
 | 46    | The Array of Radiant Runes|          Arunima  Bhattacharjee      |    Easy|Approve
 | 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Medium|BackUp
-| 48    | Mystic Wall                       | Mahika Kapil   | Hard  |Kept for backup |https://leetcode.com/problems/push-dominoes|
+| 48    | Sort Towers                      | Mahika Kapil   | Easy  |Approved |https://codeforces.com/problemset/problem/37/A|
 | 49    | Magical Potion Mixing            | Rishit Singh   | Easy       | Approved| Self|
 | 50    | Scroll of Balance                   | Mahika Kapil   | Hard  |Approved |https://codeforces.com/problemset/problem/2127/C|
 
