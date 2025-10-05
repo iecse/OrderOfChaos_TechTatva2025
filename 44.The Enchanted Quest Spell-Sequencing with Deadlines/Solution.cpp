@@ -5,57 +5,48 @@ struct Spell {
     int id, deadline, treasure;
 };
 
-// **FINAL CORRECT COMPARATOR**: Higher treasure first, then LARGER ID (for '3 1' sequence).
-bool cmp(const Spell &a, const Spell &b) {
-    // 1. Primary Sort: Higher treasure first
-    if (a.treasure != b.treasure) {
-        return a.treasure > b.treasure;
+// Iterative DSU find (fast, non-recursive)
+int findp(int x, vector<int> &parent) {
+    while (parent[x] != x) {
+        parent[x] = parent[parent[x]];
+        x = parent[x];
     }
-    // 2. Secondary Sort: Larger ID first (Required to match the test case output '3 1')
-    return a.id > b.id; 
+    return x;
 }
 
-// Disjoint Set Union (DSU) with Path Compression
-int findParent(vector<int> &parent, int s) {
-    if (parent[s] == s) return s;
-    return parent[s] = findParent(parent, parent[s]);
-}
+pair<vector<int>, long long> solveQuest(vector<Spell> &spells) {
+    // Sort by treasure desc; tie-breaker: smaller id first
+    sort(spells.begin(), spells.end(), [](const Spell &a, const Spell &b) {
+        if (a.treasure != b.treasure) return a.treasure > b.treasure;
+        return a.id < b.id;
+    });
 
-/**
- * Function to solve one test case using the Greedy DSU approach.
- */
-pair<vector<int>, int> solveQuest(vector<Spell> &spells) {
-    int maxDeadline = 0;
-    for (const auto &sp : spells) 
-        maxDeadline = max(maxDeadline, sp.deadline);
+    int n = (int)spells.size();
+    int maxD = 0;
+    for (auto &s : spells) maxD = max(maxD, s.deadline);
+    maxD = min(maxD, n);
 
-    // Sort spells using the deterministic tie-breaker.
-    sort(spells.begin(), spells.end(), cmp);
+    vector<int> parent(maxD + 1);
+    iota(parent.begin(), parent.end(), 0);
+    vector<int> assigned(maxD + 1, -1);
 
-    vector<int> parent(maxDeadline + 1);
-    for (int i = 0; i <= maxDeadline; i++) parent[i] = i;
-
-    vector<int> result(maxDeadline + 1, -1);
-    int totalTreasure = 0;
-
-    for (const auto &sp : spells) {
-        // Find the latest available slot
-        int avail = findParent(parent, sp.deadline);
-        if (avail > 0) {
-            result[avail] = sp.id;
-            totalTreasure += sp.treasure;
-            // Link the taken slot to the previous slot (Union step)
-            parent[avail] = findParent(parent, avail - 1);
+    long long total = 0;
+    for (auto &s : spells) {
+        int d = min(s.deadline, maxD);
+        int slot = findp(d, parent);
+        if (slot > 0) {
+            assigned[slot] = s.id;
+            total += s.treasure;
+            parent[slot] = findp(slot - 1, parent);
         }
     }
 
-    // Collect scheduled spell IDs in order of execution
-    vector<int> scheduled;
-    for (int i = 1; i <= maxDeadline; i++) {
-        if (result[i] != -1) scheduled.push_back(result[i]);
-    }
+    vector<int> seq;
+    seq.reserve(maxD);
+    for (int i = 1; i <= maxD; ++i)
+        if (assigned[i] != -1) seq.push_back(assigned[i]);
 
-    return {scheduled, totalTreasure};
+    return {seq, total};
 }
 
 int main() {
@@ -68,22 +59,16 @@ int main() {
         int n; 
         cin >> n;
         vector<Spell> spells(n);
-        for (int i = 0; i < n; i++) {
-            // Read: id deadline treasure
+        for (int i = 0; i < n; ++i)
             cin >> spells[i].id >> spells[i].deadline >> spells[i].treasure;
-        }
 
         auto res = solveQuest(spells);
 
-        // Output scheduled spell IDs
-        for (size_t i = 0; i < res.first.size(); i++) {
-            cout << res.first[i] << (i == res.first.size() - 1 ? "" : " ");
+        for (size_t i = 0; i < res.first.size(); ++i) {
+            if (i) cout << ' ';
+            cout << res.first[i];
         }
-        cout << "\n";
-        
-        // Output total treasure
-        cout << res.second << "\n";
+        cout << '\n' << res.second << '\n';
     }
-
     return 0;
 }

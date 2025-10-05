@@ -45,7 +45,7 @@
 | 41    | Celestial Forge                  | Kushal Raj     | Hard   | Approved | Self|
 | 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | Dropped| https://codeforces.com/problemset/problem/1133/D|
 | 43    | The Cunning Alchemist            | Rishit Singh   | Medium       | Approved| https://codeforces.com/contest/2132/problem/C1|
-| 44    | The Enchanted Quest: Spell Sequencing with Deadlines|          Arunima  Bhattacharjee      |    Hard|Not Approved
+| 44    | The Enchanted Quest: Spell Sequencing with Deadlines|          Arunima  Bhattacharjee      |    Hard| Approved
 | 45    | |        |    
 | 46    | The Array of Radiant Runes|          Arunima  Bhattacharjee      |    Easy|Approve
 | 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Medium|Not Approved
