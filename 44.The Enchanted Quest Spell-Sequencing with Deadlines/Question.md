@@ -1,4 +1,5 @@
 # The Enchanted Quest: Spell Sequencing with Deadlines
+## Difficulty : 
 
 You are given `n` mystical spells (jobs). Each spell holds:  
 - a Rune of Identity  id (unique id)
@@ -14,11 +15,11 @@ Your mission, young sorcerer, is to maximize your Treasure Collection by selecti
 ---
 ## Input
 
-- The first line contains an integer t (1 ≤ t ≤ 500)  the number of test cases.
+- The first line contains an integer t   the number of test cases.
 
 - The description of each test case follows.
 
-- The first line of each test case contains a single integer n (1 ≤ n ≤ 10^5) — the number of spells.
+- The first line of each test case contains a single integer n  — the number of spells.
 
 - The next n lines each contain three integers:
 
@@ -39,6 +40,7 @@ For each test case, output two things:
 - The total Treasure Value collected.
 ## Example :
 **Input:**  
+```
 3
 4
 1 4 20
@@ -55,12 +57,16 @@ For each test case, output two things:
 1 3 15
 2 2 20
 3 1 30
-
+```
 **Output:**  
+```
 3 1
 60
-1 3
+3 1
 127
 3 2 1
 65
-
+```
+### Constrain
+- 1 ≤ t ≤ 500<br>
+- 1 ≤ n ≤ 10^5<br>

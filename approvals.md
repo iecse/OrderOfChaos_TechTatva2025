@@ -45,10 +45,10 @@
 | 41    | Celestial Forge                  | Kushal Raj     | Hard   | Approved | Self|
 | 42    | Spell Of Zero Essence            | Rishit Singh   | Hard       | Dropped| https://codeforces.com/problemset/problem/1133/D|
 | 43    | The Cunning Alchemist            | Rishit Singh   | Medium       | Approved| https://codeforces.com/contest/2132/problem/C1|
-| 44    | The Enchanted Quest: Spell Sequencing with Deadlines|          Arunima  Bhattacharjee      |    Hard|Approve
+| 44    | The Enchanted Quest: Spell Sequencing with Deadlines|          Arunima  Bhattacharjee      |    Hard|Not Approved
 | 45    | |        |    
 | 46    | The Array of Radiant Runes|          Arunima  Bhattacharjee      |    Easy|Approve
-| 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Medium|BackUp
+| 47    | Enchanted Sorting of Runes|          Arunima  Bhattacharjee      |    Medium|Not Approved
 | 48    | Sort Towers                      | Mahika Kapil   | Easy  |Approved |https://codeforces.com/problemset/problem/37/A|
 | 49    | Magical Potion Mixing            | Rishit Singh   | Easy       | Approved| Self|
 | 50    | Scroll of Balance                   | Mahika Kapil   | Hard  |Approved |https://codeforces.com/problemset/problem/2127/C|

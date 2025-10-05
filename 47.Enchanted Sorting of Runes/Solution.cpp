@@ -2,7 +2,9 @@
 #ifndef SOLUTION_HPP
 #define SOLUTION_HPP
 
-#include <bits/stdc++.h>
+#include <vector>     
+#include <algorithm>  
+#include <functional>
 using namespace std;
 
 // Solution function: magicalSorting
@@ -11,13 +13,13 @@ vector<int> magicalSorting(const vector<int>& nums) {
 
     // Step 1: Separate the runes
     for (int x : nums) {
-        if (x % 2 == 0) evens.push_back(x);  // Rune of Balance ⚖️
-        else odds.push_back(x);              // Rune of Fire 🔥
+        if (x % 2 == 0) evens.push_back(x);  
+        else odds.push_back(x);              
     }
 
-    // Step 2: Sort with enchantments
-    sort(evens.begin(), evens.end());                  // Ascending order
-    sort(odds.begin(), odds.end(), greater<int>());    // Descending order
+   
+    sort(evens.begin(), evens.end());                  
+    sort(odds.begin(), odds.end(), greater<int>());    
 
     // Step 3: Rebuild the enchanted array
     vector<int> result;

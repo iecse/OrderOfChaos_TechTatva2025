@@ -1,5 +1,5 @@
 # The Spell of Perfect Harmony
-
+## Difficulty : 
 In the Realm of Binary Plains, an ancient path is paved with n glowing stones, each shining with either darkness (0) or light (1).
 
 You possess a single spell of transformation:
@@ -11,11 +11,11 @@ Your quest is to determine the length of the longest continuous stretch of stone
 ---
 
 ## Input  
-- The first line contains an integer t (1 ≤ t ≤ 10^4) — the number of trials.
+- The first line contains an integer t  — the number of trials.
 
-- Each trial begins with an integer n (1 ≤ n ≤ 10^5) — the number of stones.
+- Each trial begins with an integer n  — the number of stones.
 
-- The next line contains n integers a1, a2, …, an (ai ∈ {0,1}) — the glow of each stone.
+- The next line contains n integers a1, a2, …, an  — the glow of each stone.
 
 It is guaranteed that the sum of n across all trials does not exceed 10^5.
 ## Output  
@@ -41,8 +41,10 @@ For each trial, output a single integer — the maximum length of a harmonious s
 
 ```
 4
-4
+3
 3
 ```
-
-
+### Constrain
+- 1 ≤ t ≤ 10^4<br>
+- 1 ≤ n ≤ 10^5<br>
+- ai ∈ {0,1}

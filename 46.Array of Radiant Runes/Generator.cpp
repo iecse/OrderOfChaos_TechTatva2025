@@ -1,62 +1,63 @@
 #include "../testlib.h"
 #include <bits/stdc++.h>
+#include <climits> // Include for LLONG_MIN
 using namespace std;
 
-// Solution function (same as radiantRunes)
-vector<int> radiantRunes(const vector<int>& nums) {
-    vector<int> result;
-    int maxRight = INT_MIN;
+// Solution logic to generate the output files
+// **UPDATED to use long long**
+vector<long long> radiantRunes(const vector<long long>& nums) {
+    vector<long long> result; 
+    long long maxRight = LLONG_MIN; // Use LLONG_MIN for safety
+    int n = nums.size();
 
-    for (int i = nums.size() - 1; i >= 0; i--) {
-        if (nums[i] > maxRight) {
+    for (int i = n - 1; i >= 0; i--) {
+        if (nums[i] > maxRight) { // strictly greater
             result.push_back(nums[i]);
             maxRight = nums[i];
         }
     }
-
     reverse(result.begin(), result.end());
     return result;
 }
 
-// Function to generate test files
 void writeTest(int testNo) {
     string num = (testNo > 9) ? to_string(testNo) : "0" + to_string(testNo);
     fstream test, answerFile;
-
     test.open("Input" + num + ".txt", ios::out);
     answerFile.open("Output" + num + ".txt", ios::out);
 
-    int remaining = 100000; // sum of n across all trials
-    int t = rnd.next(1, min(500, remaining));
+    long long remaining = 100000; // sum of n across all test cases
+    int t = rnd.next(1, min(500, (int)remaining));
     test << t << "\n";
 
     while (t-- && remaining > 0) {
-        int n = rnd.next(1, min(100000, remaining));
+        int n = rnd.next(1, min(100000, (int)remaining));
         remaining -= n;
 
         test << n << "\n";
-        vector<int> nums(n);
+        vector<long long> nums(n); // Use long long
+        
         for (int i = 0; i < n; i++) {
-            nums[i] = rnd.next(-1000000000, 1000000000); // -1e9 to 1e9
-            test << nums[i] << " ";
+            // Generate numbers in the range [-10^9, 10^9]
+            nums[i] = rnd.next(-1000000000LL, 1000000000LL);
+            test << nums[i] << (i + 1 == n ? "" : " ");
         }
         test << "\n";
 
-        vector<int> res = radiantRunes(nums);
-        for (int x : res) answerFile << x << " ";
+        auto res = radiantRunes(nums);
+
+        // Write radiant stars sequence
+        for (size_t i = 0; i < res.size(); i++) {
+            answerFile << res[i] << (i + 1 == res.size() ? "" : " ");
+        }
         answerFile << "\n";
     }
-
-    test.close();
-    answerFile.close();
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
     registerGen(argc, argv, 1);
-
-    for (int no = 0; no < 3; no++) {
-        writeTest(no); // creates Input00/Output00, Input01/Output01, Input02/Output02
-    }
-
+    writeTest(0); 
+    writeTest(1); 
+    writeTest(2); 
     return 0;
 }

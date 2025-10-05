@@ -1,26 +1,60 @@
-// Solution.hpp
-#ifndef SOLUTION_HPP
-#define SOLUTION_HPP
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <climits> // Include for LLONG_MIN
 
-#include <bits/stdc++.h>
 using namespace std;
 
-// Solution function: returns the radiant runes
-vector<int> radiantRunes(const vector<int>& nums) {
-    vector<int> result;
-    int maxRight = INT_MIN;  // the brightest rune seen so far from the right
+/**
+ * Solves the Array of Radiant Stars problem in O(N) time.
+ * A star is radiant if it is strictly greater than all stars to its right.
+ */
+void solve() {
+    int n;
+    if (!(cin >> n)) return;
+    
+    // Use long long for array elements
+    vector<long long> nums(n);
+    for (int i = 0; i < n; i++) {
+        if (!(cin >> nums[i])) return;
+    }
 
-    // Traverse from right to left
-    for (int i = nums.size() - 1; i >= 0; i--) {
+    vector<long long> radiant_stars;
+    
+    // Initialize maxRight to the minimum possible long long value
+    long long maxRight = LLONG_MIN; 
+
+    // Iterate from right to left (The core O(N) algorithm)
+    for (int i = n - 1; i >= 0; i--) {
+        // If the current star is strictly greater than the maximum seen so far on its right
         if (nums[i] > maxRight) {
-            result.push_back(nums[i]);   // this rune is radiant ✨
-            maxRight = nums[i];
+            radiant_stars.push_back(nums[i]);
+            // Update the running maximum
+            maxRight = nums[i]; 
         }
     }
 
-    // Reverse to restore original order
-    reverse(result.begin(), result.end());
-    return result;
+    // Reverse the list to restore the original order
+    reverse(radiant_stars.begin(), radiant_stars.end());
+
+    // Output the result
+    for (size_t i = 0; i < radiant_stars.size(); i++) {
+        cout << radiant_stars[i] << (i + 1 == radiant_stars.size() ? "" : " ");
+    }
+    cout << "\n";
 }
 
-#endif
+int main() {
+    // Standard I/O optimization
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    if (!(cin >> t)) return 0;
+
+    while (t--) {
+        solve();
+    }
+
+    return 0;
+}
