@@ -43,16 +43,28 @@ For each test case, output a single integer: the final number of destiny coins.
 ## Example
 Input
 ```
-2
-3 1
-1 2 3
-3 2 1
-4 2
-1 2 3 4
-10 11 12 13
+5
+2 1
+1 7
+3 5
+3 2
+1 5 3
+6 2 4
+5 4
+1 16 10 10 16
+3 2 2 15 15
+4 1
+23 1 18 4
+19 2 10 3
+10 10
+4 3 2 100 4 1 2 4 5 5
+1 200 4 5 6 1 10 2 3 4
 ```
 Output
 ```
-2
-28
+8
+9
+30
+16
+312
 ```
