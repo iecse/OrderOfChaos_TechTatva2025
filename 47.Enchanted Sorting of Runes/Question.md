@@ -1,4 +1,5 @@
 # Enchanted Sorting of Magic Stones
+## Difficulty : 
 ## Description:
 You are given an array of mystical stones `nums`.  
 Your task is to perform a dual enchantment:
@@ -9,15 +10,15 @@ Your task is to perform a dual enchantment:
 ## Input
 - Each test contains multiple test cases.
 
-- The first line contains a single integer t (1 ≤ t ≤ 500) — the number of test cases.
+- The first line contains a single integer t  — the number of test cases.
 
 - The description of the test cases follows.
 
 - For each test case:
 
-- The first line contains a single integer n (1 ≤ n ≤ 10^5) — the size of the array.
+- The first line contains a single integer n  — the size of the array.
 
-- The second line contains n integers stone1, stone2, …, stonen (−10^9 ≤ stonei ≤ 10^9).
+- The second line contains n integers stone1, stone2, …, stonen .
 
 - It is guaranteed that the sum of n over all test cases does not exceed 10^5.
 ## Output
@@ -43,4 +44,8 @@ Your task is to perform a dual enchantment:
 10 43 32 21 54
 ```
 ---
+### Constrain
 
+- −10^9 ≤ stonei ≤ 10^9<br>
+- 1 ≤ t ≤ 500<br>
+- 1 ≤ n ≤ 10^5<br>

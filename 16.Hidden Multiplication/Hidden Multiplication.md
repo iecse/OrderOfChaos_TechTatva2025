@@ -1,5 +1,5 @@
 #  Hidden Multiplication of the Arcane Scroll
-
+## Difficulty : 
 Long ago, the sage Artem discovered a secret of the Arcane Scroll of Numbers.
 He chose a hidden number x and, to mask its true form, he performed two mystical acts:
 
@@ -13,9 +13,9 @@ n = x ⋅ (1 + 10^k)
 
 ## Input  
 
-- The first line contains an integer t (1 ≤ t ≤ 10^4) — the number of test cases.
+- The first line contains an integer t  — the number of test cases.
 
-- Each of the next t lines contains a single integer n (11 ≤ n ≤ 10^18).
+- Each of the next t lines contains a single integer n .
 
 ## Output  
 For each test case, output:
@@ -40,3 +40,6 @@ For each test case, output:
 1 11
 1 100
 ```
+### Constrain
+- 1 ≤ t ≤ 10^4<br>
+- 11 ≤ n ≤ 10^18

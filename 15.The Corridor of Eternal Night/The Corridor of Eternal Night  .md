@@ -1,5 +1,5 @@
 #  The Corridor of Eternal Night  
-
+## Difficulty: 
 Arun the Wanderer must journey through the Corridor of Eternal Night, where n Stones of Light line the path, numbered from 1 to n.
 
 - A stone may shine (0) or be shattered (1).
@@ -19,13 +19,13 @@ But Arun carries an Ancient Lantern, imbued with a single flash sigil.
 Your mission: Determine whether Arun can reach the end of the corridor (past stone n) without being trapped forever in the abyss.
 
 ##  Input  
-The first line reveals an integer t (1 ≤ t ≤ 1000) — the number of trials.
+The first line reveals an integer t  — the number of trials.
 
 Each trial contains:
 
-- Two integers n, x (1 ≤ n, x ≤ 10) — the number of stones and the lifespan of the lantern’s sigil.
+- Two integers n, x  — the number of stones and the lifespan of the lantern’s sigil.
 
-- A sequence of n integers a1, a2, …, an (ai ∈ {0,1}) — the fate of each stone.
+- A sequence of n integers a1, a2, …, an  — the fate of each stone.
 
     - 0 → shining stone.
 
@@ -56,3 +56,7 @@ For each trial, whisper “YES” if Arun can escape the Corridor of Eternal Nig
 YES
 NO
 ```
+### Constrain
+- 1 ≤ n, x ≤ 10<br>
+- 1 ≤ t ≤ 1000<br>
+- ai ∈ {0,1}
