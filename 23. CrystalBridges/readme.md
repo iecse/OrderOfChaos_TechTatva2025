@@ -60,7 +60,7 @@ For each test case, print **YES** if you can reach Island `n` starting from Isla
 
 ### Output
 ```
-YES  
+YES
 NO
 ```
 
