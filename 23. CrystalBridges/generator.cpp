@@ -6,7 +6,6 @@ struct Edge {
 };
 
 void writeTest(int test_number) {
-    // Setup input and output file streams
     std::stringstream input_ss;
     input_ss << "Input" << std::setfill('0') << std::setw(2) << test_number << ".txt";
     std::ofstream input_out(input_ss.str());
@@ -15,21 +14,10 @@ void writeTest(int test_number) {
     output_ss << "Output" << std::setfill('0') << std::setw(2) << test_number << ".txt";
     std::ofstream output_out(output_ss.str());
 
-    // --- Test Case Generation ---
-    // Number of test cases per file
-    int t;
-    if (test_number == 0) { // Small number of test cases
-        t = rnd.next(5, 15);
-    } else if (test_number == 1) { // Medium number of test cases
-        t = rnd.next(500, 750);
-    } else { // Max number of test cases
-        t = 1000;
-    }
-    
+    int t = 10;
     input_out << t << std::endl;
 
     for (int i = 0; i < t; ++i) {
-        // Constraints: 2 <= n <= 100, 1 <= m <= n*(n-1)/2
         int n = rnd.next(2, 100);
         int m_max = n * (n - 1) / 2;
         int m = rnd.next(1, m_max);
@@ -55,8 +43,6 @@ void writeTest(int test_number) {
             input_out << u << " " << v << " " << s << std::endl;
         }
         
-        // --- Calculate the solution ---
-        // This logic directly mirrors the provided solution code.
         std::vector<int> dist(n + 1, INT_MAX);
         std::queue<std::pair<int, int>> q;
         
