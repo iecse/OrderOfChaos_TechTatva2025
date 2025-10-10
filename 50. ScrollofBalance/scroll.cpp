@@ -1,25 +1,18 @@
-
-#include <iostream>  // For cin, cout
-#include <vector>    // For std::vector
-#include <algorithm> // For std::sort, std::min, std::max, std::swap
-#include <climits>   // For INT_MAX
-
 #include <bits/stdc++.h>
-
 using namespace std;
 
 struct Pair {
     int first, second;
 };
 
-bool cmpPair(const Pair& a, const Pair& b) {
+bool cmpPair(const Pair &a, const Pair &b) {
     if (a.first != b.first) return a.first < b.first;
     return a.second < b.second;
 }
 
 void solve() {
     int n, k;
-    cin >> n >> k;
+    cin >> n >> k;  // k is read but not used
 
     vector<int> a(n + 1);
     vector<Pair> vec(n);
@@ -59,7 +52,8 @@ int main() {
 
     int tc;
     cin >> tc;
-    while (tc--) solve();
-
+    while (tc--) {
+        solve();
+    }
     return 0;
 }
