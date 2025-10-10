@@ -1,47 +1,50 @@
-# Great Serpent of Eternity (EASY) 
-## Linked list
--Mahika
+# Great Serpent of Eternity (EASY)  
+## Linked list  
+-Mahika  
 
+## Problem Statement  
+The Great Serpent of Eternity is a mystical creature whose body is made up of enchanted scales, each linked one after another like a chain.  
 
-## Problem Statement
-The Great Serpent of Eternity is a mystical creature whose body is made up of enchanted scales, each linked one after another like a chain.
+Each scale contains a rune (an integer). Given the head of the serpent (the first scale), your task is to return the Heart Rune of the serpent — the scale that lies exactly in the middle of its body.  
 
-Each scale contains a rune (an integer). Given the head of the serpent (the first scale), your task is to return the Heart Rune of the serpent — the scale that lies exactly in the middle of its body.
+If the serpent has an odd number of scales, the Heart Rune is the exact center.  
 
-If the serpent has an odd number of scales, the Heart Rune is the exact center.
+If the serpent has an even number of scales, there are two middle scales, but the Heart Rune is defined as the second one.  
 
-If the serpent has an even number of scales, there are two middle scales, but the Heart Rune is defined as the second one.
+Return the value of the Heart Rune.  
 
-Return the node that represents this Heart Rune.
+## Input  
 
-## Input
+- The first line contains an integer **t** — the number of testcases.  
+- For each testcase:  
+  - The first line contains an integer **n** — the number of coils in the serpent.  
+  - The second line contains **n** integers a1, a2, …, an — the energy values of the coils.  
 
-1. The first line contains an integer n — the number of coils in the serpent.
-2. The second line contains n integers a1, a2, …, an — the energy values of the coils.
+## Output  
 
-## Output
-If synchronization is impossible, print -1. Otherwise, print a single integer: the minimum number of energy transfers required to synchronize the serpent.
+For each testcase, output a single integer — the Heart Rune of the serpent.  
 
-## Constraints
+## Constraints  
 
-1 ≤ n ≤ 2 * 10^5
-0 ≤ ai ≤ 10^9
+- 1 ≤ t ≤ 10^2  
+- 1 ≤ n ≤ 2 * 10^5  
+- 0 ≤ ai ≤ 10^9  
+- The sum of n across all testcases does not exceed 2 * 10^5.  
 
-## Example 1
+## Example  
 
-Input: serpent = [10, 20, 30, 40, 50]
-Output: 30
+**Input** 
+```
+2
+5
+10 20 30 40 50
+6
+7 13 21 34 55 89
+```
 
-Explanation:
-The serpent has 5 scales. The middle is the 3rd scale (value 30).
-
-## Example 2
-
-Input: serpent = [7, 13, 21, 34, 55, 89]
-Output: 34
-
-Explanation:
-The serpent has 6 scales. The two middle scales are 21 and 34. By the serpent’s rule, we choose the second middle → 34.
-
-
+**Output**
+```
+30
+34
+```
 
