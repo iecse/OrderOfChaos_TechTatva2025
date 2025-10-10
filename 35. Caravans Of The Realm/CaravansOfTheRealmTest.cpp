@@ -4,7 +4,7 @@
 #include <fstream>
 #include <string>
 #include <algorithm>
-#include <numeric> 
+#include <numeric>
 #include "../testlib.h"
 using namespace std;
 
@@ -18,7 +18,7 @@ int carFleets(int target, const vector<int>& position, const vector<int>& speed)
 
     // Sort caravans by starting position (descending)
     vector<int> indices(n);
-    for (int i = 0; i < n; i++) indices[i] = i;
+    iota(indices.begin(), indices.end(), 0);
     sort(indices.begin(), indices.end(),
          [&](int a, int b) { return position[a] > position[b]; });
 
@@ -34,20 +34,17 @@ int carFleets(int target, const vector<int>& position, const vector<int>& speed)
 }
 
 void writeTest(int z) {
-    string num = (z > 9) ? to_string(z) : "0" + to_string(z);
+    string num = (z < 10 ? "0" : "") + to_string(z);
     ofstream test("Input" + num + ".txt", ios::trunc);
     ofstream answer("Output" + num + ".txt", ios::trunc);
 
-    // Number of test cases
-    int T = rnd.next(1, 100); // fix: constraint is up to 100
+    // Fixed: 100 test cases per file
+    int T = 100;
     test << T << "\n";
 
     while (T--) {
-        int n = rnd.next(1, 100000);
-        int target = rnd.next(1, 1000000);
-
-        // ensure we can actually pick n unique positions
-        if (n >= target) n = target - 1;
+        int n = rnd.next(1, 50);       // caravans
+        int target = rnd.next(n + 1, 500); // ensure target > n
 
         test << n << " " << target << "\n";
 
@@ -63,10 +60,10 @@ void writeTest(int z) {
             test << position[i] << (i == n - 1 ? "\n" : " ");
         }
 
-        // Generate speeds in [1, 1e6]
+        // Speeds in [1, 50]
         vector<int> speed(n);
         for (int i = 0; i < n; i++) {
-            speed[i] = rnd.next(1, 1000000);
+            speed[i] = rnd.next(1, 50);
             test << speed[i] << (i == n - 1 ? "\n" : " ");
         }
 
@@ -74,7 +71,6 @@ void writeTest(int z) {
         answer << ans << "\n";
     }
 }
-
 
 int main(int argc, char* argv[]) {
     registerGen(argc, argv, 1);

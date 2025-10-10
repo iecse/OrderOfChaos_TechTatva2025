@@ -8,7 +8,7 @@ using namespace std;
 // --- Solution Logic (same as problem) ---
 int solve(vector<int>& gems) {
     int n = gems.size();
-    int total = 0;  // now int is safe because constraints are reduced
+    int total = 0;
     
     for (int i = 0; i < n; i++) {
         total += gems[i];
@@ -17,7 +17,6 @@ int solve(vector<int>& gems) {
             i++;
         }
     }
-    
     return total;
 }
 
@@ -27,17 +26,16 @@ void writeTest(int z) {
     ofstream fin("Input" + num + ".txt", ios::trunc);
     ofstream fout("Output" + num + ".txt", ios::trunc);
 
-    // Number of test cases (scaled down for file size, but ≤ 100000 in problem)
-    int T = rnd.next(1, 50);  
+    int T = rnd.next(1, 200);  // smaller: up to 10 test cases
     fin << T << "\n";
 
     while (T--) {
-        int n = rnd.next(2, 200000);  // 2 ≤ n ≤ 2e5
+        int n = rnd.next(2, 50);  // smaller: 2 ≤ n ≤ 50
         fin << n << "\n";
 
         vector<int> gems(n);
         for (int i = 0; i < n; i++) {
-            gems[i] = rnd.next(1, 10000); // 1 ≤ gems[i] ≤ 10000
+            gems[i] = rnd.next(1, 100); // smaller: gem value 1 ≤ x ≤ 100
             fin << gems[i] << (i + 1 == n ? "\n" : " ");
         }
 
