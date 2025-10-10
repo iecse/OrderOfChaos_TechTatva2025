@@ -52,23 +52,19 @@ The total number of edges in the graph, M, satisfies 1≤M≤N⋅(N−1)/2.
 Example 1
 
 ```Input:
+1
+6
+2 5
+3
+0 4 5 
+1 4 5 
+2 3 
+0 2 3
 
-graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
-
-```
-
-Output:
-```
-0   // Magical stalemate (draw)
-```
-### Example 2
-
-Input:
-```
-graph = [[1,3],[0],[3],[0,2]]
 ```
 
 Output:
 ```
-1   // T
+0   
 ```
+
