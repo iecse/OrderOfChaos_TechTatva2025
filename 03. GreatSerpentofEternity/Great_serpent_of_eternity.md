@@ -28,7 +28,7 @@ For each testcase, output a single integer — the Heart Rune of the serpent.
 
 - 1 ≤ t ≤ 10^2  
 - 1 ≤ n ≤ 2 * 10^5  
-- 0 ≤ ai ≤ 10^9  
+- 0 ≤ ai ≤ 10^4  
 - The sum of n across all testcases does not exceed 2 * 10^5.  
 
 ## Example  

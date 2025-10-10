@@ -16,7 +16,7 @@ ListNode* middleNode(ListNode* head) {
     return slow;
 }
 
-int main() {
+void solve() {
     int n, x;
     cin >> n; // number of nodes
 
@@ -33,7 +33,25 @@ int main() {
     }
 
     ListNode* mid = middleNode(head);
-    cout << mid->val << endl;
+    cout << mid->val << "\n";
+
+    // cleanup linked list
+    while (head) {
+        ListNode* temp = head;
+        head = head->next;
+        delete temp;
+    }
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    cin >> t; // number of testcases
+    while (t--) {
+        solve();
+    }
 
     return 0;
 }
