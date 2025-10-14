@@ -37,12 +37,12 @@ It contains everything from _real-time coding challenges_ to _mini-games_ like t
 
 ### Core Committee
 
-- [**Aryan Vivek**](https://github.com/Roonil03)
+- [**Roonil03**](https://github.com/Roonil03)
 - [**Aditya Sinha**](https://github.com/AdityaSinha149)
 - [**Sandeep Balaji**](https://github.com/Sandeep3084)
-- [**Hritiq Gupta**]
-- [**Anshul Shukla**]
-- [**Akshat Pandey**]
+- [**Anshul Shukla**](https://github.com/Anshul-0211)
+- [**Akshat Pandey**](https://github.com/weird-akshat)
+- [**Hritiq Gupta**](https://github.com/Hrithiq)
 
 ### Organizing Committee
 
